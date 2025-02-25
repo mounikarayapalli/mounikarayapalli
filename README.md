@@ -1,24 +1,24 @@
 ## Hi there, I am Mounika Rayapalli! 👋
 
 Welcome to my GitHub profile! 
-    I'm a passionate student and aspiring developer with a keen interest in software development, open-source contributions, and learning new technologies. 
+    I'm a passionate student and aspiring developer with a keen interest in software development and learning new technologies. 
 Here, you'll find a collection of my projects, contributions, and experiments as I continue to grow my skills.
 
 ## About Me 🚀
 
 - **Name**: Mounika Rayapalli
 - **Education**: Currently pursuing BTech COMPUTER SCIENCE AND ENGINEERING at "Dhaneluka Institute of Engineering an Technology"
-- **Interests**: Software Development, Web Development, Machine Learning, Internet of Things, Open Source
-- **Hobbies**: Coding, Reading, Exploring new technologies, Contributing to open source
+- **Interests**: Software Development, Web Development, Machine Learning, Internet of Things,
+- **Hobbies**: Coding, Reading, Exploring new technologies,
 
 ## Skills 🛠️
 Here are some of the technologies and tools I work with:
 
 - **Programming Languages**: Python, Java, JavaScript
-- **Web Development**: HTML, CSS, BOOTSTRAP, dom, jquery, React, Node.js, Express.js
-- **Databases**: MySQL, MongoDB
+- **Web Development**: HTML, CSS, BOOTSTRAP, dom, jquery, 
+- **Databases**: MySQL,
 - **Tools & Platforms**: GitHub, VS Code, Jupyter Notebook, Edit++
-- **Other Skills**: Machine Learning, REST APIs
+<!-- **Other Skills**: Machine Learning, REST APIs
 
 <!--## Projects 🚀
 Here are some of the projects I've worked on:
