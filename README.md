@@ -6,20 +6,20 @@ I believe that continuous learning and hands-on development are the best ways to
 
 ## 🌿 About Me
 
-* 🎓 B.Tech Computer Science and Engineering student at Dhanekula Institute of Engineering and Technology
-* 🧠 Interested in Artificial Intelligence, Machine Learning, Generative AI, and Full Stack Development
-* 🪄 Passionate about developing scalable and user-focused applications
-* 📚 Continuously learning new technologies and improving problem-solving skills
+*  B.Tech Computer Science and Engineering student at Dhanekula Institute of Engineering and Technology
+*  Interested in Artificial Intelligence, Machine Learning, Generative AI, and Full Stack Development
+*  Passionate about developing scalable and user-focused applications
+*  Continuously learning new technologies and improving problem-solving skills
 
 ## 🧩 Technical Skills
 
-### 🖋️ Languages
+###  Languages
 
 * Python
 * Java
 * JavaScript
 
-### 🌐 Web Technologies
+###  Web Technologies
 
 * HTML
 * CSS
@@ -27,11 +27,11 @@ I believe that continuous learning and hands-on development are the best ways to
 * DOM Manipulation
 * jQuery
 
-### 🗄️ Database
+###  Database
 
 * MySQL
 
-### 🧰 Tools
+###  Tools
 
 * Git
 * GitHub
@@ -45,10 +45,10 @@ This repository collection includes academic projects, personal experiments, and
 
 ## 🔭 Currently Exploring
 
-* 🌱 Generative AI and Large Language Models
-* 📊 Machine Learning Applications
-* ⚙️ Modern Web Development
-* 🏗️ Software Design Principles
+*  Generative AI and Large Language Models
+*  Machine Learning Applications
+*  Modern Web Development
+*  Software Design Principles
 
 ## 🤝 Connect
 
