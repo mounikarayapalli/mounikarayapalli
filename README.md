@@ -1,56 +1,58 @@
-## Hi there, I am Mounika Rayapalli! 👋
+# Hi, I'm Mounika Rayapalli
 
-Welcome to my GitHub profile! 
-    I'm a passionate student and aspiring developer with a keen interest in software development and learning new technologies. 
-Here, you'll find a collection of my projects, contributions, and experiments as I continue to grow my skills.
+I'm a Computer Science Engineering student passionate about building software that solves real-world problems. My interests lie in Artificial Intelligence, Machine Learning, Web Development, and Software Engineering, and I enjoy transforming ideas into practical applications through code.
 
-## About Me 🚀
+I believe that continuous learning and hands-on development are the best ways to grow as an engineer. This profile showcases the projects, experiments, and technologies I've explored throughout my learning journey.
 
-- **Name**: Mounika Rayapalli
-- **Education**: Currently pursuing BTech COMPUTER SCIENCE AND ENGINEERING at "Dhaneluka Institute of Engineering an Technology"
-- **Interests**: Software Development, Web Development, Machine Learning, Internet of Things,
-- **Hobbies**: Coding, Reading, Exploring new technologies,
+## About Me
 
-## Skills 🛠️
-Here are some of the technologies and tools I work with:
+* B.Tech Computer Science and Engineering student at Dhanekula Institute of Engineering and Technology
+* Interested in Artificial Intelligence, Machine Learning, Generative AI, and Full Stack Development
+* Passionate about developing scalable and user-focused applications
+* Continuously learning new technologies and improving problem-solving skills
 
-- **Programming Languages**: Python, Java, JavaScript
-- **Web Development**: HTML, CSS, BOOTSTRAP, dom, jquery, 
-- **Databases**: MySQL,
-- **Tools & Platforms**: GitHub, VS Code, Jupyter Notebook, Edit++
-<!-- **Other Skills**: Machine Learning, REST APIs
+## Technical Skills
 
-<!--## Projects 🚀
-Here are some of the projects I've worked on:
-  
-  ### Front-End Projects:
+**Languages**
 
-  ### 1. [Project Name 1](https://github.com/yourusername/project1)
-   - **Description**: A brief description of the project.
-   - **Technologies Used**: Python, Flask, SQLite
-   - **Features**: List some key features of the project.
+* Python
+* Java
+* JavaScript
 
-  ### 2. [Project Name 2](https://github.com/yourusername/project2)
-   - **Description**: A brief description of the project.
-   - **Technologies Used**: React, Node.js, MongoDB
-   - **Features**: List some key features of the project.
+**Web Technologies**
 
-  ### 3. [Project Name 3](https://github.com/yourusername/project3)
-   - **Description**: A brief description of the project.
-   - **Technologies Used**: Java, Spring Boot, MySQL
-   - **Features**: List some key features of the project.-->
+* HTML
+* CSS
+* Bootstrap
+* DOM Manipulation
+* jQuery
 
-<!--
-**mounikarayapalli/mounikarayapalli** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Database**
 
-Here are some ideas to get you started:
+* MySQL
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+**Tools**
+
+* Git
+* GitHub
+* VS Code
+* Jupyter Notebook
+
+## What You'll Find Here
+
+This repository collection includes academic projects, personal experiments, and practical applications covering web development, AI, and software engineering. Each project represents an opportunity to learn, build, and improve.
+
+## Currently Exploring
+
+* Generative AI and Large Language Models
+* Machine Learning Applications
+* Modern Web Development
+* Software Design Principles
+
+## Connect
+
+**LinkedIn:** linkedin.com/in/rayapalli-mounika
+
+**Email:** [rayapallymounika@gmail.com](mailto:rayapallymounika@gmail.com)
+
+Thank you for visiting my profile. I'm always open to learning, collaborating on interesting projects, and exploring new opportunities in software development and artificial intelligence.
