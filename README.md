@@ -1,163 +1,162 @@
-<div align="center">
-
 # MOUNIKA RAYAPALLI
 
-### AI Trainee · Machine Learning · Generative AI
+### AI Trainee @ Calibo AI Academy · Machine Learning · Deep Learning · Generative AI
 
-**Building practical AI solutions with Python, Java & modern technologies.**
+> **Building intelligent solutions that turn ideas into practical applications.**
 
-<br>
+I’m a **Computer Science Engineering student and AI Trainee** focused on developing practical skills in **Machine Learning, Deep Learning, Generative AI, LLMs, Python, Java, and Web Development**.
 
-<a href="https://mounika-rayapalli-portfolio.vercel.app/">
-<img src="https://img.shields.io/badge/Portfolio-2563EB?style=flat-square&logo=googlechrome&logoColor=white"/>
-</a>
-&nbsp;
-<a href="https://www.linkedin.com/in/rayapalli-mounika">
-<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/>
-</a>
-&nbsp;
-<a href="mailto:rayapallymounika@gmail.com">
-<img src="https://img.shields.io/badge/Email-EF4444?style=flat-square&logo=gmail&logoColor=white"/>
-</a>
-
-</div>
+I enjoy understanding how intelligent systems work, building projects from the ground up, and continuously improving through hands-on experimentation.
 
 ---
 
-## About
+## ABOUT ME
 
-I'm a **Computer Science Engineering student and AI Trainee at Calibo AI Academy**, focused on building a strong foundation in **Machine Learning, Deep Learning, Generative AI and software development**.
-
-I enjoy turning concepts into working projects, exploring new technologies, and solving problems through practical implementation.
-
-Currently exploring **AI engineering, LLM applications and cloud technologies**.
+* --Computer Science & Engineering student
+* --AI Trainee at **Calibo AI Academy**
+* --Exploring **Machine Learning, Deep Learning, Generative AI & LLMs**
+* --Building with **Python & Java**
+* --Developing interactive **Web Applications**
+* --Interested in solving real-world problems through technology
+* --Currently strengthening my skills through projects and practical learning
 
 ---
 
-## What I Work With
+## TECHNICAL STACK
 
-**AI / ML**
+### Artificial Intelligence & Machine Learning
 
-`Machine Learning` · `Deep Learning` · `Generative AI` · `LLMs` · `Computer Vision`
+`Python`  `TensorFlow` · `Keras` · `OpenCV` · `YOLO` · `Hugging Face` · `Machine Learning` · `Deep Learning` · `Generative AI` · `LLMs`
 
-**Languages**
+### Programming
 
-`Python` · `Java` · `C`
+`Python` · `Java` 
 
-**AI Technologies**
+### Web Development
 
-`TensorFlow` · `Keras` · `OpenCV` · `YOLO` · `Hugging Face`
+`HTML` · `CSS` · `JavaScript` · `DOM` · `jQuery` · `Bootstrap`
 
-**Web**
-
-`HTML` · `CSS` · `JavaScript` · `jQuery` · `Bootstrap`
-
-**Data**
+### Databases
 
 `MySQL` · `MongoDB`
 
-**Cloud & Tools**
+### Tools & Platforms
 
-`AWS` · `Docker` · `Kubernetes` · `Terraform` · `Git` · `GitHub` · `Streamlit` · `Vercel`
-
----
-
-## Selected Work
-
-### Fashion Recommendation System
-
-An AI-powered recommendation application that combines user intent and similarity-based techniques to provide relevant fashion recommendations.
-
-**Python · NLP · TF-IDF · Generative AI · Streamlit**
+`Git` · `GitHub` · `VS Code` · `Streamlit` · `Vercel` · `AWS` · `Docker` · `Kubernetes`
 
 ---
 
-### TEKKEN-MOTION
+## FEATURED PROJECTS
 
-A real-time gesture interaction system that uses computer vision and hand tracking to translate physical movements into digital controls.
+### 🧠 Fashion Recommendation System
 
-**Python · OpenCV · MediaPipe · Computer Vision**
+An AI-powered recommendation application designed to understand user preferences and generate relevant fashion recommendations.
 
----
-
-### Disease Detection System
-
-A deep-learning-based computer vision project exploring automated analysis of X-ray images.
-
-**Python · TensorFlow · Deep Learning · OpenCV**
+**Focus:** Recommendation Systems · NLP · TF-IDF · Generative AI · Streamlit
 
 ---
 
-### Kubernetes Deployment on AWS EKS
+### 🩻 Disease Detection System
 
-A cloud-native deployment project focused on containerized applications, Kubernetes orchestration and scalable infrastructure.
+A computer-vision-based system designed to assist with disease detection from medical X-ray images.
 
-**AWS · EKS · Kubernetes · EC2 · ECR**
-
----
-
-## Experience
-
-**AI Trainee — Calibo AI Academy**
-
-Hands-on learning across AI fundamentals, machine learning, deep learning, generative AI, problem solving, communication and teamwork.
-
-**Cloud Infrastructure & DevOps Engineer Intern**
-
-Working with cloud infrastructure, networking, Docker, CI/CD and automation.
-
-**Java Full Stack Developer Intern**
-
-Hands-on exposure to Java and full-stack application development.
+**Focus:** Deep Learning · TensorFlow · Computer Vision · Image Classification
 
 ---
 
-## Certifications
+### 🖐️ TEKKEN-MOTION
 
-**Python Foundation Certification** — Infosys Springboard
+A gesture-controlled interaction system that uses hand movements to create real-time controls.
 
-**C Programming** — Spoken Tutorial Project, IIT Bombay
-
-**Introduction to Responsible AI** — Google Cloud Skills Boost
-
-**Pragati: Path to Future Program** — Infosys Springboard
+**Focus:** MediaPipe · OpenCV · Computer Vision · Gesture Recognition
 
 ---
 
-## GitHub
+### ☁️ Kubernetes Cluster Deployment on AWS EKS
 
-<div align="center">
+A cloud-native deployment project demonstrating how containerized applications can be deployed and managed using Kubernetes on Amazon EKS.
 
-<img src="https://github-readme-stats.vercel.app/api?username=mounikarayapalli&show_icons=true&hide_border=true&theme=transparent&rank_icon=github"/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mounikarayapalli&layout=compact&hide_border=true&theme=transparent"/>
-
-<br>
-
-<img src="https://streak-stats.demolab.com?user=mounikarayapalli&theme=transparent&hide_border=true"/>
-
-</div>
+**Focus:** AWS · EKS · Kubernetes · EC2 · ECR · IAM · Load Balancing
 
 ---
 
-## Currently Exploring
+### 🏗️ Infrastructure Deployment with Terraform
 
-**Machine Learning → Deep Learning → Generative AI → LLM Applications → AI Engineering**
+Infrastructure-as-Code project focused on automating cloud infrastructure provisioning.
 
-Alongside AI, I'm strengthening my foundations in **DSA, SQL, Java, Python and Cloud Computing**.
+**Focus:** Terraform · AWS · Infrastructure as Code · Automation
 
 ---
 
-<div align="center">
+## CURRENTLY LEARNING
 
-### Learn. Build. Improve.
+```text
+Machine Learning
+       ↓
+Deep Learning
+       ↓
+Generative AI
+       ↓
+Large Language Models
+       ↓
+AI Application Development
+```
 
-*Turning curiosity into practical technology.*
+Alongside AI, I'm improving my foundations in:
 
-<br>
+**DSA · SQL · Java · Python · Cloud Computing · DevOps**
 
-<a href="https://mounika-rayapalli-portfolio.vercel.app/">Portfolio</a>
-  ·   <a href="https://www.linkedin.com/in/rayapalli-mounika">LinkedIn</a>
-  ·   <a href="mailto:rayapallymounika@gmail.com">Email</a>
+---
 
-</div>
+## EXPERIENCE & TRAINING
+
+### AI Trainee — Calibo AI Academy
+
+Developing practical understanding of AI concepts through hands-on learning, projects, problem solving, communication, and teamwork.
+
+### Cloud Infrastructure & DevOps Engineer Intern — BlackBucks Group
+
+Working with cloud infrastructure, computing resources, networking, containerization, and CI/CD concepts.
+
+### Java Full Stack Developer Intern — AICTE EduSkills
+
+Hands-on exposure to Java-based application development and full-stack development concepts.
+
+---
+
+## CERTIFICATIONS & LEARNING
+
+* **Python Foundation Certification** — Infosys Springboard
+* **C Programming** — Spoken Tutorial Project, IIT Bombay
+* **Introduction to Responsible AI** — Google Cloud Skills Boost
+* **Pragati: Path to Future Program** — Infosys Springboard
+
+---
+
+## WHAT I VALUE
+
+```text
+Curiosity        → Keep learning
+Problem Solving  → Understand before building
+Consistency      → Improve every day
+Collaboration    → Build better together
+Practicality     → Turn knowledge into working solutions
+```
+
+---
+
+## LET'S CONNECT
+
+**Portfolio:** mounika-rayapalli-portfolio.vercel.app
+
+**LinkedIn:** linkedin.com/in/rayapalli-mounika
+
+**GitHub:** github.com/mounikarayapalli
+
+**Email:** [rayapallymounika@gmail.com](mailto:rayapallymounika@gmail.com)
+
+---
+
+### ✦ BUILD · LEARN · EXPERIMENT · IMPROVE
+
+*Always learning. Always building. Always moving forward.*
