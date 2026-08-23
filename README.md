@@ -26,29 +26,29 @@ I enjoy understanding how intelligent systems work, building projects from the g
 
 ### Artificial Intelligence & Machine Learning
 
-`Python`  `TensorFlow` · `Keras` · `OpenCV` · `YOLO` · `Hugging Face` · `Machine Learning` · `Deep Learning` · `Generative AI` · `LLMs`
+`Python`  `TensorFlow`  `Keras`  `OpenCV`  `YOLO`  `Hugging Face`  `Machine Learning`  `Deep Learning`  `Generative AI`  `LLMs`
 
 ### Programming
 
-`Python` · `Java` 
+`Python`  `Java` 
 
 ### Web Development
 
-`HTML` · `CSS` · `JavaScript` · `DOM` · `jQuery` · `Bootstrap`
+`HTML`  `CSS`  `JavaScript`  `DOM`  `jQuery`  `Bootstrap`
 
 ### Databases
 
-`MySQL` · `MongoDB`
+`MySQL`  `MongoDB`
 
 ### Tools & Platforms
 
-`Git` · `GitHub` · `VS Code` · `Streamlit` · `Vercel` · `AWS` · `Docker` · `Kubernetes`
+`Git`  `GitHub`  `AntiGravity`  `PyCharm`  `VS Code`  `Streamlit`  `Vercel`  `AWS`  `Docker`  `Kubernetes`
 
 ---
 
 ## FEATURED PROJECTS
 
-### 🧠 Fashion Recommendation System
+### 1. Fashion Recommendation System
 
 An AI-powered recommendation application designed to understand user preferences and generate relevant fashion recommendations.
 
@@ -56,7 +56,7 @@ An AI-powered recommendation application designed to understand user preferences
 
 ---
 
-### 🩻 Disease Detection System
+### 2. Disease Detection System
 
 A computer-vision-based system designed to assist with disease detection from medical X-ray images.
 
@@ -64,7 +64,7 @@ A computer-vision-based system designed to assist with disease detection from me
 
 ---
 
-### 🖐️ TEKKEN-MOTION
+### 3. TEKKEN-MOTION
 
 A gesture-controlled interaction system that uses hand movements to create real-time controls.
 
@@ -72,7 +72,7 @@ A gesture-controlled interaction system that uses hand movements to create real-
 
 ---
 
-### ☁️ Kubernetes Cluster Deployment on AWS EKS
+### 4. Kubernetes Cluster Deployment on AWS EKS
 
 A cloud-native deployment project demonstrating how containerized applications can be deployed and managed using Kubernetes on Amazon EKS.
 
@@ -80,7 +80,7 @@ A cloud-native deployment project demonstrating how containerized applications c
 
 ---
 
-### 🏗️ Infrastructure Deployment with Terraform
+### 5. Infrastructure Deployment with Terraform
 
 Infrastructure-as-Code project focused on automating cloud infrastructure provisioning.
 
@@ -114,9 +114,11 @@ Alongside AI, I'm improving my foundations in:
 
 Developing practical understanding of AI concepts through hands-on learning, projects, problem solving, communication, and teamwork.
 
+
 ### Cloud Infrastructure & DevOps Engineer Intern — BlackBucks Group
 
 Working with cloud infrastructure, computing resources, networking, containerization, and CI/CD concepts.
+
 
 ### Java Full Stack Developer Intern — AICTE EduSkills
 
@@ -147,16 +149,16 @@ Practicality     → Turn knowledge into working solutions
 
 ## LET'S CONNECT
 
-**Portfolio:** mounika-rayapalli-portfolio.vercel.app
+**Portfolio:** [mounika-rayapalli-portfolio.vercel.app](https://mounika-rayapalli-portfolio.vercel.app/)
 
-**LinkedIn:** linkedin.com/in/rayapalli-mounika
+**LinkedIn:** [linkedin.com/in/rayapalli-mounika](https://www.linkedin.com/in/rayapalli-mounika/)
 
-**GitHub:** github.com/mounikarayapalli
+**GitHub:** [github.com/mounikarayapalli](https://github.com/mounikarayapalli)
 
 **Email:** [rayapallymounika@gmail.com](mailto:rayapallymounika@gmail.com)
 
 ---
 
-### ✦ BUILD · LEARN · EXPERIMENT · IMPROVE
+### ✦ BUILD · LEARN · EXPERIMENT · IMPROVE ✦
 
 *Always learning. Always building. Always moving forward.*
