@@ -54,7 +54,7 @@ An AI-powered recommendation application designed to understand user preferences
 
 **Focus:** Recommendation Systems · NLP · TF-IDF · Generative AI · Streamlit
 
----
+
 
 ### 2. Disease Detection System
 
@@ -62,7 +62,7 @@ A computer-vision-based system designed to assist with disease detection from me
 
 **Focus:** Deep Learning · TensorFlow · Computer Vision · Image Classification
 
----
+
 
 ### 3. TEKKEN-MOTION
 
@@ -70,7 +70,7 @@ A gesture-controlled interaction system that uses hand movements to create real-
 
 **Focus:** MediaPipe · OpenCV · Computer Vision · Gesture Recognition
 
----
+
 
 ### 4. Kubernetes Cluster Deployment on AWS EKS
 
@@ -78,7 +78,7 @@ A cloud-native deployment project demonstrating how containerized applications c
 
 **Focus:** AWS · EKS · Kubernetes · EC2 · ECR · IAM · Load Balancing
 
----
+
 
 ### 5. Infrastructure Deployment with Terraform
 
