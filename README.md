@@ -1,61 +1,162 @@
-# Hi, I'm Mounika Rayapalli 
+# MOUNIKA RAYAPALLI
 
-I'm a Computer Science Engineering student passionate about building software that solves real-world problems. My interests lie in Artificial Intelligence, Machine Learning, Web Development, and Software Engineering, and I enjoy transforming ideas into practical applications through code.
+### AI Trainee @ Calibo AI Academy · Machine Learning · Deep Learning · Generative AI
 
-I believe that continuous learning and hands-on development are the best ways to grow as an engineer. This profile showcases the projects, experiments, and technologies I've explored throughout my learning journey.
+> **Building intelligent solutions that turn ideas into practical applications.**
 
-## 🌿 About Me
+I’m a **Computer Science Engineering student and AI Trainee** focused on developing practical skills in **Machine Learning, Deep Learning, Generative AI, LLMs, Python, Java, and Web Development**.
 
-*  B.Tech Computer Science and Engineering student at Dhanekula Institute of Engineering and Technology
-*  Interested in Artificial Intelligence, Machine Learning, Generative AI, and Full Stack Development
-*  Passionate about developing scalable and user-focused applications
-*  Continuously learning new technologies and improving problem-solving skills
-
-## 🧩 Technical Skills
-
-###  Languages
-
-* Python
-* Java
-* JavaScript
-
-###  Web Technologies
-
-* HTML
-* CSS
-* Bootstrap
-* DOM Manipulation
-* jQuery
-
-###  Database
-
-* MySQL
-
-###  Tools
-
-* Git
-* GitHub
-* VS Code
-* Jupyter Notebook
-* Google Colab
-
-## 🪴 What You'll Find Here
-
-This repository collection includes academic projects, personal experiments, and practical applications covering web development, AI, and software engineering. Every project reflects a step in my learning journey—building, experimenting, and continuously improving.
-
-## 🔭 Currently Exploring
-
-*  Generative AI and Large Language Models
-*  Machine Learning Applications
-*  Modern Web Development
-*  Software Design Principles
-
-## 🤝 Connect
-
-**🔗 LinkedIn:** linkedin.com/in/rayapalli-mounika
-
-**📮 Email:** [rayapallymounika@gmail.com](mailto:rayapallymounika@gmail.com)
+I enjoy understanding how intelligent systems work, building projects from the ground up, and continuously improving through hands-on experimentation.
 
 ---
 
-🍃 *Thank you for visiting my profile. I'm always open to learning, collaborating on meaningful projects, and exploring opportunities in software development and artificial intelligence.*
+## ABOUT ME
+
+* 🎓 Computer Science & Engineering student
+* 🤖 AI Trainee at **Calibo AI Academy**
+* 🧠 Exploring **Machine Learning, Deep Learning, Generative AI & LLMs**
+* 🐍 Building with **Python & Java**
+* 🌐 Developing interactive **Web Applications**
+* 🔍 Interested in solving real-world problems through technology
+* 🚀 Currently strengthening my skills through projects and practical learning
+
+---
+
+## TECHNICAL STACK
+
+### Artificial Intelligence & Machine Learning
+
+`Python` · `TensorFlow` · `Keras` · `OpenCV` · `YOLO` · `Hugging Face` · `Machine Learning` · `Deep Learning` · `Generative AI` · `LLMs`
+
+### Programming
+
+`Python` · `Java` · `C`
+
+### Web Development
+
+`HTML` · `CSS` · `JavaScript` · `DOM` · `jQuery` · `Bootstrap`
+
+### Databases
+
+`MySQL` · `MongoDB`
+
+### Tools & Platforms
+
+`Git` · `GitHub` · `VS Code` · `Streamlit` · `Vercel` · `AWS` · `Docker` · `Kubernetes`
+
+---
+
+## FEATURED PROJECTS
+
+### 🧠 Fashion Recommendation System
+
+An AI-powered recommendation application designed to understand user preferences and generate relevant fashion recommendations.
+
+**Focus:** Recommendation Systems · NLP · TF-IDF · Generative AI · Streamlit
+
+---
+
+### 🩻 Disease Detection System
+
+A computer-vision-based system designed to assist with disease detection from medical X-ray images.
+
+**Focus:** Deep Learning · TensorFlow · Computer Vision · Image Classification
+
+---
+
+### 🖐️ TEKKEN-MOTION
+
+A gesture-controlled interaction system that uses hand movements to create real-time controls.
+
+**Focus:** MediaPipe · OpenCV · Computer Vision · Gesture Recognition
+
+---
+
+### ☁️ Kubernetes Cluster Deployment on AWS EKS
+
+A cloud-native deployment project demonstrating how containerized applications can be deployed and managed using Kubernetes on Amazon EKS.
+
+**Focus:** AWS · EKS · Kubernetes · EC2 · ECR · IAM · Load Balancing
+
+---
+
+### 🏗️ Infrastructure Deployment with Terraform
+
+Infrastructure-as-Code project focused on automating cloud infrastructure provisioning.
+
+**Focus:** Terraform · AWS · Infrastructure as Code · Automation
+
+---
+
+## CURRENTLY LEARNING
+
+```text
+Machine Learning
+       ↓
+Deep Learning
+       ↓
+Generative AI
+       ↓
+Large Language Models
+       ↓
+AI Application Development
+```
+
+Alongside AI, I'm improving my foundations in:
+
+**DSA · SQL · Java · Python · Cloud Computing · DevOps**
+
+---
+
+## EXPERIENCE & TRAINING
+
+### AI Trainee — Calibo AI Academy
+
+Developing practical understanding of AI concepts through hands-on learning, projects, problem solving, communication, and teamwork.
+
+### Cloud Infrastructure & DevOps Engineer Intern — BlackBucks Group
+
+Working with cloud infrastructure, computing resources, networking, containerization, and CI/CD concepts.
+
+### Java Full Stack Developer Intern — AICTE EduSkills
+
+Hands-on exposure to Java-based application development and full-stack development concepts.
+
+---
+
+## CERTIFICATIONS & LEARNING
+
+* **Python Foundation Certification** — Infosys Springboard
+* **C Programming** — Spoken Tutorial Project, IIT Bombay
+* **Introduction to Responsible AI** — Google Cloud Skills Boost
+* **Pragati: Path to Future Program** — Infosys Springboard
+
+---
+
+## WHAT I VALUE
+
+```text
+Curiosity        → Keep learning
+Problem Solving  → Understand before building
+Consistency      → Improve every day
+Collaboration    → Build better together
+Practicality     → Turn knowledge into working solutions
+```
+
+---
+
+## LET'S CONNECT
+
+**Portfolio:** mounika-rayapalli-portfolio.vercel.app
+
+**LinkedIn:** linkedin.com/in/rayapalli-mounika
+
+**GitHub:** github.com/mounikarayapalli
+
+**Email:** [rayapallymounika@gmail.com](mailto:rayapallymounika@gmail.com)
+
+---
+
+### ✦ BUILD · LEARN · EXPERIMENT · IMPROVE
+
+*Always learning. Always building. Always moving forward.*
