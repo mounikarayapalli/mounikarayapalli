@@ -1,5 +1,3 @@
-old readme for GitHub:
-
 # MOUNIKA RAYAPALLI
 
 ### AI Trainee @ Calibo AI Academy · Machine Learning · Deep Learning · Generative AI
