@@ -9,7 +9,7 @@
 # <p align="center">Hey there, I'm Mounika Rayapalli 👋</p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=9F7AEA&center=true&vCenter=true&width=500&height=40&lines=AI+Trainee+%40Calibo+AI+Academy;building+practical+AI+solutions;machine+learning+enthusiast;Generative+AI+%7C+Computer+Vision+%7C+python+%7C+java" alt="Typing Animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=F75C7E&center=true&vCenter=true&width=500&height=40&lines=AI+Trainee+%40+Calibo+AI+Academy;Building+practical+AI+solutions;Machine+learning+enthusiast;Generative+AI+%7C+computer+vision+%7C+python+%7C+java" alt="Typing Animation" />
 </p>
 
 <p align="center">
