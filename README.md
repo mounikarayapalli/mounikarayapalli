@@ -6,13 +6,17 @@
 
   <!-- Responsive Light/Dark Banner -->
   <picture>
-    <source media="(prefers-color-scheme: dark)"
-      srcset="https://capsule-render.vercel.app/api?type=waving&height=220&color=gradient&customColorList=12,14,16&text=Hey%20there%2C%20I'm%20%5BYOUR_NAME%5D&fontColor=ffffff&fontSize=42&fontAlignY=38&desc=AI%20%2F%20ML%20Engineer%20in%20Progress&descAlignY=60&descSize=18">
-    <source media="(prefers-color-scheme: light)"
-      srcset="https://capsule-render.vercel.app/api?type=waving&height=220&color=gradient&customColorList=24,30,32&text=Hey%20there%2C%20I'm%20%5BYOUR_NAME%5D&fontColor=ffffff&fontSize=42&fontAlignY=38&desc=AI%20%2F%20ML%20Engineer%20in%20Progress&descAlignY=60&descSize=18">
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://capsule-render.vercel.app/api?type=waving&height=220&color=gradient&customColorList=12,14,16&text=Hey%20there%2C%20I'm%20Mounika%20Rayapalli&fontColor=ffffff&fontSize=42&fontAlignY=38&desc=AI%20Trainee%20%7C%20Machine%20Learning%20%7C%20Generative%20AI&descAlignY=60&descSize=18"
+    />
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://capsule-render.vercel.app/api?type=waving&height=220&color=gradient&customColorList=24,30,32&text=Hey%20there%2C%20I'm%20Mounika%20Rayapalli&fontColor=ffffff&fontSize=42&fontAlignY=38&desc=AI%20Trainee%20%7C%20Machine%20Learning%20%7C%20Generative%20AI&descAlignY=60&descSize=18"
+    />
     <img
-      src="https://capsule-render.vercel.app/api?type=waving&height=220&color=gradient&customColorList=12,14,16&text=Hey%20there%2C%20I'm%20%5BYOUR_NAME%5D&fontColor=ffffff&fontSize=42&fontAlignY=38&desc=AI%20%2F%20ML%20Engineer%20in%20Progress&descAlignY=60&descSize=18"
-      alt="GitHub Profile Banner"
+      src="https://capsule-render.vercel.app/api?type=waving&height=220&color=gradient&customColorList=12,14,16&text=Hey%20there%2C%20I'm%20Mounika%20Rayapalli&fontColor=ffffff&fontSize=42&fontAlignY=38&desc=AI%20Trainee%20%7C%20Machine%20Learning%20%7C%20Generative%20AI&descAlignY=60&descSize=18"
+      alt="Mounika Rayapalli GitHub Profile Banner"
       width="100%"
     />
   </picture>
@@ -20,28 +24,49 @@
   <br>
 
   <!-- Animated Typing -->
-  <a href="https://github.com/%5BYOUR_USERNAME%5D">
+  <a href="https://github.com/mounikarayapalli">
     <img
-      src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=2800&pause=900&color=EF93C4&center=true&vCenter=true&width=850&lines=AI+%2F+ML+Engineer+in+Progress;Machine+Learning+%7C+Deep+Learning;Generative+AI+%7C+LLMs;Python+%7C+Data+%7C+AI+Applications;Building+%E2%80%A2+Learning+%E2%80%A2+Experimenting+%E2%80%A2+Improving"
+      src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=2800&pause=900&color=EF93C4&center=true&vCenter=true&width=900&lines=AI+Trainee+%40+Calibo+AI+Academy;Machine+Learning+%7C+Deep+Learning;Generative+AI+%7C+LLMs;Python+%7C+Java+%7C+AI+Applications;Computer+Vision+%7C+Recommendation+Systems;Building+%E2%80%A2+Learning+%E2%80%A2+Experimenting+%E2%80%A2+Improving"
       alt="Typing SVG"
     />
   </a>
 
   <br><br>
 
-  <!-- Pink GitHub Badges -->
-  <a href="https://github.com/%5BYOUR_USERNAME%5D">
-    <img src="https://img.shields.io/github/followers/%5BYOUR_USERNAME%5D?label=Followers&style=for-the-badge&color=EF93C4&labelColor=16181D" alt="Followers">
+  <!-- GitHub Badges -->
+  <a href="https://github.com/mounikarayapalli">
+    <img
+      src="https://img.shields.io/github/followers/mounikarayapalli?label=Followers&style=for-the-badge&color=EF93C4&labelColor=16181D"
+      alt="GitHub Followers"
+    />
   </a>
-  <a href="https://github.com/%5BYOUR_USERNAME%5D?tab=repositories">
-    <img src="https://img.shields.io/github/stars/%5BYOUR_USERNAME%5D?affiliations=OWNER&style=for-the-badge&color=F8BBD0&labelColor=16181D" alt="Stars">
+
+  <a href="https://github.com/mounikarayapalli?tab=repositories">
+    <img
+      src="https://img.shields.io/github/stars/mounikarayapalli?affiliations=OWNER&style=for-the-badge&color=F8BBD0&labelColor=16181D"
+      alt="GitHub Stars"
+    />
   </a>
-  <img src="https://komarev.com/ghpvc/?username=%5BYOUR_USERNAME%5D&style=for-the-badge&color=FF69B4&label=PROFILE+VIEWS" alt="Profile Views">
+
+  <img
+    src="https://komarev.com/ghpvc/?username=mounikarayapalli&style=for-the-badge&color=FF69B4&label=PROFILE+VIEWS"
+    alt="Profile Views"
+  />
 
   <br><br>
 
-  <a href="https://github.com/%5BYOUR_USERNAME%5D">
-    <img src="https://img.shields.io/badge/Available%20for-Opportunities-EF93C4?style=for-the-badge&logo=github&logoColor=white" alt="Opportunities">
+  <a href="https://mounika-rayapalli-portfolio.vercel.app/">
+    <img
+      src="https://img.shields.io/badge/Portfolio-Visit%20My%20Portfolio-EF93C4?style=for-the-badge&logo=vercel&logoColor=white"
+      alt="Portfolio"
+    />
+  </a>
+
+  <a href="https://www.linkedin.com/in/rayapalli-mounika/">
+    <img
+      src="https://img.shields.io/badge/LinkedIn-Connect-F8BBD0?style=for-the-badge&logo=linkedin&logoColor=black"
+      alt="LinkedIn"
+    />
   </a>
 
 </div>
@@ -56,32 +81,36 @@
 
 <table align="center" width="90%">
 <tr>
+
 <td width="65%" valign="top">
 
-### Hey! I'm **[YOUR_NAME]** 👋
+### Hey! I'm **Mounika Rayapalli** 👋
 
-I'm a **[YOUR_ROLE]** passionate about building practical and intelligent solutions with technology.
+I'm a **Computer Science & Engineering student and AI Trainee at Calibo AI Academy**, focused on developing practical skills in **Artificial Intelligence and Machine Learning**.
 
-- 🎓 Currently pursuing **[YOUR_DEGREE]**
-- 🤖 Focused on **Artificial Intelligence & Machine Learning**
-- 🧠 Exploring **Deep Learning, Generative AI & LLMs**
+- 🎓 Computer Science & Engineering student
+- 🤖 AI Trainee at **Calibo AI Academy**
+- 🧠 Exploring **Machine Learning, Deep Learning, Generative AI & LLMs**
 - 🐍 Building projects with **Python**
-- 💻 Interested in **AI Application Development**
-- ☁️ Exploring **Cloud, DevOps & Deployment**
-- 📚 Currently strengthening **DSA, SQL & Software Engineering fundamentals**
-- 🚀 I enjoy turning ideas into **working projects**
-- 🌱 Always learning, experimenting and improving
+- ☕ Working with **Java**
+- 👁️ Exploring **Computer Vision & Image Classification**
+- 📊 Interested in **Recommendation Systems & Intelligent Applications**
+- 🌐 Developing interactive **Web Applications**
+- ☁️ Exploring **Cloud Computing & DevOps**
+- 📚 Strengthening my foundations in **DSA, SQL, Python & Java**
+- 🚀 Passionate about turning ideas into **working solutions**
+- 🌱 Continuously improving through **hands-on projects and experimentation**
 
-> **"Learn deeply. Build practically. Improve continuously."**
+> **Building intelligent solutions that turn ideas into practical applications.**
 
 </td>
 
 <td width="35%" align="center" valign="middle">
 
 <img
-  src="https://placehold.co/400x400/16181D/EF93C4?text=YOUR+PHOTO"
-  width="260"
-  alt="Profile Image"
+  src="https://github.com/mounikarayapalli.png"
+  width="250"
+  alt="Mounika Rayapalli"
 />
 
 <br><br>
@@ -91,9 +120,37 @@ I'm a **[YOUR_ROLE]** passionate about building practical and intelligent soluti
   alt="AI ML Focus"
 />
 
+<br><br>
+
+<img
+  src="https://img.shields.io/badge/Always-Learning-F8BBD0?style=for-the-badge&logoColor=black"
+  alt="Always Learning"
+/>
+
 </td>
+
 </tr>
 </table>
+
+<br>
+
+<!-- ========================================================= -->
+<!--                       AI FOCUS                             -->
+<!-- ========================================================= -->
+
+<h2 align="center">🧠 AI Focus Areas</h2>
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Machine%20Learning-EF93C4?style=for-the-badge" alt="Machine Learning" />
+<img src="https://img.shields.io/badge/Deep%20Learning-F8BBD0?style=for-the-badge&logoColor=black" alt="Deep Learning" />
+<img src="https://img.shields.io/badge/Generative%20AI-EF93C4?style=for-the-badge" alt="Generative AI" />
+<img src="https://img.shields.io/badge/LLMs-F8BBD0?style=for-the-badge&logoColor=black" alt="LLMs" />
+<img src="https://img.shields.io/badge/Computer%20Vision-EF93C4?style=for-the-badge" alt="Computer Vision" />
+<img src="https://img.shields.io/badge/Recommendation%20Systems-F8BBD0?style=for-the-badge&logoColor=black" alt="Recommendation Systems" />
+<img src="https://img.shields.io/badge/AI%20Applications-EF93C4?style=for-the-badge" alt="AI Applications" />
+
+</div>
 
 <br>
 
@@ -105,55 +162,92 @@ I'm a **[YOUR_ROLE]** passionate about building practical and intelligent soluti
 
 <div align="center">
 
-### 🤖 AI / Machine Learning
+### 🤖 Artificial Intelligence & Machine Learning
 
-<a href="#"><img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch,opencv&theme=dark" alt="AI ML Skills"></a>
-
-<br><br>
-
-<a href="#">
-  <img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch&theme=dark" alt="Machine Learning">
-</a>
+<img
+  src="https://skillicons.dev/icons?i=python,tensorflow,opencv&theme=dark"
+  alt="AI and Machine Learning Skills"
+/>
 
 <br><br>
 
-### 💻 Programming & Web
+<img
+  src="https://img.shields.io/badge/Keras-EF93C4?style=for-the-badge&logo=keras&logoColor=white"
+  alt="Keras"
+/>
+<img
+  src="https://img.shields.io/badge/YOLO-F8BBD0?style=for-the-badge&logoColor=black"
+  alt="YOLO"
+/>
+<img
+  src="https://img.shields.io/badge/Hugging%20Face-EF93C4?style=for-the-badge&logo=huggingface&logoColor=white"
+  alt="Hugging Face"
+/>
+<img
+  src="https://img.shields.io/badge/LLMs-F8BBD0?style=for-the-badge&logoColor=black"
+  alt="Large Language Models"
+/>
+<img
+  src="https://img.shields.io/badge/Generative%20AI-EF93C4?style=for-the-badge"
+  alt="Generative AI"
+/>
 
-<a href="#"><img src="https://skillicons.dev/icons?i=java,python,html,css,js&theme=dark" alt="Programming Skills"></a>
+<br><br>
+
+### 💻 Programming & Web Development
+
+<img
+  src="https://skillicons.dev/icons?i=python,java,html,css,js&theme=dark"
+  alt="Programming and Web Development"
+/>
+
+<br><br>
+
+<img
+  src="https://img.shields.io/badge/DOM-F8BBD0?style=for-the-badge&logoColor=black"
+  alt="DOM"
+/>
+<img
+  src="https://img.shields.io/badge/jQuery-EF93C4?style=for-the-badge&logo=jquery&logoColor=white"
+  alt="jQuery"
+/>
+<img
+  src="https://img.shields.io/badge/Bootstrap-F8BBD0?style=for-the-badge&logo=bootstrap&logoColor=black"
+  alt="Bootstrap"
+/>
 
 <br><br>
 
 ### 🗄️ Databases
 
-<a href="#"><img src="https://skillicons.dev/icons?i=mysql,mongodb&theme=dark" alt="Database Skills"></a>
+<img
+  src="https://skillicons.dev/icons?i=mysql,mongodb&theme=dark"
+  alt="Databases"
+/>
 
 <br><br>
 
 ### ☁️ Cloud, DevOps & Tools
 
-<a href="#"><img src="https://skillicons.dev/icons?i=git,github,docker,kubernetes,aws,terraform,linux,vscode,pycharm&theme=dark" alt="Tools and Platforms"></a>
+<img
+  src="https://skillicons.dev/icons?i=git,github,docker,kubernetes,aws,terraform,linux,vscode,pycharm&theme=dark"
+  alt="Cloud DevOps and Tools"
+/>
 
-</div>
+<br><br>
 
-<br>
-
-<!-- ========================================================= -->
-<!--                    AI FOCUS AREAS                         -->
-<!-- ========================================================= -->
-
-<h2 align="center">🧠 AI Focus Areas</h2>
-
-<div align="center">
-
-| Area | Focus |
-|:---:|:---|
-| 🤖 | **Machine Learning** |
-| 🧠 | **Deep Learning** |
-| ✨ | **Generative AI** |
-| 💬 | **Large Language Models** |
-| 👁️ | **Computer Vision** |
-| 📊 | **Recommendation Systems** |
-| 🚀 | **AI Application Development** |
+<img
+  src="https://img.shields.io/badge/Streamlit-EF93C4?style=for-the-badge&logo=streamlit&logoColor=white"
+  alt="Streamlit"
+/>
+<img
+  src="https://img.shields.io/badge/Vercel-F8BBD0?style=for-the-badge&logo=vercel&logoColor=black"
+  alt="Vercel"
+/>
+<img
+  src="https://img.shields.io/badge/AntiGravity-EF93C4?style=for-the-badge"
+  alt="AntiGravity"
+/>
 
 </div>
 
@@ -167,23 +261,81 @@ I'm a **[YOUR_ROLE]** passionate about building practical and intelligent soluti
 
 <div align="center">
 
-<a href="https://github.com/%5BYOUR_USERNAME%5D/%5BPROJECT_1%5D">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=%5BYOUR_USERNAME%5D&repo=%5BPROJECT_1%5D&theme=radical&title_color=EF93C4&icon_color=EF93C4&border_color=EF93C4" alt="Project 1">
-</a>
+<table width="90%">
 
-<a href="https://github.com/%5BYOUR_USERNAME%5D/%5BPROJECT_2%5D">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=%5BYOUR_USERNAME%5D&repo=%5BPROJECT_2%5D&theme=radical&title_color=EF93C4&icon_color=EF93C4&border_color=EF93C4" alt="Project 2">
-</a>
+<tr>
+<td width="50%" valign="top">
 
-<br>
+### 👗 Fashion Recommendation System
 
-<a href="https://github.com/%5BYOUR_USERNAME%5D/%5BPROJECT_3%5D">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=%5BYOUR_USERNAME%5D&repo=%5BPROJECT_3%5D&theme=radical&title_color=EF93C4&icon_color=EF93C4&border_color=EF93C4" alt="Project 3">
-</a>
+An AI-powered recommendation application designed to understand user preferences and generate relevant fashion recommendations.
 
-<a href="https://github.com/%5BYOUR_USERNAME%5D/%5BPROJECT_4%5D">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=%5BYOUR_USERNAME%5D&repo=%5BPROJECT_4%5D&theme=radical&title_color=EF93C4&icon_color=EF93C4&border_color=EF93C4" alt="Project 4">
-</a>
+**Focus:**  
+Recommendation Systems · NLP · TF-IDF · Generative AI · Streamlit
+
+</td>
+
+<td width="50%" valign="top">
+
+### 🩻 Disease Detection System
+
+A computer-vision-based system designed to assist with disease detection from medical X-ray images.
+
+**Focus:**  
+Deep Learning · TensorFlow · Computer Vision · Image Classification
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### 🎮 TEKKEN-MOTION
+
+A gesture-controlled interaction system that uses hand movements to create real-time controls.
+
+**Focus:**  
+MediaPipe · OpenCV · Computer Vision · Gesture Recognition
+
+</td>
+
+<td width="50%" valign="top">
+
+### ☁️ Kubernetes Cluster Deployment on AWS EKS
+
+A cloud-native deployment project demonstrating how containerized applications can be deployed and managed using Kubernetes on Amazon EKS.
+
+**Focus:**  
+AWS · EKS · Kubernetes · EC2 · ECR · IAM · Load Balancing
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### 🏗️ Infrastructure Deployment with Terraform
+
+An Infrastructure-as-Code project focused on automating cloud infrastructure provisioning.
+
+**Focus:**  
+Terraform · AWS · Infrastructure as Code · Automation
+
+</td>
+
+<td width="50%" valign="top">
+
+### 📦 AI Stock Manager
+
+An AI-powered inventory management project focused on forecasting demand and recommending optimal inventory quantities.
+
+**Focus:**  
+Machine Learning · Forecasting · Explainable AI · Python
+
+</td>
+</tr>
+
+</table>
 
 </div>
 
@@ -218,9 +370,9 @@ Exploring image classification, object detection, gesture recognition and visual
 
 <td align="center" width="33%">
 
-### 📊 Intelligent Systems
+### ☁️ Cloud & Automation
 
-Working with recommendation systems, prediction, automation and data-driven solutions.
+Exploring cloud infrastructure, containers, Kubernetes, Terraform and deployment automation.
 
 </td>
 
@@ -239,19 +391,19 @@ Working with recommendation systems, prediction, automation and data-driven solu
 
 <div align="center">
 
-<a href="https://github.com/%5BYOUR_USERNAME%5D">
+<a href="https://github.com/mounikarayapalli">
   <img
     height="180"
-    src="https://github-readme-stats.vercel.app/api?username=%5BYOUR_USERNAME%5D&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=EF93C4&icon_color=F8BBD0&text_color=FFFFFF"
-    alt="GitHub Stats"
+    src="https://github-readme-stats.vercel.app/api?username=mounikarayapalli&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=EF93C4&icon_color=F8BBD0&text_color=FFFFFF"
+    alt="Mounika's GitHub Stats"
   />
 </a>
 
-<a href="https://github.com/%5BYOUR_USERNAME%5D">
+<a href="https://github.com/mounikarayapalli">
   <img
     height="180"
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=%5BYOUR_USERNAME%5D&layout=compact&hide_border=true&bg_color=0D1117&title_color=EF93C4&text_color=FFFFFF"
-    alt="Top Languages"
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=mounikarayapalli&layout=compact&hide_border=true&bg_color=0D1117&title_color=EF93C4&text_color=FFFFFF"
+    alt="Mounika's Top Languages"
   />
 </a>
 
@@ -267,10 +419,10 @@ Working with recommendation systems, prediction, automation and data-driven solu
 
 <div align="center">
 
-<a href="https://github.com/%5BYOUR_USERNAME%5D">
+<a href="https://github.com/mounikarayapalli">
   <img
-    src="https://streak-stats.demolab.com?user=%5BYOUR_USERNAME%5D&theme=dark&hide_border=true&background=0D1117&ring=EF93C4&fire=FF69B4&currStreakLabel=F8BBD0&sideLabels=EF93C4&dates=FFFFFF"
-    alt="GitHub Streak"
+    src="https://streak-stats.demolab.com?user=mounikarayapalli&theme=dark&hide_border=true&background=0D1117&ring=EF93C4&fire=FF69B4&currStreakLabel=F8BBD0&sideLabels=EF93C4&dates=FFFFFF"
+    alt="Mounika's GitHub Streak"
   />
 </a>
 
@@ -286,11 +438,11 @@ Working with recommendation systems, prediction, automation and data-driven solu
 
 <div align="center">
 
-<a href="https://github.com/%5BYOUR_USERNAME%5D">
+<a href="https://github.com/mounikarayapalli">
   <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=%5BYOUR_USERNAME%5D&bg_color=0D1117&color=F8BBD0&line=EF93C4&point=FF69B4&area=true&area_color=EF93C4&hide_border=true"
+    src="https://github-readme-activity-graph.vercel.app/graph?username=mounikarayapalli&bg_color=0D1117&color=F8BBD0&line=EF93C4&point=FF69B4&area=true&area_color=EF93C4&hide_border=true"
     width="95%"
-    alt="GitHub Activity Graph"
+    alt="Mounika's GitHub Activity Graph"
   />
 </a>
 
@@ -307,13 +459,17 @@ Working with recommendation systems, prediction, automation and data-driven solu
 <div align="center">
 
 <!--
-GitHub Action:
-Create:
+===============================================================
+GitHub Action Setup
+===============================================================
+
+Create this file:
+
 .github/workflows/snake.yml
 
-Example workflow:
+Then add:
 
-name: Generate Snake
+name: Generate Contribution Snake
 
 on:
   schedule:
@@ -337,21 +493,23 @@ jobs:
           build_dir: dist
         env:
           GH_PAT: ${{ secrets.GITHUB_TOKEN }}
+
+===============================================================
 -->
 
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/%5BYOUR_USERNAME%5D/%5BYOUR_USERNAME%5D/output/github-contribution-grid-snake-dark.svg"
+    srcset="https://raw.githubusercontent.com/mounikarayapalli/mounikarayapalli/output/github-contribution-grid-snake-dark.svg"
   />
   <source
     media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/%5BYOUR_USERNAME%5D/%5BYOUR_USERNAME%5D/output/github-contribution-grid-snake.svg"
+    srcset="https://raw.githubusercontent.com/mounikarayapalli/mounikarayapalli/output/github-contribution-grid-snake.svg"
   />
   <img
-    src="https://raw.githubusercontent.com/%5BYOUR_USERNAME%5D/%5BYOUR_USERNAME%5D/output/github-contribution-grid-snake.svg"
+    src="https://raw.githubusercontent.com/mounikarayapalli/mounikarayapalli/output/github-contribution-grid-snake.svg"
     width="95%"
-    alt="GitHub Contribution Snake"
+    alt="Mounika's GitHub Contribution Snake"
   />
 </picture>
 
@@ -377,5 +535,3 @@ Generative AI
 Large Language Models
        ↓
 AI Application Development
-       ↓
-Production AI Systems
