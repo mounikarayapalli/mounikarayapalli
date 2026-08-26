@@ -4,6 +4,48 @@
 </picture>
 
 
+<div align="center">
+
+<a href="https://mounika-rayapalli-portfolio.vercel.app/" target="_blank">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=AI+Trainee;Machine+Learning+Enthusiast;Deep+Learning+Explorer;Generative+AI+Learner;Building+%7C+Learning+%7C+Growing" alt="Typing SVG" />
+</a>
+
+<br><br>
+
+<a href="https://mounika-rayapalli-portfolio.vercel.app/">
+  <img src="https://img.shields.io/badge/🌐%20Portfolio-Visit%20Website-58A6FF?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/>
+</a>
+
+<a href="https://www.linkedin.com/in/rayapalli-mounika/">
+  <img src="https://img.shields.io/badge/💼%20LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+</a>
+
+<a href="mailto:YOUR_EMAIL@gmail.com">
+  <img src="https://img.shields.io/badge/✉️%20Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+</a>
+
+</div>
+
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!-- ========================================================= -->
 <!--                    GITHUB PROFILE README                  -->
 <!-- ========================================================= -->
