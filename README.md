@@ -5,9 +5,7 @@
 
 
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=F78FB3&center=true&vCenter=true&width=650&lines=Building+%E2%80%A2+Learning+%E2%80%A2+Experimenting;AI+%7C+Machine+Learning+%7C+Generative+AI;Turning+Ideas+Into+Projects" alt="Typing Animation" />
-</p>
+<h1 align="center">Hi 👋, I'm Mounika Rayapalli</h1>
 
 
 
