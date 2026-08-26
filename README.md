@@ -1,322 +1,183 @@
-<div align="center">
+<p align="center">
+  <picture>
+    <source media="(prefers-color-mode: dark)" srcset="https://raw.githubusercontent.com/mounikarayapalli/mounikarayapalli/main/art/header-dark.png">
+    <source media="(prefers-color-mode: light)" srcset="https://raw.githubusercontent.com/mounikarayapalli/mounikarayapalli/main/art/header-light.png">
+    <img alt="Mounika Rayapalli Profile Header" src="https://raw.githubusercontent.com/mounikarayapalli/mounikarayapalli/main/art/header-light.png" width="100%">
+  </picture>
+</p>
 
-<!-- ============================== -->
-<!--   EXISTING BANNER GOES HERE    -->
-<!--   (Not generated per request)  -->
-<!-- ============================== -->
+# <p align="center">Hey there, I'm Mounika Rayapalli 👋</p>
 
-<br>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=9F7AEA&center=true&vCenter=true&width=500&height=40&lines=AI+Trainee+%40Calibo+AI+Academy;building+practical+AI+solutions;machine+learning+enthusiast;generative+AI+%7C+Computer+Vision+%7C+python+%7C+java" alt="Typing Animation" />
+</p>
 
-# Hey there, I'm Mounika Rayapalli 👋
+<p align="center">
+  <a href="https://linkedin.com/in/rayapalli-mounika"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:rayapallymounika@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://mounika-rayapalli-portfolio.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+</p>
 
-<img src="https://readme-typing-svg.demolab.com/?lines=AI+Trainee;Machine+Learning+Enthusiast;Generative+AI+Explorer;Computer+Vision+Developer;Python+%26+Java+Developer;Building+Practical+AI+Solutions&font=Fira+Code&center=true&width=600&height=45&duration=3000&pause=800&color=EF93C4&vCenter=true&size=22" alt="Typing SVG" />
+<p align="center">
+  <img src="https://komarev.com/normal-badge/?username=mounikarayapalli&color=6f42c1&style=flat-square&label=Profile+Views" alt="Profile Views" />
+</p>
 
-<p><i>Computer Science & Engineering student building practical AI applications, one project at a time.</i></p>
+---
 
-<br>
+### 📝 About Me
+I am a **Computer Science & Engineering student and AI Trainee** focused on building intelligent solutions that turn theoretical concepts into practical, real-world applications. I enjoy experimenting with Machine Learning models, developing interactive web applications, and automating cloud workflows.
 
-<img src="https://img.shields.io/github/followers/mounikarayapalli?label=Followers&style=for-the-badge&color=EF93C4&labelColor=1a1a1a" alt="GitHub Followers" />
-<img src="https://img.shields.io/github/stars/mounikarayapalli?label=Stars&style=for-the-badge&color=F8BBD0&labelColor=1a1a1a" alt="GitHub Stars" />
-<img src="https://komarev.com/ghpvc/?username=mounikarayapalli&label=Profile%20Views&style=for-the-badge&color=FF69B4&labelColor=1a1a1a" alt="Profile Views" />
+* 💼 **Current Focus:** AI Trainee at **Calibo AI Academy**, learning ML, Deep Learning, and Generative AI.
+* 🚀 **Passionate About:** Building computer vision applications, NLP recommendation engines, and modern responsive web apps.
+* ☁️ **DevOps & Cloud Interest:** Deploying and managing containerized applications on AWS using Kubernetes and Terraform.
 
-</div>
+---
 
-<br>
+### 🛠️ Technical Stack
 
-## 💫 About Me
+| Category | Technologies & Tools |
+| :--- | :--- |
+| **AI / Machine Learning** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white) ![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) |
+| **Languages & Databases** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) |
+| **Web Development** | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=flat-square&logo=jquery&logoColor=white) ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white) |
+| **DevOps & Cloud** | ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white) |
 
-<table>
-<tr>
-<td width="65%" valign="top">
+---
 
-I'm a **Computer Science & Engineering** student currently working as an **AI Trainee at Calibo AI Academy**, focused on building real-world solutions across **Artificial Intelligence, Machine Learning, Deep Learning, Generative AI, LLMs**, and **Computer Vision**.
+### 🌟 Featured Projects
 
-- 🧠 Exploring AI/ML through hands-on, end-to-end projects
-- 💻 Comfortable across **Python** and **Java**, with a working foundation in web development
-- ☁️ Gaining exposure to **Cloud Computing** and **DevOps** practices
-- 📚 Constantly strengthening **DSA, SQL**, and core engineering fundamentals
-- 🛠️ Currently building **practical, deployable AI applications**
-
-</td>
-<td width="35%" align="center">
-
-<img src="[YOUR_PROFILE_IMAGE_URL]" width="220" alt="Profile" style="border-radius: 12px;" />
-
-</td>
-</tr>
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🤖 Fashion Recommendation System</h4>
+      <p>An AI-powered recommendation application designed to understand user preferences and generate relevant fashion recommendations.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" />
+        <img src="https://img.shields.io/badge/GenAI-FF6F00?style=flat-square" />
+        <img src="https://img.shields.io/badge/NLP-blue?style=flat-square" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h4>🏥 Disease Detection System</h4>
+      <p>A computer-vision-based system designed to assist with disease detection from medical X-ray images.</p>
+      <p>
+        <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" />
+        <img src="https://img.shields.io/badge/Computer_Vision-5C3EE8?style=flat-square" />
+        <img src="https://img.shields.io/badge/Deep_Learning-red?style=flat-square" />
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🕹️ TEKKEN-MOTION</h4>
+      <p>A gesture-controlled interaction system that uses hand movements to create real-time controls.</p>
+      <p>
+        <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" />
+        <img src="https://img.shields.io/badge/MediaPipe-00C0FF?style=flat-square" />
+        <img src="https://img.shields.io/badge/Gesture_Controls-green?style=flat-square" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h4>📦 AI-Powered Stock Manager</h4>
+      <p>AI-powered inventory replenishment system that forecasts demand and recommends optimal reorder quantities.</p>
+      <p>
+        <a href="https://github.com/mounikarayapalli/ai-stock-manager"><b>View Repository →</b></a>
+      </p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+        <img src="https://img.shields.io/badge/Machine_Learning-3F51B5?style=flat-square" />
+        <img src="https://img.shields.io/badge/Explainable_AI-orange?style=flat-square" />
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>☸️ Kubernetes AWS EKS Deployment</h4>
+      <p>Cloud-native deployment project demonstrating how containerized applications are managed on AWS EKS with load balancing.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" />
+        <img src="https://img.shields.io/badge/AWS_EKS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white" />
+        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h4>⚙️ Infrastructure with Terraform</h4>
+      <p>Infrastructure-as-Code project focused on automating cloud infrastructure provisioning on Amazon AWS.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white" />
+        <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white" />
+        <img src="https://img.shields.io/badge/IaC-blue?style=flat-square" />
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🎓 TECH-DESIRE</h4>
+      <p>A modern, responsive educational web application with learning paths, interactive assessments, and progress tracking.</p>
+      <p>
+        <a href="https://github.com/mounikarayapalli/TECH-DESIRE"><b>View Repository →</b></a>
+      </p>
+      <p>
+        <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
+        <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h4>🍽️ Restaurant Table Reservation</h4>
+      <p>A responsive restaurant showcase and reservation app built using HTML5, CSS3, jQuery, and Bootstrap.</p>
+      <p>
+        <a href="https://github.com/mounikarayapalli/restaurant-landing-page"><b>View Repository →</b></a>
+      </p>
+      <p>
+        <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white" />
+        <img src="https://img.shields.io/badge/jQuery-0769AD?style=flat-square&logo=jquery&logoColor=white" />
+      </p>
+    </td>
+  </tr>
 </table>
 
-<br>
+---
 
-## 🎯 Current Focus
+### 📊 GitHub Stats & Analytics
 
-<div align="center">
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=mounikarayapalli&show_icons=true&theme=tokyonight&count_private=true" alt="GitHub Stats" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mounikarayapalli&layout=compact&theme=tokyonight" alt="Top Languages" width="48%" />
+</p>
 
-**Machine Learning** → **Deep Learning** → **Generative AI** → **Large Language Models** → **AI Application Development**
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mounikarayapalli&theme=tokyonight" alt="GitHub Streak" width="97%" />
+</p>
 
-<br>
+---
 
-`DSA` · `SQL` · `Python` · `Java` · `Cloud Computing` · `DevOps`
+### 💼 Experience & Training
 
-</div>
+* 🤖 **AI Trainee** — **Calibo AI Academy**
+  *Developing practical understanding of AI/ML concepts through hands-on projects, problem solving, and collaboration.*
+* ☁️ **Cloud Infrastructure & DevOps Engineer Intern** — **BlackBucks Group**
+  *Gaining experience with AWS cloud resources, networking, containerization (Docker, Kubernetes), and CI/CD pipelines.*
+* ☕ **Java Full Stack Developer Intern** — **AICTE EduSkills**
+  *Acquiring hands-on exposure to full-stack Java-based application development.*
 
-<br>
+---
 
-## 🧰 Tech Stack
+### 📜 Certifications & Learning
 
-<div align="center">
+* 🐍 **Python Foundation Certification** — Infosys Springboard
+* 💻 **C Programming** — Spoken Tutorial Project, IIT Bombay
+* 🛡️ **Introduction to Responsible AI** — Google Cloud Skills Boost
+* 🚀 **Pragati: Path to Future Program** — Infosys Springboard
 
-**AI / Machine Learning**
+---
 
-<img src="https://skillicons.dev/icons?i=python,tensorflow,opencv" /> &nbsp;
-<img src="https://img.shields.io/badge/Keras-EF93C4?style=for-the-badge&logo=keras&logoColor=white" />
-<img src="https://img.shields.io/badge/YOLO-F8BBD0?style=for-the-badge&logoColor=white" />
-<img src="https://img.shields.io/badge/Hugging%20Face-FF69B4?style=for-the-badge&logo=huggingface&logoColor=white" />
+### 📈 Current Roadmap
+```text
+Machine Learning ➔ Deep Learning ➔ Generative AI ➔ Large Language Models ➔ AI App Development
+```
+*Currently strengthening foundations in:* **DSA · SQL · Java · Python · Cloud Computing · DevOps**
 
-<br><br>
+---
 
-**Programming**
-
-<img src="https://skillicons.dev/icons?i=python,java" />
-
-<br><br>
-
-**Web Development**
-
-<img src="https://skillicons.dev/icons?i=html,css,js,bootstrap" />
-
-<br><br>
-
-**Databases**
-
-<img src="https://skillicons.dev/icons?i=mysql,mongodb" />
-
-<br><br>
-
-**Cloud / DevOps**
-
-<img src="https://skillicons.dev/icons?i=aws,docker,kubernetes,terraform" />
-
-<br><br>
-
-**Development Tools**
-
-<img src="https://skillicons.dev/icons?i=git,github,vscode,pycharm" /> &nbsp;
-<img src="https://img.shields.io/badge/Streamlit-EF93C4?style=for-the-badge&logo=streamlit&logoColor=white" />
-
-</div>
-
-<br>
-
-## 🚀 Featured Projects
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🛍️ Fashion Recommendation System
-AI-powered recommendation application that suggests fashion items using content-based techniques.
-
-**Tech:** Recommendation Systems · NLP · TF-IDF · Generative AI · Streamlit
-
-[Repository →]([PROJECT_REPOSITORY_URL])
-
-</td>
-<td width="50%" valign="top">
-
-### 🩺 Disease Detection System
-Computer-vision-based system for detecting diseases from medical X-ray images.
-
-**Tech:** Deep Learning · TensorFlow · Computer Vision · Image Classification
-
-[Repository →]([PROJECT_REPOSITORY_URL])
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🎮 TEKKEN-MOTION
-Gesture-controlled interaction system enabling touchless, motion-based control.
-
-**Tech:** MediaPipe · OpenCV · Computer Vision · Gesture Recognition
-
-[Repository →]([PROJECT_REPOSITORY_URL])
-
-</td>
-<td width="50%" valign="top">
-
-### ☸️ Kubernetes Cluster Deployment on AWS EKS
-Production-style Kubernetes cluster deployment with load-balanced services on AWS.
-
-**Tech:** AWS · EKS · Kubernetes · EC2 · ECR · IAM · Load Balancing
-
-[Repository →]([PROJECT_REPOSITORY_URL])
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🧱 Infrastructure Deployment with Terraform
-Automated, reproducible infrastructure provisioning using Infrastructure as Code.
-
-**Tech:** Terraform · AWS · Infrastructure as Code · Automation
-
-[Repository →]([PROJECT_REPOSITORY_URL])
-
-</td>
-<td width="50%" valign="top">
-
-<br>
-
-</td>
-</tr>
-</table>
-
-<br>
-
-## 💼 Experience & Training
-
-<table>
-<tr><td width="4"><b>▍</b></td><td>
-
-**AI Trainee** — Calibo AI Academy
-<br><sub>Applying AI/ML and Generative AI concepts to practical project work.</sub>
-
-</td></tr>
-<tr><td><b>▍</b></td><td>
-
-**Cloud Infrastructure & DevOps Engineer Intern** — BlackBucks Group
-<br><sub>Worked on cloud infrastructure and DevOps tooling and practices.</sub>
-
-</td></tr>
-<tr><td><b>▍</b></td><td>
-
-**Java Full Stack Developer Intern** — AICTE EduSkills
-<br><sub>Built full-stack applications using Java-based technologies.</sub>
-
-</td></tr>
-</table>
-
-<br>
-
-## 📜 Certifications
-
-<div align="center">
-
-| Certification | Issuer |
-|---|---|
-| Python Foundation Certification | Infosys Springboard |
-| C Programming | Spoken Tutorial Project, IIT Bombay |
-| Introduction to Responsible AI | Google Cloud Skills Boost |
-| Pragati: Path to Future Program | Infosys Springboard |
-
-</div>
-
-<br>
-
-## 📊 GitHub Analytics
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=mounikarayapalli&show_icons=true&hide_border=true&title_color=EF93C4&icon_color=FF69B4&text_color=F8BBD0&bg_color=0D1117&count_private=true" width="49%" alt="GitHub Stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mounikarayapalli&layout=compact&hide_border=true&title_color=EF93C4&text_color=F8BBD0&bg_color=0D1117" width="35%" alt="Top Languages" />
-
-<br>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=mounikarayapalli&hide_border=true&background=0D1117&ring=EF93C4&fire=FF69B4&currStreakLabel=F8BBD0&stroke=EF93C4" width="70%" alt="GitHub Streak" />
-
-<br><br>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=mounikarayapalli&theme=react-dark&hide_border=true&color=F8BBD0&line=FF69B4&point=EF93C4&area=true&area_color=EF93C4&bg_color=0D1117" width="90%" alt="Contribution Activity Graph" />
-
-</div>
-
-<br>
-
-## 🐍 Contribution Snake
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/mounikarayapalli/mounikarayapalli/output/github-contribution-grid-snake.svg" alt="Contribution Snake" width="90%" />
-
-</div>
-
-<!--
-  To activate the contribution snake, add a GitHub Actions workflow at:
-  .github/workflows/snake.yml
-
-  name: Generate Snake
-  on:
-    schedule:
-      - cron: "0 */12 * * *"
-    workflow_dispatch: {}
-    push:
-      branches:
-        - main
-
-  jobs:
-    generate:
-      permissions:
-        contents: write
-      runs-on: ubuntu-latest
-      steps:
-        - name: Generate snake animation
-          uses: Platane/snk@v3
-          with:
-            github_user_name: mounikarayapalli
-            outputs: |
-              dist/github-contribution-grid-snake.svg
-              dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-
-        - name: Push snake output to output branch
-          uses: crazy-max/ghaction-github-pages@v4
-          with:
-            target_branch: output
-            build_dir: dist
-          env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-  Note: This workflow is not active until it is added to the repository
-  and run at least once. Until then, the snake image above may not render.
--->
-
-<br>
-
-## 🌐 Let's Connect
-
-<div align="center">
-
-<a href="https://linkedin.com/in/rayapalli-mounika" target="_blank">
-<img src="https://img.shields.io/badge/LinkedIn-EF93C4?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-</a>
-<a href="https://twitter.com/[YOUR_X_USERNAME]" target="_blank">
-<img src="https://img.shields.io/badge/X-F8BBD0?style=for-the-badge&logo=x&logoColor=white" alt="X" />
-</a>
-<a href="https://instagram.com/[YOUR_INSTAGRAM_USERNAME]" target="_blank">
-<img src="https://img.shields.io/badge/Instagram-FF69B4?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
-</a>
-<a href="https://tiktok.com/@[YOUR_TIKTOK_USERNAME]" target="_blank">
-<img src="https://img.shields.io/badge/TikTok-EF93C4?style=for-the-badge&logo=tiktok&logoColor=white" alt="TikTok" />
-</a>
-<a href="https://youtube.com/@[YOUR_YOUTUBE_USERNAME]" target="_blank">
-<img src="https://img.shields.io/badge/YouTube-F8BBD0?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" />
-</a>
-<a href="mailto:rayapallymounika@gmail.com" target="_blank">
-<img src="https://img.shields.io/badge/Email-FF69B4?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-</a>
-
-<br>
-
-**Portfolio:** [mounika-rayapalli-portfolio.vercel.app](https://mounika-rayapalli-portfolio.vercel.app)
-
-</div>
-
-<br>
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:EF93C4,50:F8BBD0,100:FF69B4&height=120&section=footer" width="100%" />
-
-</div>
+### ✦ BUILD · LEARN · EXPERIMENT · IMPROVE ✦
+*Always learning. Always building. Always moving forward.*
