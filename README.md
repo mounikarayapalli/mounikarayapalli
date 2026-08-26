@@ -4,30 +4,10 @@
 </picture>
 
 
-<div align="center">
 
-<h2>AI Trainee @ Calibo AI Academy</h2>
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=FF79B0&center=true&vCenter=true&width=700&lines=Building+%E2%80%A2+Learning+%E2%80%A2+Experimenting;Machine+Learning+%E2%80%A2+Deep+Learning+%E2%80%A2+Generative+AI;Turning+Ideas+Into+Practical+Projects" />
-
-<br><br>
-
-<a href="https://mounika-rayapalli-portfolio.vercel.app/">
-  <img src="https://img.shields.io/badge/🌐%20Visit%20My%20Portfolio-FF79B0?style=for-the-badge&logoColor=white" />
-</a>
-&nbsp;
-<a href="https://www.linkedin.com/in/rayapalli-mounika/">
-  <img src="https://img.shields.io/badge/💼%20LinkedIn-FF79B0?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-&nbsp;
-<a href="mailto:YOUR_EMAIL@gmail.com">
-  <img src="https://img.shields.io/badge/✉️%20Email%20Me-FF79B0?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
-
-</div>
-
-<br>
-
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=F78FB3&center=true&vCenter=true&width=650&lines=Building+%E2%80%A2+Learning+%E2%80%A2+Experimenting;AI+%7C+Machine+Learning+%7C+Generative+AI;Turning+Ideas+Into+Projects" alt="Typing Animation" />
+</p>
 
 
 
