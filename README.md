@@ -1,166 +1,322 @@
-old readme for GitHub:
+<div align="center">
 
-# MOUNIKA RAYAPALLI
+<!-- ============================== -->
+<!--   EXISTING BANNER GOES HERE    -->
+<!--   (Not generated per request)  -->
+<!-- ============================== -->
 
-### AI Trainee @ Calibo AI Academy · Machine Learning · Deep Learning · Generative AI
+<br>
 
-> **Building intelligent solutions that turn ideas into practical applications.**
+# Hey there, I'm Mounika Rayapalli 👋
 
-I’m a **Computer Science Engineering student and AI Trainee** focused on developing practical skills in **Machine Learning, Deep Learning, Generative AI, LLMs, Python, Java, and Web Development**.
+<img src="https://readme-typing-svg.demolab.com/?lines=AI+Trainee;Machine+Learning+Enthusiast;Generative+AI+Explorer;Computer+Vision+Developer;Python+%26+Java+Developer;Building+Practical+AI+Solutions&font=Fira+Code&center=true&width=600&height=45&duration=3000&pause=800&color=EF93C4&vCenter=true&size=22" alt="Typing SVG" />
 
-I enjoy understanding how intelligent systems work, building projects from the ground up, and continuously improving through hands-on experimentation.
+<p><i>Computer Science & Engineering student building practical AI applications, one project at a time.</i></p>
 
----
+<br>
 
-## ABOUT ME
+<img src="https://img.shields.io/github/followers/mounikarayapalli?label=Followers&style=for-the-badge&color=EF93C4&labelColor=1a1a1a" alt="GitHub Followers" />
+<img src="https://img.shields.io/github/stars/mounikarayapalli?label=Stars&style=for-the-badge&color=F8BBD0&labelColor=1a1a1a" alt="GitHub Stars" />
+<img src="https://komarev.com/ghpvc/?username=mounikarayapalli&label=Profile%20Views&style=for-the-badge&color=FF69B4&labelColor=1a1a1a" alt="Profile Views" />
 
-* --Computer Science & Engineering student
-* --AI Trainee at **Calibo AI Academy**
-* --Exploring **Machine Learning, Deep Learning, Generative AI & LLMs**
-* --Building with **Python & Java**
-* --Developing interactive **Web Applications**
-* --Interested in solving real-world problems through technology
-* --Currently strengthening my skills through projects and practical learning
+</div>
 
----
+<br>
 
-## TECHNICAL STACK
+## 💫 About Me
 
-### Artificial Intelligence & Machine Learning
+<table>
+<tr>
+<td width="65%" valign="top">
 
-`Python`  `TensorFlow`  `Keras`  `OpenCV`  `YOLO`  `Hugging Face`  `Machine Learning`  `Deep Learning`  `Generative AI`  `LLMs`
+I'm a **Computer Science & Engineering** student currently working as an **AI Trainee at Calibo AI Academy**, focused on building real-world solutions across **Artificial Intelligence, Machine Learning, Deep Learning, Generative AI, LLMs**, and **Computer Vision**.
 
-### Programming
+- 🧠 Exploring AI/ML through hands-on, end-to-end projects
+- 💻 Comfortable across **Python** and **Java**, with a working foundation in web development
+- ☁️ Gaining exposure to **Cloud Computing** and **DevOps** practices
+- 📚 Constantly strengthening **DSA, SQL**, and core engineering fundamentals
+- 🛠️ Currently building **practical, deployable AI applications**
 
-`Python`  `Java` 
+</td>
+<td width="35%" align="center">
 
-### Web Development
+<img src="[YOUR_PROFILE_IMAGE_URL]" width="220" alt="Profile" style="border-radius: 12px;" />
 
-`HTML`  `CSS`  `JavaScript`  `DOM`  `jQuery`  `Bootstrap`
+</td>
+</tr>
+</table>
 
-### Databases
+<br>
 
-`MySQL`  `MongoDB`
+## 🎯 Current Focus
 
-### Tools & Platforms
+<div align="center">
 
-`Git`  `GitHub`  `AntiGravity`  `PyCharm`  `VS Code`  `Streamlit`  `Vercel`  `AWS`  `Docker`  `Kubernetes`
+**Machine Learning** → **Deep Learning** → **Generative AI** → **Large Language Models** → **AI Application Development**
 
----
+<br>
 
-## FEATURED PROJECTS
+`DSA` · `SQL` · `Python` · `Java` · `Cloud Computing` · `DevOps`
 
-### 1. Fashion Recommendation System
+</div>
 
-An AI-powered recommendation application designed to understand user preferences and generate relevant fashion recommendations.
+<br>
 
-**Focus:** Recommendation Systems · NLP · TF-IDF · Generative AI · Streamlit
+## 🧰 Tech Stack
 
+<div align="center">
 
+**AI / Machine Learning**
 
-### 2. Disease Detection System
+<img src="https://skillicons.dev/icons?i=python,tensorflow,opencv" /> &nbsp;
+<img src="https://img.shields.io/badge/Keras-EF93C4?style=for-the-badge&logo=keras&logoColor=white" />
+<img src="https://img.shields.io/badge/YOLO-F8BBD0?style=for-the-badge&logoColor=white" />
+<img src="https://img.shields.io/badge/Hugging%20Face-FF69B4?style=for-the-badge&logo=huggingface&logoColor=white" />
 
-A computer-vision-based system designed to assist with disease detection from medical X-ray images.
+<br><br>
 
-**Focus:** Deep Learning · TensorFlow · Computer Vision · Image Classification
+**Programming**
 
+<img src="https://skillicons.dev/icons?i=python,java" />
 
+<br><br>
 
-### 3. TEKKEN-MOTION
+**Web Development**
 
-A gesture-controlled interaction system that uses hand movements to create real-time controls.
+<img src="https://skillicons.dev/icons?i=html,css,js,bootstrap" />
 
-**Focus:** MediaPipe · OpenCV · Computer Vision · Gesture Recognition
+<br><br>
 
+**Databases**
 
+<img src="https://skillicons.dev/icons?i=mysql,mongodb" />
 
-### 4. Kubernetes Cluster Deployment on AWS EKS
+<br><br>
 
-A cloud-native deployment project demonstrating how containerized applications can be deployed and managed using Kubernetes on Amazon EKS.
+**Cloud / DevOps**
 
-**Focus:** AWS · EKS · Kubernetes · EC2 · ECR · IAM · Load Balancing
+<img src="https://skillicons.dev/icons?i=aws,docker,kubernetes,terraform" />
 
+<br><br>
 
+**Development Tools**
 
-### 5. Infrastructure Deployment with Terraform
+<img src="https://skillicons.dev/icons?i=git,github,vscode,pycharm" /> &nbsp;
+<img src="https://img.shields.io/badge/Streamlit-EF93C4?style=for-the-badge&logo=streamlit&logoColor=white" />
 
-Infrastructure-as-Code project focused on automating cloud infrastructure provisioning.
+</div>
 
-**Focus:** Terraform · AWS · Infrastructure as Code · Automation
+<br>
 
----
+## 🚀 Featured Projects
 
-## CURRENTLY LEARNING
+<table>
+<tr>
+<td width="50%" valign="top">
 
-```text
-Machine Learning
-       ↓
-Deep Learning
-       ↓
-Generative AI
-       ↓
-Large Language Models
-       ↓
-AI Application Development
-```
+### 🛍️ Fashion Recommendation System
+AI-powered recommendation application that suggests fashion items using content-based techniques.
 
-Alongside AI, I'm improving my foundations in:
+**Tech:** Recommendation Systems · NLP · TF-IDF · Generative AI · Streamlit
 
-**DSA · SQL · Java · Python · Cloud Computing · DevOps**
+[Repository →]([PROJECT_REPOSITORY_URL])
 
----
+</td>
+<td width="50%" valign="top">
 
-## EXPERIENCE & TRAINING
+### 🩺 Disease Detection System
+Computer-vision-based system for detecting diseases from medical X-ray images.
 
-### AI Trainee — Calibo AI Academy
+**Tech:** Deep Learning · TensorFlow · Computer Vision · Image Classification
 
-Developing practical understanding of AI concepts through hands-on learning, projects, problem solving, communication, and teamwork.
+[Repository →]([PROJECT_REPOSITORY_URL])
 
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-### Cloud Infrastructure & DevOps Engineer Intern — BlackBucks Group
+### 🎮 TEKKEN-MOTION
+Gesture-controlled interaction system enabling touchless, motion-based control.
 
-Working with cloud infrastructure, computing resources, networking, containerization, and CI/CD concepts.
+**Tech:** MediaPipe · OpenCV · Computer Vision · Gesture Recognition
 
+[Repository →]([PROJECT_REPOSITORY_URL])
 
-### Java Full Stack Developer Intern — AICTE EduSkills
+</td>
+<td width="50%" valign="top">
 
-Hands-on exposure to Java-based application development and full-stack development concepts.
+### ☸️ Kubernetes Cluster Deployment on AWS EKS
+Production-style Kubernetes cluster deployment with load-balanced services on AWS.
 
----
+**Tech:** AWS · EKS · Kubernetes · EC2 · ECR · IAM · Load Balancing
 
-## CERTIFICATIONS & LEARNING
+[Repository →]([PROJECT_REPOSITORY_URL])
 
-* **Python Foundation Certification** — Infosys Springboard
-* **C Programming** — Spoken Tutorial Project, IIT Bombay
-* **Introduction to Responsible AI** — Google Cloud Skills Boost
-* **Pragati: Path to Future Program** — Infosys Springboard
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
----
+### 🧱 Infrastructure Deployment with Terraform
+Automated, reproducible infrastructure provisioning using Infrastructure as Code.
 
-## WHAT I VALUE
+**Tech:** Terraform · AWS · Infrastructure as Code · Automation
 
-```text
-Curiosity        → Keep learning
-Problem Solving  → Understand before building
-Consistency      → Improve every day
-Collaboration    → Build better together
-Practicality     → Turn knowledge into working solutions
-```
+[Repository →]([PROJECT_REPOSITORY_URL])
 
----
+</td>
+<td width="50%" valign="top">
 
-## LET'S CONNECT
+<br>
 
-**Portfolio:** [mounika-rayapalli-portfolio.vercel.app](https://mounika-rayapalli-portfolio.vercel.app/)
+</td>
+</tr>
+</table>
 
-**LinkedIn:** [linkedin.com/in/rayapalli-mounika](https://www.linkedin.com/in/rayapalli-mounika/)
+<br>
 
-**GitHub:** [github.com/mounikarayapalli](https://github.com/mounikarayapalli)
+## 💼 Experience & Training
 
-**Email:** [rayapallymounika@gmail.com](mailto:rayapallymounika@gmail.com)
+<table>
+<tr><td width="4"><b>▍</b></td><td>
 
----
+**AI Trainee** — Calibo AI Academy
+<br><sub>Applying AI/ML and Generative AI concepts to practical project work.</sub>
 
-### ✦ BUILD · LEARN · EXPERIMENT · IMPROVE ✦
+</td></tr>
+<tr><td><b>▍</b></td><td>
 
-*Always learning. Always building. Always moving forward.*
+**Cloud Infrastructure & DevOps Engineer Intern** — BlackBucks Group
+<br><sub>Worked on cloud infrastructure and DevOps tooling and practices.</sub>
+
+</td></tr>
+<tr><td><b>▍</b></td><td>
+
+**Java Full Stack Developer Intern** — AICTE EduSkills
+<br><sub>Built full-stack applications using Java-based technologies.</sub>
+
+</td></tr>
+</table>
+
+<br>
+
+## 📜 Certifications
+
+<div align="center">
+
+| Certification | Issuer |
+|---|---|
+| Python Foundation Certification | Infosys Springboard |
+| C Programming | Spoken Tutorial Project, IIT Bombay |
+| Introduction to Responsible AI | Google Cloud Skills Boost |
+| Pragati: Path to Future Program | Infosys Springboard |
+
+</div>
+
+<br>
+
+## 📊 GitHub Analytics
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=mounikarayapalli&show_icons=true&hide_border=true&title_color=EF93C4&icon_color=FF69B4&text_color=F8BBD0&bg_color=0D1117&count_private=true" width="49%" alt="GitHub Stats" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mounikarayapalli&layout=compact&hide_border=true&title_color=EF93C4&text_color=F8BBD0&bg_color=0D1117" width="35%" alt="Top Languages" />
+
+<br>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=mounikarayapalli&hide_border=true&background=0D1117&ring=EF93C4&fire=FF69B4&currStreakLabel=F8BBD0&stroke=EF93C4" width="70%" alt="GitHub Streak" />
+
+<br><br>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=mounikarayapalli&theme=react-dark&hide_border=true&color=F8BBD0&line=FF69B4&point=EF93C4&area=true&area_color=EF93C4&bg_color=0D1117" width="90%" alt="Contribution Activity Graph" />
+
+</div>
+
+<br>
+
+## 🐍 Contribution Snake
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/mounikarayapalli/mounikarayapalli/output/github-contribution-grid-snake.svg" alt="Contribution Snake" width="90%" />
+
+</div>
+
+<!--
+  To activate the contribution snake, add a GitHub Actions workflow at:
+  .github/workflows/snake.yml
+
+  name: Generate Snake
+  on:
+    schedule:
+      - cron: "0 */12 * * *"
+    workflow_dispatch: {}
+    push:
+      branches:
+        - main
+
+  jobs:
+    generate:
+      permissions:
+        contents: write
+      runs-on: ubuntu-latest
+      steps:
+        - name: Generate snake animation
+          uses: Platane/snk@v3
+          with:
+            github_user_name: mounikarayapalli
+            outputs: |
+              dist/github-contribution-grid-snake.svg
+              dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+        - name: Push snake output to output branch
+          uses: crazy-max/ghaction-github-pages@v4
+          with:
+            target_branch: output
+            build_dir: dist
+          env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  Note: This workflow is not active until it is added to the repository
+  and run at least once. Until then, the snake image above may not render.
+-->
+
+<br>
+
+## 🌐 Let's Connect
+
+<div align="center">
+
+<a href="https://linkedin.com/in/rayapalli-mounika" target="_blank">
+<img src="https://img.shields.io/badge/LinkedIn-EF93C4?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+</a>
+<a href="https://twitter.com/[YOUR_X_USERNAME]" target="_blank">
+<img src="https://img.shields.io/badge/X-F8BBD0?style=for-the-badge&logo=x&logoColor=white" alt="X" />
+</a>
+<a href="https://instagram.com/[YOUR_INSTAGRAM_USERNAME]" target="_blank">
+<img src="https://img.shields.io/badge/Instagram-FF69B4?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+</a>
+<a href="https://tiktok.com/@[YOUR_TIKTOK_USERNAME]" target="_blank">
+<img src="https://img.shields.io/badge/TikTok-EF93C4?style=for-the-badge&logo=tiktok&logoColor=white" alt="TikTok" />
+</a>
+<a href="https://youtube.com/@[YOUR_YOUTUBE_USERNAME]" target="_blank">
+<img src="https://img.shields.io/badge/YouTube-F8BBD0?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" />
+</a>
+<a href="mailto:rayapallymounika@gmail.com" target="_blank">
+<img src="https://img.shields.io/badge/Email-FF69B4?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+</a>
+
+<br>
+
+**Portfolio:** [mounika-rayapalli-portfolio.vercel.app](https://mounika-rayapalli-portfolio.vercel.app)
+
+</div>
+
+<br>
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:EF93C4,50:F8BBD0,100:FF69B4&height=120&section=footer" width="100%" />
+
+</div>
