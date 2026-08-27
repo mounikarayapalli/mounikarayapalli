@@ -8,7 +8,5 @@
       <stop offset="100%" stop-color="#cb8589" stop-opacity="0" />
     </linearGradient>
   </defs>
-  <path d="M 10 7.5 L 790 7.5" stroke="url(#line-grad)" stroke-width="2" stroke-linecap="round" />
-  <circle cx="400" cy="7.5" r="4" fill="#b37579" />
-  <circle cx="400" cy="7.5" r="2" fill="#ffffff" />
+  <path d="M 10 7.5 L 790 7.5" stroke="url(#line-grad)" stroke-width="3" stroke-linecap="round" />
 </svg>

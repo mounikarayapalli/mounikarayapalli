@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="35" viewBox="0 0 800 35">
+  <style>
+    .sub-text {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+      font-size: 16px;
+      font-weight: 600;
+      fill: #cb8589;
+    }
+  </style>
+  <text x="50%" y="22" text-anchor="middle" class="sub-text">AI Trainee @ Calibo AI Academy · Machine Learning · Deep Learning · Generative AI</text>
+</svg>
