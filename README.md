@@ -1,30 +1,24 @@
 <div align="center">
-  <br>
-<!-- 1. The name centered -->
-# Hey there , I'm Mounika Rayapalli
-
-<!-- 3. AI Trainee bold in theme color -->
-<img src="art/role.svg" alt="AI Trainee at Calibo AI Academy" width="380" />
 
 <br>
 
-<!-- 4. Tag lines with animation typing in normal text theme color -->
-<img src="https://readme-typing-svg.demolab.com/?font=Space+Mono&size=18&pause=1000&color=7A1F5C&center=true&vCenter=true&width=600&lines=Machine+Learning+Enthusiast;Deep+Learning+Explorer;Generative+AI+%26+LLM+Learner;Computer+Vision+Developer;Python+%26+Java+Developer;Building+Practical+AI+Solutions" alt="Typing SVG" />
+<!-- Centered Name Heading -->
+<h1 align="center">Hey there , I'm Mounika Rayapalli</h1>
+
+<!-- Centered Subtitle with shirt theme color #cb8589 -->
+<h3 align="center"><font color="#cb8589"><b>AI Trainee @ Calibo AI Academy · Machine Learning · Deep Learning · Generative AI</b></font></h3>
+
+<br>
+
+<!-- Blockquoted animated typing tag line -->
+<blockquote>
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=18&pause=1000&color=cb8589&center=true&vCenter=true&width=750&lines=Building+intelligent+solutions+that+turn+ideas+into+practical+applications." alt="Typing SVG" />
+</blockquote>
 
 <br><br>
 
-<!-- 5. Fancy Animated Buttons -->
-<a href="https://mounika-rayapalli-portfolio.vercel.app/" target="_blank">
-  <img src="art/btn-portfolio.svg" height="40" alt="My Portfolio" />
-</a>
-&nbsp;&nbsp;
-<a href="https://www.linkedin.com/in/rayapalli-mounika/" target="_blank">
-  <img src="art/btn-linkedin.svg" height="40" alt="LinkedIn" />
-</a>
-&nbsp;&nbsp;
-<a href="mailto:rayapallymounika@gmail.com">
-  <img src="art/btn-email.svg" height="40" alt="Email Me" />
-</a>
+<!-- Stable Fancy Buttons (underline-free & shadow-free) -->
+<a href="https://mounika-rayapalli-portfolio.vercel.app/" target="_blank"><img src="art/btn-portfolio.svg" height="40" alt="My Portfolio" /></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/rayapalli-mounika/" target="_blank"><img src="art/btn-linkedin.svg" height="40" alt="LinkedIn" /></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:rayapallymounika@gmail.com"><img src="art/btn-email.svg" height="40" alt="Email Me" /></a>
 
 </div>
 
@@ -38,7 +32,9 @@
 
 ## 🚀 About Me
 
-I'm a Computer Science Engineering student and AI Trainee focused on developing practical skills in Machine Learning, Deep Learning, Generative AI, LLMs, Python, Java, and Web Development.
+I’m a **Computer Science Engineering student and AI Trainee** focused on developing practical skills in **Machine Learning, Deep Learning, Generative AI, LLMs, Python, Java, and Web Development**.
+
+I enjoy understanding how intelligent systems work, building projects from the ground up, and continuously improving through hands-on experimentation.
 
 * 💡 **What I do**: Build intelligent systems, deploy DevOps pipelines, and continuous learning.
 * 🎓 **Education**: Computer Science Engineering Student.
@@ -59,12 +55,12 @@ I'm a Computer Science Engineering student and AI Trainee focused on developing 
 
 | Category | Technologies |
 | :--- | :--- |
-| **AI / Machine Learning** | <img src="https://skillicons.dev/icons?i=python,tensorflow,opencv&theme=dark" /><br><img src="https://img.shields.io/badge/Keras-7A1F5C?style=flat-square&logo=keras&logoColor=white" /> <img src="https://img.shields.io/badge/YOLO-8B2D6B?style=flat-square&logoColor=white" /> <img src="https://img.shields.io/badge/Hugging%20Face-7A1F5C?style=flat-square&logo=huggingface&logoColor=white" /> |
+| **AI / Machine Learning** | <img src="https://skillicons.dev/icons?i=python,tensorflow,opencv&theme=dark" /><br><img src="https://img.shields.io/badge/Keras-cb8589?style=flat-square&logo=keras&logoColor=white" /> <img src="https://img.shields.io/badge/YOLO-b37579?style=flat-square&logoColor=white" /> <img src="https://img.shields.io/badge/Hugging%20Face-cb8589?style=flat-square&logo=huggingface&logoColor=white" /> |
 | **Programming** | <img src="https://skillicons.dev/icons?i=python,java&theme=dark" /> |
 | **Web Development** | <img src="https://skillicons.dev/icons?i=html,css,js,bootstrap&theme=dark" /> |
 | **Databases** | <img src="https://skillicons.dev/icons?i=mysql,mongodb&theme=dark" /> |
 | **Cloud & DevOps** | <img src="https://skillicons.dev/icons?i=aws,docker,kubernetes,terraform&theme=dark" /> |
-| **Tools & Platforms** | <img src="https://skillicons.dev/icons?i=git,github,vscode,pycharm&theme=dark" /><br><img src="https://img.shields.io/badge/Streamlit-8B2D6B?style=flat-square&logo=streamlit&logoColor=white" /> |
+| **Tools & Platforms** | <img src="https://skillicons.dev/icons?i=git,github,vscode,pycharm&theme=dark" /><br><img src="https://img.shields.io/badge/Streamlit-b37579?style=flat-square&logo=streamlit&logoColor=white" /> |
 
 </div>
 
@@ -151,17 +147,17 @@ I'm a Computer Science Engineering student and AI Trainee focused on developing 
 
 <div align="center">
 
-<!-- Custom styled Stats and Languages to match pink/plum theme -->
-<img src="https://github-readme-stats.vercel.app/api?username=mounikarayapalli&show_icons=true&hide_border=true&hide_title=true&text_color=7A1F5C&icon_color=8B2D6B&bg_color=00000000&title_color=8B2D6B" width="48%" alt="GitHub Stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mounikarayapalli&layout=compact&hide_border=true&hide_title=true&text_color=7A1F5C&bg_color=00000000&title_color=8B2D6B" width="35%" alt="Top Languages" />
+<!-- Custom styled Stats and Languages to match shirt theme color #cb8589 -->
+<img src="https://github-readme-stats.vercel.app/api?username=mounikarayapalli&show_icons=true&hide_border=true&hide_title=true&text_color=cb8589&icon_color=b37579&bg_color=00000000&title_color=b37579" width="48%" alt="GitHub Stats" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mounikarayapalli&layout=compact&hide_border=true&hide_title=true&text_color=cb8589&bg_color=00000000&title_color=b37579" width="35%" alt="Top Languages" />
 
 <br><br>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=mounikarayapalli&hide_border=true&background=00000000&ring=7A1F5C&fire=8B2D6B&currStreakLabel=7A1F5C&sideLabels=7A1F5C&currStreakNum=8B2D6B&sideNums=8B2D6B&dates=444444" width="65%" alt="GitHub Streak" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=mounikarayapalli&hide_border=true&background=00000000&ring=cb8589&fire=b37579&currStreakLabel=cb8589&sideLabels=cb8589&currStreakNum=b37579&sideNums=b37579&dates=444444" width="65%" alt="GitHub Streak" />
 
 <br><br>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=mounikarayapalli&theme=react-dark&hide_border=true&bg_color=00000000&color=8B2D6B&line=7A1F5C&point=8B2D6B&area=true&area_color=7A1F5C" width="90%" alt="Contribution Activity Graph" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=mounikarayapalli&theme=react-dark&hide_border=true&bg_color=00000000&color=b37579&line=cb8589&point=b37579&area=true&area_color=cb8589" width="90%" alt="Contribution Activity Graph" />
 
 </div>
 
@@ -186,6 +182,6 @@ I'm a Computer Science Engineering student and AI Trainee focused on developing 
 <div align="center">
 
 <!-- Capsule Render waving footer with pink/plum colors -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7A1F5C,50:8B2D6B,100:7A1F5C&height=110&section=footer" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:cb8589,50:b37579,100:cb8589&height=110&section=footer" width="100%" />
 
 </div>
