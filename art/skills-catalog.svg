@@ -37,19 +37,11 @@
       0%, 100% { transform: scale(1); opacity: 0.6; }
       50% { transform: scale(1.35); opacity: 1; }
     }
-    .category-title-left {
+    .category-title {
       font-family: 'Space Mono', 'Segoe UI', monospace;
       font-size: 14.5px;
       font-weight: bold;
       fill: #cb8589;
-      text-anchor: end;
-    }
-    .category-title-right {
-      font-family: 'Space Mono', 'Segoe UI', monospace;
-      font-size: 14.5px;
-      font-weight: bold;
-      fill: #cb8589;
-      text-anchor: start;
     }
     .tag-bg {
       fill: #0d1117;
@@ -80,116 +72,162 @@
   <!-- Left Side: Languages (y=60) -->
   <circle cx="475" cy="60" r="5" class="node-dot" filter="url(#pink-glow)" />
   <line x1="475" y1="60" x2="445" y2="60" class="branch-line" />
-  <text x="435" y="65" class="category-title-left">Languages:</text>
-  <g transform="translate(25, 48)">
-    <g transform="translate(130, 0)"><rect width="65" height="24" class="tag-bg" /><text x="32.5" y="16.5" text-anchor="middle" class="tag-text">Python</text></g>
-    <g transform="translate(205, 0)"><rect width="55" height="24" class="tag-bg" /><text x="27.5" y="16.5" text-anchor="middle" class="tag-text">Java</text></g>
-    <g transform="translate(270, 0)"><rect width="55" height="24" class="tag-bg" /><text x="27.5" y="16.5" text-anchor="middle" class="tag-text">SQL</text></g>
+  <text x="30" y="65" class="category-title">Languages:</text>
+  <g transform="translate(160, 48)">
+    <rect width="65" height="24" class="tag-bg" /><text x="32.5" y="16.5" text-anchor="middle" class="tag-text">Python</text>
+  </g>
+  <g transform="translate(235, 48)">
+    <rect width="55" height="24" class="tag-bg" /><text x="27.5" y="16.5" text-anchor="middle" class="tag-text">Java</text>
+  </g>
+  <g transform="translate(300, 48)">
+    <rect width="55" height="24" class="tag-bg" /><text x="27.5" y="16.5" text-anchor="middle" class="tag-text">SQL</text>
   </g>
 
   <!-- Right Side: AI & ML (y=60) -->
   <line x1="475" y1="60" x2="505" y2="60" class="branch-line" />
-  <text x="515" y="65" class="category-title-right">AI &amp; ML:</text>
+  <text x="510" y="65" class="category-title">AI &amp; ML:</text>
   <!-- Row 1 of AI/ML -->
-  <g transform="translate(605, 23)">
-    <g transform="translate(0, 0)"><rect width="115" height="24" class="tag-bg" /><text x="57.5" y="16.5" text-anchor="middle" class="tag-text">Machine Learning</text></g>
-    <g transform="translate(125, 0)"><rect width="50" height="24" class="tag-bg" /><text x="25" y="16.5" text-anchor="middle" class="tag-text">NLP</text></g>
-    <g transform="translate(185, 0)"><rect width="105" height="24" class="tag-bg" /><text x="52.5" y="16.5" text-anchor="middle" class="tag-text">Computer Vision</text></g>
+  <g transform="translate(640, 23)">
+    <rect width="115" height="24" class="tag-bg" /><text x="57.5" y="16.5" text-anchor="middle" class="tag-text">Machine Learning</text>
+  </g>
+  <g transform="translate(765, 23)">
+    <rect width="50" height="24" class="tag-bg" /><text x="25" y="16.5" text-anchor="middle" class="tag-text">NLP</text>
+  </g>
+  <g transform="translate(825, 23)">
+    <rect width="105" height="24" class="tag-bg" /><text x="52.5" y="16.5" text-anchor="middle" class="tag-text">Computer Vision</text>
   </g>
   <!-- Row 2 of AI/ML -->
-  <g transform="translate(605, 52)">
-    <g transform="translate(0, 0)"><rect width="90" height="24" class="tag-bg" /><text x="45" y="16.5" text-anchor="middle" class="tag-text">Generative AI</text></g>
-    <g transform="translate(100, 0)"><rect width="55" height="24" class="tag-bg" /><text x="27.5" y="16.5" text-anchor="middle" class="tag-text">LLMs</text></g>
-    <g transform="translate(165, 0)"><rect width="55" height="24" class="tag-bg" /><text x="27.5" y="16.5" text-anchor="middle" class="tag-text">YOLO</text></g>
+  <g transform="translate(640, 52)">
+    <rect width="90" height="24" class="tag-bg" /><text x="45" y="16.5" text-anchor="middle" class="tag-text">Generative AI</text>
+  </g>
+  <g transform="translate(740, 52)">
+    <rect width="55" height="24" class="tag-bg" /><text x="27.5" y="16.5" text-anchor="middle" class="tag-text">LLMs</text>
+  </g>
+  <g transform="translate(805, 52)">
+    <rect width="55" height="24" class="tag-bg" /><text x="27.5" y="16.5" text-anchor="middle" class="tag-text">YOLO</text>
   </g>
   <!-- Row 3 of AI/ML -->
-  <g transform="translate(605, 81)">
-    <g transform="translate(0, 0)"><rect width="130" height="24" class="tag-bg" /><text x="65" y="16.5" text-anchor="middle" class="tag-text">Prompt Engineering</text></g>
-    <g transform="translate(140, 0)"><rect width="95" height="24" class="tag-bg" /><text x="47.5" y="16.5" text-anchor="middle" class="tag-text">Hugging Face</text></g>
+  <g transform="translate(640, 81)">
+    <rect width="130" height="24" class="tag-bg" /><text x="65" y="16.5" text-anchor="middle" class="tag-text">Prompt Engineering</text>
+  </g>
+  <g transform="translate(780, 81)">
+    <rect width="95" height="24" class="tag-bg" /><text x="47.5" y="16.5" text-anchor="middle" class="tag-text">Hugging Face</text>
   </g>
 
   <!-- ROW 2 -->
   <!-- Left Side: Web Development (y=170) -->
   <circle cx="475" cy="170" r="5" class="node-dot" filter="url(#pink-glow)" />
   <line x1="475" y1="170" x2="445" y2="170" class="branch-line" />
-  <text x="435" y="175" class="category-title-left">Web Dev:</text>
+  <text x="30" y="175" class="category-title">Web Dev:</text>
   <!-- Row 1 of Web Dev -->
-  <g transform="translate(25, 133)">
-    <g transform="translate(130, 0)"><rect width="55" height="24" class="tag-bg" /><text x="27.5" y="16.5" text-anchor="middle" class="tag-text">HTML</text></g>
-    <g transform="translate(195, 0)"><rect width="50" height="24" class="tag-bg" /><text x="25" y="16.5" text-anchor="middle" class="tag-text">CSS</text></g>
-    <g transform="translate(255, 0)"><rect width="80" height="24" class="tag-bg" /><text x="40" y="16.5" text-anchor="middle" class="tag-text">JavaScript</text></g>
+  <g transform="translate(160, 133)">
+    <rect width="55" height="24" class="tag-bg" /><text x="27.5" y="16.5" text-anchor="middle" class="tag-text">HTML</text>
+  </g>
+  <g transform="translate(225, 133)">
+    <rect width="50" height="24" class="tag-bg" /><text x="25" y="16.5" text-anchor="middle" class="tag-text">CSS</text>
+  </g>
+  <g transform="translate(285, 133)">
+    <rect width="80" height="24" class="tag-bg" /><text x="40" y="16.5" text-anchor="middle" class="tag-text">JavaScript</text>
   </g>
   <!-- Row 2 of Web Dev -->
-  <g transform="translate(25, 162)">
-    <g transform="translate(130, 0)"><rect width="65" height="24" class="tag-bg" /><text x="32.5" y="16.5" text-anchor="middle" class="tag-text">jQuery</text></g>
-    <g transform="translate(205, 0)"><rect width="55" height="24" class="tag-bg" /><text x="27.5" y="16.5" text-anchor="middle" class="tag-text">DOM</text></g>
-    <g transform="translate(270, 0)"><rect width="75" height="24" class="tag-bg" /><text x="37.5" y="16.5" text-anchor="middle" class="tag-text">Bootstrap</text></g>
+  <g transform="translate(160, 162)">
+    <rect width="65" height="24" class="tag-bg" /><text x="32.5" y="16.5" text-anchor="middle" class="tag-text">jQuery</text>
+  </g>
+  <g transform="translate(235, 162)">
+    <rect width="55" height="24" class="tag-bg" /><text x="27.5" y="16.5" text-anchor="middle" class="tag-text">DOM</text>
+  </g>
+  <g transform="translate(300, 162)">
+    <rect width="75" height="24" class="tag-bg" /><text x="37.5" y="16.5" text-anchor="middle" class="tag-text">Bootstrap</text>
   </g>
 
   <!-- Right Side: Frameworks (y=170) -->
   <line x1="475" y1="170" x2="505" y2="170" class="branch-line" />
-  <text x="515" y="175" class="category-title-right">Frameworks:</text>
+  <text x="510" y="175" class="category-title">Frameworks:</text>
   <!-- Row 1 of Frameworks -->
-  <g transform="translate(605, 133)">
-    <g transform="translate(0, 0)"><rect width="85" height="24" class="tag-bg" /><text x="42.5" y="16.5" text-anchor="middle" class="tag-text">TensorFlow</text></g>
-    <g transform="translate(95, 0)"><rect width="90" height="24" class="tag-bg" /><text x="45" y="16.5" text-anchor="middle" class="tag-text">Scikit-learn</text></g>
-    <g transform="translate(195, 0)"><rect width="65" height="24" class="tag-bg" /><text x="32.5" y="16.5" text-anchor="middle" class="tag-text">OpenCV</text></g>
+  <g transform="translate(640, 133)">
+    <rect width="85" height="24" class="tag-bg" /><text x="42.5" y="16.5" text-anchor="middle" class="tag-text">TensorFlow</text>
+  </g>
+  <g transform="translate(735, 133)">
+    <rect width="90" height="24" class="tag-bg" /><text x="45" y="16.5" text-anchor="middle" class="tag-text">Scikit-learn</text>
+  </g>
+  <g transform="translate(835, 133)">
+    <rect width="65" height="24" class="tag-bg" /><text x="32.5" y="16.5" text-anchor="middle" class="tag-text">OpenCV</text>
   </g>
   <!-- Row 2 of Frameworks -->
-  <g transform="translate(605, 162)">
-    <g transform="translate(0, 0)"><rect width="65" height="24" class="tag-bg" /><text x="32.5" y="16.5" text-anchor="middle" class="tag-text">React.js</text></g>
-    <g transform="translate(75, 0)"><rect width="75" height="24" class="tag-bg" /><text x="37.5" y="16.5" text-anchor="middle" class="tag-text">Streamlit</text></g>
-    <g transform="translate(160, 0)"><rect width="65" height="24" class="tag-bg" /><text x="32.5" y="16.5" text-anchor="middle" class="tag-text">FastAPI</text></g>
+  <g transform="translate(640, 162)">
+    <rect width="65" height="24" class="tag-bg" /><text x="32.5" y="16.5" text-anchor="middle" class="tag-text">React.js</text>
+  </g>
+  <g transform="translate(715, 162)">
+    <rect width="75" height="24" class="tag-bg" /><text x="37.5" y="16.5" text-anchor="middle" class="tag-text">Streamlit</text>
+  </g>
+  <g transform="translate(800, 162)">
+    <rect width="65" height="24" class="tag-bg" /><text x="32.5" y="16.5" text-anchor="middle" class="tag-text">FastAPI</text>
   </g>
 
   <!-- ROW 3 -->
   <!-- Left Side: Databases (y=280) -->
   <circle cx="475" cy="280" r="5" class="node-dot" filter="url(#pink-glow)" />
   <line x1="475" y1="280" x2="445" y2="280" class="branch-line" />
-  <text x="435" y="285" class="category-title-left">Databases:</text>
-  <g transform="translate(25, 268)">
-    <g transform="translate(130, 0)"><rect width="65" height="24" class="tag-bg" /><text x="32.5" y="16.5" text-anchor="middle" class="tag-text">MySQL</text></g>
-    <g transform="translate(205, 0)"><rect width="80" height="24" class="tag-bg" /><text x="40" y="16.5" text-anchor="middle" class="tag-text">MongoDB</text></g>
-    <g transform="translate(295, 0)"><rect width="70" height="24" class="tag-bg" /><text x="35" y="16.5" text-anchor="middle" class="tag-text">Firebase</text></g>
+  <text x="30" y="285" class="category-title">Databases:</text>
+  <g transform="translate(160, 268)">
+    <rect width="65" height="24" class="tag-bg" /><text x="32.5" y="16.5" text-anchor="middle" class="tag-text">MySQL</text>
+  </g>
+  <g transform="translate(235, 268)">
+    <rect width="80" height="24" class="tag-bg" /><text x="40" y="16.5" text-anchor="middle" class="tag-text">MongoDB</text>
+  </g>
+  <g transform="translate(325, 268)">
+    <rect width="70" height="24" class="tag-bg" /><text x="35" y="16.5" text-anchor="middle" class="tag-text">Firebase</text>
   </g>
 
   <!-- Right Side: Cloud & Tools (y=280) -->
   <line x1="475" y1="280" x2="505" y2="280" class="branch-line" />
-  <text x="515" y="285" class="category-title-right">Cloud &amp; Tools:</text>
+  <text x="510" y="285" class="category-title">Cloud &amp; Tools:</text>
   <!-- Row 1 of Cloud -->
-  <g transform="translate(605, 248)">
-    <g transform="translate(0, 0)"><rect width="70" height="24" class="tag-bg" /><text x="35" y="16.5" text-anchor="middle" class="tag-text">Firebase</text></g>
-    <g transform="translate(80, 0)"><rect width="40" height="24" class="tag-bg" /><text x="20" y="16.5" text-anchor="middle" class="tag-text">Git</text></g>
-    <g transform="translate(130, 0)"><rect width="65" height="24" class="tag-bg" /><text x="32.5" y="16.5" text-anchor="middle" class="tag-text">GitHub</text></g>
+  <g transform="translate(640, 248)">
+    <rect width="70" height="24" class="tag-bg" /><text x="35" y="16.5" text-anchor="middle" class="tag-text">Firebase</text>
+  </g>
+  <g transform="translate(720, 248)">
+    <rect width="40" height="24" class="tag-bg" /><text x="20" y="16.5" text-anchor="middle" class="tag-text">Git</text>
+  </g>
+  <g transform="translate(770, 248)">
+    <rect width="65" height="24" class="tag-bg" /><text x="32.5" y="16.5" text-anchor="middle" class="tag-text">GitHub</text>
   </g>
   <!-- Row 2 of Cloud -->
-  <g transform="translate(605, 277)">
-    <g transform="translate(0, 0)"><rect width="70" height="24" class="tag-bg" /><text x="35" y="16.5" text-anchor="middle" class="tag-text">Postman</text></g>
-    <g transform="translate(80, 0)"><rect width="75" height="24" class="tag-bg" /><text x="37.5" y="16.5" text-anchor="middle" class="tag-text">PyCharm</text></g>
-    <g transform="translate(165, 0)"><rect width="75" height="24" class="tag-bg" /><text x="37.5" y="16.5" text-anchor="middle" class="tag-text">VS Code</text></g>
+  <g transform="translate(640, 277)">
+    <rect width="70" height="24" class="tag-bg" /><text x="35" y="16.5" text-anchor="middle" class="tag-text">Postman</text>
+  </g>
+  <g transform="translate(720, 277)">
+    <rect width="75" height="24" class="tag-bg" /><text x="37.5" y="16.5" text-anchor="middle" class="tag-text">PyCharm</text>
+  </g>
+  <g transform="translate(805, 277)">
+    <rect width="75" height="24" class="tag-bg" /><text x="37.5" y="16.5" text-anchor="middle" class="tag-text">VS Code</text>
   </g>
 
   <!-- ROW 4 -->
   <!-- Left Side: Core Areas (y=390) -->
   <circle cx="475" cy="390" r="5" class="node-dot" filter="url(#pink-glow)" />
   <line x1="475" y1="390" x2="445" y2="390" class="branch-line" />
-  <text x="435" y="395" class="category-title-left">Core Areas:</text>
-  <g transform="translate(25, 378)">
-    <g transform="translate(80, 0)"><rect width="145" height="24" class="tag-bg" /><text x="72.5" y="16.5" text-anchor="middle" class="tag-text">Full Stack Development</text></g>
-    <g transform="translate(235, 0)"><rect width="115" height="24" class="tag-bg" /><text x="57.5" y="16.5" text-anchor="middle" class="tag-text">AI Development</text></g>
+  <text x="30" y="395" class="category-title">Core Areas:</text>
+  <g transform="translate(160, 378)">
+    <rect width="150" height="24" class="tag-bg" /><text x="75" y="16.5" text-anchor="middle" class="tag-text">Full Stack Development</text>
+  </g>
+  <g transform="translate(320, 378)">
+    <rect width="110" height="24" class="tag-bg" /><text x="55" y="16.5" text-anchor="middle" class="tag-text">AI Development</text>
   </g>
 
   <!-- Right Side: Professional Strengths (y=390) -->
   <line x1="475" y1="390" x2="505" y2="390" class="branch-line" />
-  <text x="515" y="395" class="category-title-right">Strengths:</text>
+  <text x="510" y="395" class="category-title">Strengths:</text>
   <!-- Row 1 of Strengths -->
-  <g transform="translate(605, 358)">
-    <g transform="translate(0, 0)"><rect width="110" height="24" class="tag-bg" /><text x="55" y="16.5" text-anchor="middle" class="tag-text">Problem Solving</text></g>
-    <g transform="translate(120, 0)"><rect width="130" height="24" class="tag-bg" /><text x="65" y="16.5" text-anchor="middle" class="tag-text">Continuous Learning</text></g>
+  <g transform="translate(640, 358)">
+    <rect width="110" height="24" class="tag-bg" /><text x="55" y="16.5" text-anchor="middle" class="tag-text">Problem Solving</text>
+  </g>
+  <g transform="translate(760, 358)">
+    <rect width="130" height="24" class="tag-bg" /><text x="65" y="16.5" text-anchor="middle" class="tag-text">Continuous Learning</text>
   </g>
   <!-- Row 2 of Strengths -->
-  <g transform="translate(605, 387)">
-    <g transform="translate(0, 0)"><rect width="120" height="24" class="tag-bg" /><text x="60" y="16.5" text-anchor="middle" class="tag-text">Analytical Thinking</text></g>
+  <g transform="translate(640, 387)">
+    <rect width="120" height="24" class="tag-bg" /><text x="60" y="16.5" text-anchor="middle" class="tag-text">Analytical Thinking</text>
   </g>
 
 </svg>
