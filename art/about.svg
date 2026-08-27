@@ -1,12 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="850" height="260" viewBox="0 0 850 260">
   <defs>
-    <!-- Border Gradient -->
+    <!-- Border Gradient with shifting color stop animation -->
     <linearGradient id="border-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#cb8589" />
-      <stop offset="50%" stop-color="#b37579" />
-      <stop offset="100%" stop-color="#cb8589" />
+      <stop offset="0%" stop-color="#cb8589">
+        <animate attributeName="stop-color" values="#cb8589;#b37579;#cb8589" dur="6s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#b37579">
+        <animate attributeName="stop-color" values="#b37579;#ffffff;#b37579" dur="6s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#cb8589">
+        <animate attributeName="stop-color" values="#cb8589;#b37579;#cb8589" dur="6s" repeatCount="indefinite" />
+      </stop>
     </linearGradient>
-    <!-- Glow filter for dot and border -->
+    <!-- Glow filter for bullet dots -->
     <filter id="pink-glow" x="-20%" y="-20%" width="140%" height="140%">
       <feDropShadow dx="0" dy="0" stdDeviation="2" flood-color="#cb8589" flood-opacity="0.8" />
     </filter>
@@ -17,13 +23,6 @@
       stroke: url(#border-grad);
       stroke-width: 1.5;
       rx: 12;
-      stroke-dasharray: 180, 60;
-      animation: border-chase 10s linear infinite;
-    }
-    @keyframes border-chase {
-      to {
-        stroke-dashoffset: -2220; /* Perimeter = 2*(850+260) = 2220 */
-      }
     }
     .title {
       font-family: 'Space Mono', 'Segoe UI', monospace;
@@ -57,7 +56,7 @@
     }
   </style>
   
-  <!-- Outer card with animated outline -->
+  <!-- Outer card with solid gradient border -->
   <rect width="850" height="260" class="card-bg" />
   
   <!-- Header -->

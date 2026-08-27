@@ -1,273 +1,211 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="925" height="460" viewBox="0 0 925 460">
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="350" viewBox="0 0 920 350">
+  <defs>
+    <!-- Border Gradient -->
+    <linearGradient id="border-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#cb8589" />
+      <stop offset="100%" stop-color="#b37579" />
+    </linearGradient>
+    <!-- Glow Filter for central nodes and pulses -->
+    <filter id="glow" x="-25%" y="-25%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="0" stdDeviation="3" flood-color="#cb8589" flood-opacity="0.8" />
+    </filter>
+  </defs>
+  
   <style>
-    .card {
-      fill: #0d1117;
-      stroke: #cb8589;
+    .terminal-bg {
+      fill: #090d13;
+      stroke: #21262d;
       stroke-width: 1.5;
-      rx: 12;
+      rx: 8;
     }
-    .title {
-      font-family: 'Space Mono', 'Segoe UI', monospace;
-      font-size: 14.5px;
+    .log-line {
+      font-family: 'Space Mono', 'Fira Code', monospace;
+      font-size: 11.5px;
+      opacity: 0;
+      animation: log-fade 0.3s forwards;
+    }
+    @keyframes log-fade {
+      to { opacity: 1; }
+    }
+    
+    .cursor {
+      fill: #cb8589;
+      animation: blink 1s step-end infinite;
+    }
+    @keyframes blink {
+      50% { opacity: 0; }
+    }
+    
+    .conn-line {
+      stroke: #30363d;
+      stroke-width: 1.5;
+      stroke-dasharray: 4, 4;
+    }
+    
+    .core-wave {
+      animation: pulse-ring 3s cubic-bezier(0.215, 0.610, 0.355, 1) infinite;
+      transform-box: fill-box;
+      transform-origin: center;
+    }
+    @keyframes pulse-ring {
+      0% {
+        transform: scale(0.6);
+        opacity: 0.8;
+      }
+      80%, 100% {
+        transform: scale(1.4);
+        opacity: 0;
+      }
+    }
+    
+    .node-glow {
+      fill: #cb8589;
+      animation: node-pulse 2s infinite ease-in-out;
+      transform-box: fill-box;
+      transform-origin: center;
+    }
+    @keyframes node-pulse {
+      0%, 100% { transform: scale(1); opacity: 0.7; }
+      50% { transform: scale(1.25); opacity: 1; }
+    }
+    
+    .node-text-title {
+      font-family: 'Segoe UI', -apple-system, sans-serif;
+      font-size: 11.5px;
       font-weight: bold;
       fill: #ffffff;
     }
-    .tag-bg {
-      fill: #161b22;
-      rx: 8;
-      stroke: #30363d;
-      stroke-width: 0.8;
-    }
-    .tag-text {
+    
+    .node-text-sub {
       font-family: 'Segoe UI', -apple-system, sans-serif;
-      font-size: 11.5px;
-      fill: #c9d1d9;
-    }
-    .icon {
-      stroke: #cb8589;
-      stroke-linecap: round;
-      stroke-linejoin: round;
-      fill: none;
+      font-size: 9.5px;
+      fill: #8b949e;
     }
   </style>
-  
-  <!-- ROW 1 -->
-  <!-- Card 1: Languages -->
+
+  <!-- COLUMN 1: Terminal Window -->
   <g transform="translate(10, 10)">
-    <rect width="215" height="210" class="card" />
-    <!-- Code Tag Icon -->
-    <path class="icon" stroke-width="1.8" d="M 23 32 L 18 37 L 23 42 M 33 32 L 38 37 L 33 42 M 30 30 L 26 44" />
-    <text x="48" y="42" class="title">Languages</text>
+    <rect width="420" height="330" class="terminal-bg" />
     
-    <!-- Tags -->
-    <g transform="translate(15, 60)">
-      <rect width="60" height="24" class="tag-bg" />
-      <text x="30" y="16" text-anchor="middle" class="tag-text">Python</text>
-    </g>
-    <g transform="translate(85, 60)">
-      <rect width="50" height="24" class="tag-bg" />
-      <text x="25" y="16" text-anchor="middle" class="tag-text">Java</text>
-    </g>
-    <g transform="translate(145, 60)">
-      <rect width="55" height="24" class="tag-bg" />
-      <text x="27.5" y="16" text-anchor="middle" class="tag-text">SQL</text>
-    </g>
+    <!-- Header -->
+    <path d="M 0 30 L 420 30" stroke="#21262d" stroke-width="1.5" />
+    <circle cx="20" cy="15" r="4.5" fill="#ff5f56" />
+    <circle cx="32" cy="15" r="4.5" fill="#ffbd2e" />
+    <circle cx="44" cy="15" r="4.5" fill="#27c93f" />
+    <text x="65" y="19" font-family="monospace" font-size="10.5" fill="#8b949e">terminal - mounika@calibo-ai</text>
+    
+    <!-- Logging text output with sequence timing -->
+    <text x="20" y="60" class="log-line" style="animation-delay: 0s;" fill="#8b949e">
+      mounika@calibo-ai:~$ <tspan fill="#cb8589">calibo-ai --skills-catalog</tspan>
+    </text>
+    
+    <text x="20" y="85" class="log-line" style="animation-delay: 0.8s;" fill="#8b949e">
+      [info] Compiling portfolio skill structures...
+    </text>
+    
+    <text x="20" y="110" class="log-line" style="animation-delay: 1.4s;" fill="#8b949e">
+      [info] 8 categories analyzed and loaded.
+    </text>
+    
+    <!-- Category lists -->
+    <text x="20" y="135" class="log-line" style="animation-delay: 2.0s;" fill="#c9d1d9">
+      &gt; <tspan fill="#cb8589">Languages:</tspan> Python, Java, SQL
+    </text>
+    
+    <text x="20" y="160" class="log-line" style="animation-delay: 2.5s;" fill="#c9d1d9">
+      &gt; <tspan fill="#cb8589">AI &amp; ML:</tspan> ML, NLP, YOLO, Hugging Face
+    </text>
+    
+    <text x="20" y="185" class="log-line" style="animation-delay: 3.0s;" fill="#c9d1d9">
+      &gt; <tspan fill="#cb8589">Web Dev:</tspan> HTML/CSS, JS, Bootstrap
+    </text>
+    
+    <text x="20" y="210" class="log-line" style="animation-delay: 3.5s;" fill="#c9d1d9">
+      &gt; <tspan fill="#cb8589">Cloud/DevOps:</tspan> EKS, Docker, Terraform
+    </text>
+    
+    <text x="20" y="235" class="log-line" style="animation-delay: 4.0s;" fill="#c9d1d9">
+      &gt; <tspan fill="#cb8589">Databases:</tspan> MySQL, MongoDB, Firebase
+    </text>
+    
+    <text x="20" y="260" class="log-line" style="animation-delay: 4.5s;" fill="#c9d1d9">
+      &gt; <tspan fill="#cb8589">Strengths:</tspan> Problem Solving, Continuous Learning
+    </text>
+    
+    <!-- Success log -->
+    <text x="20" y="295" class="log-line" style="animation-delay: 5.2s;" fill="#4AF2A1">
+      [success] System status: OPTIMIZED &amp; STABLE
+    </text>
+    
+    <!-- Blinking Cursor -->
+    <rect x="290" y="285" width="7" height="13" class="cursor" style="animation-delay: 5.2s;" />
   </g>
-  
-  <!-- Card 2: AI & ML -->
-  <g transform="translate(240, 10)">
-    <rect width="215" height="210" class="card" />
-    <!-- Brain Icon -->
-    <path class="icon" stroke-width="1.8" d="M 26 27 A 4.5 4.5 0 0 0 22 35 A 3.5 3.5 0 0 0 23 41 A 4.5 4.5 0 0 0 28 43 M 28 27 A 4.5 4.5 0 0 1 32 35 A 3.5 3.5 0 0 1 31 41 A 4.5 4.5 0 0 1 26 43" />
-    <text x="48" y="42" class="title">AI &amp; ML</text>
+
+  <!-- COLUMN 2: Neural Network Skill Graph -->
+  <g transform="translate(450, 10)">
+    <!-- Connections -->
+    <line x1="230" y1="165" x2="110" y2="80" class="conn-line" />
+    <line x1="230" y1="165" x2="230" y2="50" class="conn-line" />
+    <line x1="230" y1="165" x2="350" y2="80" class="conn-line" />
+    <line x1="230" y1="165" x2="350" y2="250" class="conn-line" />
+    <line x1="230" y1="165" x2="230" y2="280" class="conn-line" />
+    <line x1="230" y1="165" x2="110" y2="250" class="conn-line" />
     
-    <!-- Tags -->
-    <g transform="translate(15, 55)">
-      <rect width="115" height="24" class="tag-bg" />
-      <text x="57.5" y="16" text-anchor="middle" class="tag-text">Machine Learning</text>
-    </g>
-    <g transform="translate(140, 55)">
-      <rect width="60" height="24" class="tag-bg" />
-      <text x="30" y="16" text-anchor="middle" class="tag-text">NLP</text>
-    </g>
+    <!-- Animated Light Pulses flowing from Core to Nodes -->
+    <circle r="3" fill="#ffffff" filter="url(#glow)">
+      <animateMotion dur="2.5s" repeatCount="indefinite" path="M 230,165 L 110,80" />
+    </circle>
+    <circle r="3" fill="#ffffff" filter="url(#glow)">
+      <animateMotion dur="3s" repeatCount="indefinite" path="M 230,165 L 230,50" />
+    </circle>
+    <circle r="3" fill="#ffffff" filter="url(#glow)">
+      <animateMotion dur="2.8s" repeatCount="indefinite" path="M 230,165 L 350,80" />
+    </circle>
+    <circle r="3" fill="#ffffff" filter="url(#glow)">
+      <animateMotion dur="2.4s" repeatCount="indefinite" path="M 230,165 L 350,250" />
+    </circle>
+    <circle r="3" fill="#ffffff" filter="url(#glow)">
+      <animateMotion dur="3.2s" repeatCount="indefinite" path="M 230,165 L 230,280" />
+    </circle>
+    <circle r="3" fill="#ffffff" filter="url(#glow)">
+      <animateMotion dur="2.6s" repeatCount="indefinite" path="M 230,165 L 110,250" />
+    </circle>
     
-    <g transform="translate(15, 90)">
-      <rect width="105" height="24" class="tag-bg" />
-      <text x="52.5" y="16" text-anchor="middle" class="tag-text">Computer Vision</text>
-    </g>
-    <g transform="translate(130, 90)">
-      <rect width="70" height="24" class="tag-bg" />
-      <text x="35" y="16" text-anchor="middle" class="tag-text">YOLO</text>
-    </g>
+    <!-- Central Core -->
+    <circle cx="230" cy="165" r="28" class="core-wave" fill="none" stroke="#cb8589" stroke-width="1.5" />
+    <circle cx="230" cy="165" r="42" class="core-wave" fill="none" stroke="#cb8589" stroke-width="1" />
+    <circle cx="230" cy="165" r="14" fill="#cb8589" filter="url(#glow)" />
+    <text x="230" y="168" text-anchor="middle" font-family="'Space Mono', monospace" font-size="8.5" font-weight="bold" fill="#ffffff">AI</text>
     
-    <g transform="translate(15, 125)">
-      <rect width="85" height="24" class="tag-bg" />
-      <text x="42.5" y="16" text-anchor="middle" class="tag-text">Generative AI</text>
-    </g>
-    <g transform="translate(110, 125)">
-      <rect width="90" height="24" class="tag-bg" />
-      <text x="45" y="16" text-anchor="middle" class="tag-text">Hugging Face</text>
-    </g>
+    <!-- Outer Skill Nodes -->
+    <!-- Node 1: AI / ML -->
+    <circle cx="110" cy="80" r="6" class="node-glow" filter="url(#glow)" />
+    <text x="110" y="62" text-anchor="middle" class="node-text-title">AI &amp; ML</text>
+    <text x="110" y="96" text-anchor="middle" class="node-text-sub">YOLO · NLP · ML</text>
     
-    <g transform="translate(15, 160)">
-      <rect width="50" height="24" class="tag-bg" />
-      <text x="25" y="16" text-anchor="middle" class="tag-text">LLMs</text>
-    </g>
-    <g transform="translate(75, 160)">
-      <rect width="125" height="24" class="tag-bg" />
-      <text x="62.5" y="16" text-anchor="middle" class="tag-text">Prompt Engineering</text>
-    </g>
-  </g>
-  
-  <!-- Card 3: Web development -->
-  <g transform="translate(470, 10)">
-    <rect width="215" height="210" class="card" />
-    <!-- Monitor Icon -->
-    <rect x="18" y="27" width="20" height="13" rx="1.5" class="icon" stroke-width="1.8" />
-    <path class="icon" stroke-width="1.8" d="M 24 40 L 22 44 L 34 44 L 32 40" />
-    <text x="48" y="42" class="title">Web development</text>
+    <!-- Node 2: Cloud / DevOps -->
+    <circle cx="230" cy="50" r="6" class="node-glow" filter="url(#glow)" />
+    <text x="230" y="32" text-anchor="middle" class="node-text-title">Cloud &amp; DevOps</text>
+    <text x="230" y="66" text-anchor="middle" class="node-text-sub">Kubernetes · AWS · Docker</text>
     
-    <!-- Tags -->
-    <g transform="translate(15, 60)">
-      <rect width="50" height="24" class="tag-bg" />
-      <text x="25" y="16" text-anchor="middle" class="tag-text">HTML</text>
-    </g>
-    <g transform="translate(75, 60)">
-      <rect width="45" height="24" class="tag-bg" />
-      <text x="22.5" y="16" text-anchor="middle" class="tag-text">CSS</text>
-    </g>
-    <g transform="translate(130, 60)">
-      <rect width="70" height="24" class="tag-bg" />
-      <text x="35" y="16" text-anchor="middle" class="tag-text">JavaScript</text>
-    </g>
+    <!-- Node 3: Web Dev -->
+    <circle cx="350" cy="80" r="6" class="node-glow" filter="url(#glow)" />
+    <text x="350" y="62" text-anchor="middle" class="node-text-title">Web Dev</text>
+    <text x="350" y="96" text-anchor="middle" class="node-text-sub">HTML/CSS · JS · Bootstrap</text>
     
-    <g transform="translate(15, 95)">
-      <rect width="60" height="24" class="tag-bg" />
-      <text x="30" y="16" text-anchor="middle" class="tag-text">jQuery</text>
-    </g>
-    <g transform="translate(85, 95)">
-      <rect width="50" height="24" class="tag-bg" />
-      <text x="25" y="16" text-anchor="middle" class="tag-text">DOM</text>
-    </g>
-    <g transform="translate(145, 95)">
-      <rect width="55" height="24" class="tag-bg" />
-      <text x="27.5" y="16" text-anchor="middle" class="tag-text">Bootstrap</text>
-    </g>
-  </g>
-  
-  <!-- Card 4: Frameworks -->
-  <g transform="translate(700, 10)">
-    <rect width="215" height="210" class="card" />
-    <!-- Stack Icon -->
-    <path class="icon" stroke-width="1.8" d="M 18 31 L 28 27 L 38 31 L 28 35 Z M 18 35 L 28 39 L 38 35 M 18 39 L 28 43 L 38 39" />
-    <text x="48" y="42" class="title">Frameworks</text>
+    <!-- Node 4: Programming -->
+    <circle cx="350" cy="250" r="6" class="node-glow" filter="url(#glow)" />
+    <text x="350" y="234" text-anchor="middle" class="node-text-title">Programming</text>
+    <text x="350" y="267" text-anchor="middle" class="node-text-sub">Python · Java · SQL</text>
     
-    <!-- Tags -->
-    <g transform="translate(15, 55)">
-      <rect width="85" height="24" class="tag-bg" />
-      <text x="42.5" y="16" text-anchor="middle" class="tag-text">TensorFlow</text>
-    </g>
-    <g transform="translate(110, 55)">
-      <rect width="90" height="24" class="tag-bg" />
-      <text x="45" y="16" text-anchor="middle" class="tag-text">Scikit-learn</text>
-    </g>
+    <!-- Node 5: Databases -->
+    <circle cx="230" cy="280" r="6" class="node-glow" filter="url(#glow)" />
+    <text x="230" y="264" text-anchor="middle" class="node-text-title">Databases</text>
+    <text x="230" y="297" text-anchor="middle" class="node-text-sub">MySQL · MongoDB · Firebase</text>
     
-    <g transform="translate(15, 90)">
-      <rect width="65" height="24" class="tag-bg" />
-      <text x="32.5" y="16" text-anchor="middle" class="tag-text">OpenCV</text>
-    </g>
-    <g transform="translate(90, 90)">
-      <rect width="65" height="24" class="tag-bg" />
-      <text x="32.5" y="16" text-anchor="middle" class="tag-text">React.js</text>
-    </g>
-    
-    <g transform="translate(15, 125)">
-      <rect width="70" height="24" class="tag-bg" />
-      <text x="35" y="16" text-anchor="middle" class="tag-text">Streamlit</text>
-    </g>
-    <g transform="translate(95, 125)">
-      <rect width="60" height="24" class="tag-bg" />
-      <text x="30" y="16" text-anchor="middle" class="tag-text">FastAPI</text>
-    </g>
-  </g>
-  
-  <!-- ROW 2 -->
-  <!-- Card 5: Databases -->
-  <g transform="translate(10, 240)">
-    <rect width="215" height="210" class="card" />
-    <!-- Database Icon -->
-    <path class="icon" stroke-width="1.8" d="M 18 30 A 10 3.5 0 0 0 38 30 A 10 3.5 0 0 0 18 30 M 18 30 V 35 A 10 3.5 0 0 0 38 35 V 30 M 18 35 V 40 A 10 3.5 0 0 0 38 40 V 35" />
-    <text x="48" y="42" class="title">Databases</text>
-    
-    <!-- Tags -->
-    <g transform="translate(15, 60)">
-      <rect width="55" height="24" class="tag-bg" />
-      <text x="27.5" y="16" text-anchor="middle" class="tag-text">MySQL</text>
-    </g>
-    <g transform="translate(80, 60)">
-      <rect width="70" height="24" class="tag-bg" />
-      <text x="35" y="16" text-anchor="middle" class="tag-text">MongoDB</text>
-    </g>
-    <g transform="translate(15, 95)">
-      <rect width="65" height="24" class="tag-bg" />
-      <text x="32.5" y="16" text-anchor="middle" class="tag-text">Firebase</text>
-    </g>
-  </g>
-  
-  <!-- Card 6: Cloud & Tools -->
-  <g transform="translate(240, 240)">
-    <rect width="215" height="210" class="card" />
-    <!-- Wrench Tool Icon -->
-    <path class="icon" stroke-width="1.8" d="M 19 39 L 27 31 M 23 27 A 4 4 0 0 1 31 35 L 35 39 M 32 32 A 4 4 0 0 0 28 28" />
-    <text x="48" y="42" class="title">Cloud &amp; Tools</text>
-    
-    <!-- Tags -->
-    <g transform="translate(15, 55)">
-      <rect width="65" height="24" class="tag-bg" />
-      <text x="32.5" y="16" text-anchor="middle" class="tag-text">Firebase</text>
-    </g>
-    <g transform="translate(90, 55)">
-      <rect width="40" height="24" class="tag-bg" />
-      <text x="20" y="16" text-anchor="middle" class="tag-text">Git</text>
-    </g>
-    <g transform="translate(140, 55)">
-      <rect width="60" height="24" class="tag-bg" />
-      <text x="30" y="16" text-anchor="middle" class="tag-text">GitHub</text>
-    </g>
-    
-    <g transform="translate(15, 90)">
-      <rect width="70" height="24" class="tag-bg" />
-      <text x="35" y="16" text-anchor="middle" class="tag-text">Postman</text>
-    </g>
-    <g transform="translate(95, 90)">
-      <rect width="70" height="24" class="tag-bg" />
-      <text x="35" y="16" text-anchor="middle" class="tag-text">PyCharm</text>
-    </g>
-    
-    <g transform="translate(15, 125)">
-      <rect width="70" height="24" class="tag-bg" />
-      <text x="35" y="16" text-anchor="middle" class="tag-text">VS Code</text>
-    </g>
-  </g>
-  
-  <!-- Card 7: Core Areas -->
-  <g transform="translate(470, 240)">
-    <rect width="215" height="210" class="card" />
-    <!-- Microchip Icon -->
-    <rect x="20" y="27" width="16" height="16" rx="2" class="icon" stroke-width="1.8" />
-    <path class="icon" stroke-width="1.8" d="M 28 23 L 28 27 M 32 23 L 32 27 M 28 43 L 28 47 M 32 43 L 32 47 M 16 31 L 20 31 M 16 35 L 20 35 M 36 31 L 40 31 M 36 35 L 40 35" />
-    <text x="48" y="42" class="title">Core Areas</text>
-    
-    <!-- Tags -->
-    <g transform="translate(15, 60)">
-      <rect width="145" height="24" class="tag-bg" />
-      <text x="72.5" y="16" text-anchor="middle" class="tag-text">Full Stack Development</text>
-    </g>
-    <g transform="translate(15, 95)">
-      <rect width="95" height="24" class="tag-bg" />
-      <text x="47.5" y="16" text-anchor="middle" class="tag-text">Data Analytics</text>
-    </g>
-  </g>
-  
-  <!-- Card 8: Professional Strengths -->
-  <g transform="translate(700, 240)">
-    <rect width="215" height="210" class="card" />
-    <!-- Lightbulb Icon -->
-    <path class="icon" stroke-width="1.8" d="M 23 31 a 4 4 0 0 1 8 0 c 0 2 -1 3 -2 4 M 29 35 c -1 1 -2 2 -2 4 M 25 39.5 h 4" />
-    <text x="48" y="42" class="title">Strengths</text>
-    
-    <!-- Tags -->
-    <g transform="translate(15, 60)">
-      <rect width="105" height="24" class="tag-bg" />
-      <text x="52.5" y="16" text-anchor="middle" class="tag-text">Problem Solving</text>
-    </g>
-    <g transform="translate(15, 95)">
-      <rect width="130" height="24" class="tag-bg" />
-      <text x="65" y="16" text-anchor="middle" class="tag-text">Continuous Learning</text>
-    </g>
-    <g transform="translate(15, 130)">
-      <rect width="125" height="24" class="tag-bg" />
-      <text x="62.5" y="16" text-anchor="middle" class="tag-text">Analytical Thinking</text>
-    </g>
+    <!-- Node 6: Tools & Strengths -->
+    <circle cx="110" cy="250" r="6" class="node-glow" filter="url(#glow)" />
+    <text x="110" y="234" text-anchor="middle" class="node-text-title">Strengths</text>
+    <text x="110" y="267" text-anchor="middle" class="node-text-sub">Git · Postman · Problem Solving</text>
   </g>
 </svg>

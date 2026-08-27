@@ -21,14 +21,6 @@
 <br>
 
 <div align="center">
-  <img src="art/separator.svg" width="100%" />
-</div>
-
-<br>
-
-## ABOUT ME
-
-<div align="center">
   <img src="art/about.svg" width="100%" alt="About Me" />
 </div>
 
@@ -59,34 +51,34 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>🤖 Fashion Recommendation System</h3>
-      <p>AI-powered recommendation application using state-of-the-art architectures.</p>
-      <sub>NLP · TF-IDF · Generative AI · Streamlit</sub>
+      <h3>🧠 AI Medical Assistant</h3>
+      <p>An intelligent healthcare assistant designed to assist with medical inquiries and preliminary symptom analysis using advanced NLP and ML models.</p>
+      <sub>AI · Machine Learning · Medical NLP · Diagnosis</sub>
       <br><br>
-      <a href="https://github.com/mounikarayapalli"><b>Repository →</b></a>
+      <a href="https://github.com/mounikarayapalli/AI-Medical-Assistant" target="_blank"><b>Repository →</b></a>
     </td>
     <td width="50%" valign="top">
-      <h3>👁️ Disease Detection System</h3>
-      <p>Computer-vision-based disease detection from medical X-ray imaging.</p>
-      <sub>Deep Learning · TensorFlow · Computer Vision · Image Classification</sub>
+      <h3>💼 Developer Portfolio</h3>
+      <p>Personal developer portfolio website designed to showcase projects, technical skills, and internship history with a fully responsive layout.</p>
+      <sub>React · HTML · CSS · JavaScript</sub>
       <br><br>
-      <a href="https://github.com/mounikarayapalli"><b>Repository →</b></a>
+      <a href="https://github.com/mounikarayapalli/mounika-portfolio" target="_blank"><b>Repository →</b></a>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>🎮 TEKKEN-MOTION</h3>
-      <p>Gesture-controlled gaming interaction system via webcam detection.</p>
-      <sub>MediaPipe · OpenCV · Computer Vision · Gesture Recognition</sub>
+      <h3>🎓 TECH-DESIRE</h3>
+      <p>Interactive educational platform for software engineering trainees, offering dynamic study paths and automated quiz validations.</p>
+      <sub>HTML · CSS · JavaScript · Bootstrap</sub>
       <br><br>
-      <a href="https://github.com/mounikarayapalli"><b>Repository →</b></a>
+      <a href="https://github.com/mounikarayapalli/TECH-DESIRE" target="_blank"><b>Repository →</b></a>
     </td>
     <td width="50%" valign="top">
-      <h3>☁️ Kubernetes AWS EKS</h3>
-      <p>Automated Kubernetes cluster deployment with load balancing on AWS.</p>
-      <sub>AWS · EKS · Kubernetes · EC2 · Load Balancing</sub>
+      <h3>🍽️ Restaurant Landing Page</h3>
+      <p>A premium responsive restaurant landing page featuring interactive menus, booking showcases, and staff profiles.</p>
+      <sub>HTML · CSS · JavaScript · Responsive Design</sub>
       <br><br>
-      <a href="https://github.com/mounikarayapalli"><b>Repository →</b></a>
+      <a href="https://github.com/mounikarayapalli/restaurant-landing-page" target="_blank"><b>Repository →</b></a>
     </td>
   </tr>
 </table>
