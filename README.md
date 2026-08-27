@@ -1,7 +1,5 @@
 <div align="center">
-
 <br>
-
 <!-- Centered Name Heading -->
 <h1 align="center">Hey there , I'm Mounika Rayapalli</h1>
 
