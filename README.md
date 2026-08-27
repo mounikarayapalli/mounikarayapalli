@@ -48,39 +48,9 @@
 
 ## 📂 Featured Projects
 
-> ### 🧠 [AI Medical Assistant](https://github.com/mounikarayapalli/AI-Medical-Assistant)
-> An intelligent healthcare assistant designed to assist with medical inquiries and symptom analysis using advanced NLP and ML models.
->
-> `AI` · `Machine Learning` · `Medical NLP` · `Diagnosis`
->
-> 📂 **[View Repository →](https://github.com/mounikarayapalli/AI-Medical-Assistant)**
-
-<br>
-
-> ### 💼 [Developer Portfolio](https://github.com/mounikarayapalli/mounika-portfolio)
-> Personal developer portfolio website designed to showcase projects, technical skills, and internship history with a responsive layout.
->
-> `React` · `HTML` · `CSS` · `JavaScript`
->
-> 📂 **[View Repository →](https://github.com/mounikarayapalli/mounika-portfolio)**
-
-<br>
-
-> ### 🎓 [TECH-DESIRE](https://github.com/mounikarayapalli/TECH-DESIRE)
-> Interactive educational platform for software engineering trainees, offering dynamic study paths and automated quiz validations.
->
-> `HTML` · `CSS` · `JavaScript` · `Bootstrap`
->
-> 📂 **[View Repository →](https://github.com/mounikarayapalli/TECH-DESIRE)**
-
-<br>
-
-> ### 🍽️ [Restaurant Landing Page](https://github.com/mounikarayapalli/restaurant-landing-page)
-> A premium responsive restaurant landing page featuring interactive menus, booking showcases, and staff profiles.
->
-> `HTML` · `CSS` · `JavaScript` · `Responsive Design`
->
-> 📂 **[View Repository →](https://github.com/mounikarayapalli/restaurant-landing-page)**
+<div align="center">
+  <img src="art/projects.svg" width="100%" alt="Featured Projects" />
+</div>
 
 <br>
 
