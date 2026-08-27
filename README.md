@@ -5,22 +5,38 @@
 
 <br><br>
 
-<!-- Typing SVG Intro -->
-<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=22&pause=1000&color=EF93C4&center=true&vCenter=true&width=600&lines=AI+Trainee+at+Calibo+AI+Academy;Machine+Learning+Enthusiast;Deep+Learning+Explorer;Generative+AI+%26+LLM+Learner;Computer+Vision+Developer;Python+%26+Java+Developer;Building+Practical+AI+Solutions" alt="Typing SVG" />
+<!-- 1. The name centered -->
+# Hey there , I'm Mounika Rayapalli
+
+<!-- 3. AI Trainee bold in theme color -->
+<img src="art/role.svg" alt="AI Trainee at Calibo AI Academy" width="380" />
 
 <br>
 
-<!-- Social Badges with hover-like gradients -->
-[![Portfolio](https://img.shields.io/badge/Portfolio-EF93C4?style=for-the-badge&logo=vercel&logoColor=white)](https://mounika-rayapalli-portfolio.vercel.app/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-F8BBD0?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rayapalli-mounika/)
-[![Email](https://img.shields.io/badge/Email-FF69B4?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rayapallymounika@gmail.com)
+<!-- 4. Tag lines with animation typing in normal text theme color -->
+<img src="https://readme-typing-svg.demolab.com/?font=Space+Mono&size=18&pause=1000&color=7A1F5C&center=true&vCenter=true&width=600&lines=Machine+Learning+Enthusiast;Deep+Learning+Explorer;Generative+AI+%26+LLM+Learner;Computer+Vision+Developer;Python+%26+Java+Developer;Building+Practical+AI+Solutions" alt="Typing SVG" />
+
+<br><br>
+
+<!-- 5. Fancy Animated Buttons -->
+<a href="https://mounika-rayapalli-portfolio.vercel.app/" target="_blank">
+  <img src="art/btn-portfolio.svg" height="40" alt="My Portfolio" />
+</a>
+&nbsp;&nbsp;
+<a href="https://www.linkedin.com/in/rayapalli-mounika/" target="_blank">
+  <img src="art/btn-linkedin.svg" height="40" alt="LinkedIn" />
+</a>
+&nbsp;&nbsp;
+<a href="mailto:rayapallymounika@gmail.com">
+  <img src="art/btn-email.svg" height="40" alt="Email Me" />
+</a>
 
 </div>
 
 <br>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/andryback/andryback/main/assets/line-neon.gif" width="100%" height="3px" />
+  <img src="art/separator.svg" width="100%" />
 </div>
 
 <br>
@@ -37,7 +53,7 @@ I'm a Computer Science Engineering student and AI Trainee focused on developing 
 <br>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/andryback/andryback/main/assets/line-neon.gif" width="100%" height="3px" />
+  <img src="art/separator.svg" width="100%" />
 </div>
 
 <br>
@@ -48,19 +64,19 @@ I'm a Computer Science Engineering student and AI Trainee focused on developing 
 
 | Category | Technologies |
 | :--- | :--- |
-| **AI / Machine Learning** | <img src="https://skillicons.dev/icons?i=python,tensorflow,opencv&theme=dark" /><br><img src="https://img.shields.io/badge/Keras-EF93C4?style=flat-square&logo=keras&logoColor=white" /> <img src="https://img.shields.io/badge/YOLO-F8BBD0?style=flat-square&logoColor=white" /> <img src="https://img.shields.io/badge/Hugging%20Face-FF69B4?style=flat-square&logo=huggingface&logoColor=white" /> |
+| **AI / Machine Learning** | <img src="https://skillicons.dev/icons?i=python,tensorflow,opencv&theme=dark" /><br><img src="https://img.shields.io/badge/Keras-7A1F5C?style=flat-square&logo=keras&logoColor=white" /> <img src="https://img.shields.io/badge/YOLO-8B2D6B?style=flat-square&logoColor=white" /> <img src="https://img.shields.io/badge/Hugging%20Face-7A1F5C?style=flat-square&logo=huggingface&logoColor=white" /> |
 | **Programming** | <img src="https://skillicons.dev/icons?i=python,java&theme=dark" /> |
 | **Web Development** | <img src="https://skillicons.dev/icons?i=html,css,js,bootstrap&theme=dark" /> |
 | **Databases** | <img src="https://skillicons.dev/icons?i=mysql,mongodb&theme=dark" /> |
 | **Cloud & DevOps** | <img src="https://skillicons.dev/icons?i=aws,docker,kubernetes,terraform&theme=dark" /> |
-| **Tools & Platforms** | <img src="https://skillicons.dev/icons?i=git,github,vscode,pycharm&theme=dark" /><br><img src="https://img.shields.io/badge/Streamlit-EF93C4?style=flat-square&logo=streamlit&logoColor=white" /> |
+| **Tools & Platforms** | <img src="https://skillicons.dev/icons?i=git,github,vscode,pycharm&theme=dark" /><br><img src="https://img.shields.io/badge/Streamlit-8B2D6B?style=flat-square&logo=streamlit&logoColor=white" /> |
 
 </div>
 
 <br>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/andryback/andryback/main/assets/line-neon.gif" width="100%" height="3px" />
+  <img src="art/separator.svg" width="100%" />
 </div>
 
 <br>
@@ -105,7 +121,7 @@ I'm a Computer Science Engineering student and AI Trainee focused on developing 
 <br>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/andryback/andryback/main/assets/line-neon.gif" width="100%" height="3px" />
+  <img src="art/separator.svg" width="100%" />
 </div>
 
 <br>
@@ -131,7 +147,7 @@ I'm a Computer Science Engineering student and AI Trainee focused on developing 
 <br>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/andryback/andryback/main/assets/line-neon.gif" width="100%" height="3px" />
+  <img src="art/separator.svg" width="100%" />
 </div>
 
 <br>
@@ -140,24 +156,24 @@ I'm a Computer Science Engineering student and AI Trainee focused on developing 
 
 <div align="center">
 
-<!-- Custom styled Stats and Languages to match pink/purple theme -->
-<img src="https://github-readme-stats.vercel.app/api?username=mounikarayapalli&show_icons=true&hide_border=true&hide_title=true&text_color=F8BBD0&icon_color=FF69B4&bg_color=0D1117&title_color=EF93C4" width="48%" alt="GitHub Stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mounikarayapalli&layout=compact&hide_border=true&hide_title=true&text_color=F8BBD0&bg_color=0D1117&title_color=EF93C4" width="35%" alt="Top Languages" />
+<!-- Custom styled Stats and Languages to match pink/plum theme -->
+<img src="https://github-readme-stats.vercel.app/api?username=mounikarayapalli&show_icons=true&hide_border=true&hide_title=true&text_color=7A1F5C&icon_color=8B2D6B&bg_color=00000000&title_color=8B2D6B" width="48%" alt="GitHub Stats" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mounikarayapalli&layout=compact&hide_border=true&hide_title=true&text_color=7A1F5C&bg_color=00000000&title_color=8B2D6B" width="35%" alt="Top Languages" />
 
 <br><br>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=mounikarayapalli&hide_border=true&background=0D1117&ring=EF93C4&fire=FF69B4&currStreakLabel=F8BBD0&sideLabels=F8BBD0&currStreakNum=F8BBD0&sideNums=F8BBD0&dates=F8BBD0" width="65%" alt="GitHub Streak" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=mounikarayapalli&hide_border=true&background=00000000&ring=7A1F5C&fire=8B2D6B&currStreakLabel=7A1F5C&sideLabels=7A1F5C&currStreakNum=8B2D6B&sideNums=8B2D6B&dates=444444" width="65%" alt="GitHub Streak" />
 
 <br><br>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=mounikarayapalli&theme=react-dark&hide_border=true&bg_color=0D1117&color=F8BBD0&line=FF69B4&point=EF93C4&area=true&area_color=EF93C4" width="90%" alt="Contribution Activity Graph" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=mounikarayapalli&theme=react-dark&hide_border=true&bg_color=00000000&color=8B2D6B&line=7A1F5C&point=8B2D6B&area=true&area_color=7A1F5C" width="90%" alt="Contribution Activity Graph" />
 
 </div>
 
 <br>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/andryback/andryback/main/assets/line-neon.gif" width="100%" height="3px" />
+  <img src="art/separator.svg" width="100%" />
 </div>
 
 <br>
@@ -174,7 +190,7 @@ I'm a Computer Science Engineering student and AI Trainee focused on developing 
 
 <div align="center">
 
-<!-- Capsule Render waving footer -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:EF93C4,50:F8BBD0,100:FF69B4&height=110&section=footer" width="100%" />
+<!-- Capsule Render waving footer with pink/plum colors -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7A1F5C,50:8B2D6B,100:7A1F5C&height=110&section=footer" width="100%" />
 
 </div>
