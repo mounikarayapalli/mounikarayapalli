@@ -60,7 +60,7 @@
 
 <br>
 
-### 💼 Work Experience
+### Work Experience
 
 <div align="center">
   <img src="art/experience.svg" width="100%" alt="Work Experience" />
