@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="920" height="350" viewBox="0 0 920 350">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="350" viewBox="0 0 1000 350">
   <defs>
     <!-- Border Gradient -->
     <linearGradient id="border-grad" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -20,7 +20,7 @@
     }
     .log-line {
       font-family: 'Space Mono', 'Fira Code', monospace;
-      font-size: 11.5px;
+      font-size: 12px;
       opacity: 0;
       animation: log-fade 0.3s forwards;
     }
@@ -71,40 +71,40 @@
     
     .node-text-title {
       font-family: 'Segoe UI', -apple-system, sans-serif;
-      font-size: 11.5px;
+      font-size: 12.5px;
       font-weight: bold;
       fill: #ffffff;
     }
     
     .node-text-sub {
       font-family: 'Segoe UI', -apple-system, sans-serif;
-      font-size: 9.5px;
+      font-size: 10.5px;
       fill: #8b949e;
     }
   </style>
 
   <!-- COLUMN 1: Terminal Window -->
-  <g transform="translate(10, 10)">
-    <rect width="420" height="330" class="terminal-bg" />
+  <g transform="translate(15, 10)">
+    <rect width="430" height="330" class="terminal-bg" />
     
     <!-- Header -->
-    <path d="M 0 30 L 420 30" stroke="#21262d" stroke-width="1.5" />
+    <path d="M 0 30 L 430 30" stroke="#21262d" stroke-width="1.5" />
     <circle cx="20" cy="15" r="4.5" fill="#ff5f56" />
     <circle cx="32" cy="15" r="4.5" fill="#ffbd2e" />
     <circle cx="44" cy="15" r="4.5" fill="#27c93f" />
-    <text x="65" y="19" font-family="monospace" font-size="10.5" fill="#8b949e">terminal - mounika@calibo-ai</text>
+    <text x="65" y="19" font-family="monospace" font-size="11" fill="#8b949e">terminal - mounika@dev-env</text>
     
     <!-- Logging text output with sequence timing -->
     <text x="20" y="60" class="log-line" style="animation-delay: 0s;" fill="#8b949e">
-      mounika@calibo-ai:~$ <tspan fill="#cb8589">calibo-ai --skills-catalog</tspan>
+      mounika@developer:~$ <tspan fill="#cb8589">python -m profile.skills</tspan>
     </text>
     
     <text x="20" y="85" class="log-line" style="animation-delay: 0.8s;" fill="#8b949e">
-      [info] Compiling portfolio skill structures...
+      [status] Loading local skills database...
     </text>
     
     <text x="20" y="110" class="log-line" style="animation-delay: 1.4s;" fill="#8b949e">
-      [info] 8 categories analyzed and loaded.
+      [status] Technical proficiency compiled:
     </text>
     
     <!-- Category lists -->
@@ -121,7 +121,7 @@
     </text>
     
     <text x="20" y="210" class="log-line" style="animation-delay: 3.5s;" fill="#c9d1d9">
-      &gt; <tspan fill="#cb8589">Cloud/DevOps:</tspan> EKS, Docker, Terraform
+      &gt; <tspan fill="#cb8589">Frameworks:</tspan> TensorFlow, React, FastAPI
     </text>
     
     <text x="20" y="235" class="log-line" style="animation-delay: 4.0s;" fill="#c9d1d9">
@@ -129,83 +129,83 @@
     </text>
     
     <text x="20" y="260" class="log-line" style="animation-delay: 4.5s;" fill="#c9d1d9">
-      &gt; <tspan fill="#cb8589">Strengths:</tspan> Problem Solving, Continuous Learning
+      &gt; <tspan fill="#cb8589">Strengths:</tspan> Problem Solving, Learning
     </text>
     
     <!-- Success log -->
     <text x="20" y="295" class="log-line" style="animation-delay: 5.2s;" fill="#4AF2A1">
-      [success] System status: OPTIMIZED &amp; STABLE
+      [status] System status: OPTIMIZED &amp; ACTIVE
     </text>
     
     <!-- Blinking Cursor -->
-    <rect x="290" y="285" width="7" height="13" class="cursor" style="animation-delay: 5.2s;" />
+    <rect x="270" y="285" width="7" height="13" class="cursor" style="animation-delay: 5.2s;" />
   </g>
 
   <!-- COLUMN 2: Neural Network Skill Graph -->
-  <g transform="translate(450, 10)">
+  <g transform="translate(470, 10)">
     <!-- Connections -->
-    <line x1="230" y1="165" x2="110" y2="80" class="conn-line" />
-    <line x1="230" y1="165" x2="230" y2="50" class="conn-line" />
-    <line x1="230" y1="165" x2="350" y2="80" class="conn-line" />
-    <line x1="230" y1="165" x2="350" y2="250" class="conn-line" />
-    <line x1="230" y1="165" x2="230" y2="280" class="conn-line" />
-    <line x1="230" y1="165" x2="110" y2="250" class="conn-line" />
+    <line x1="250" y1="165" x2="100" y2="75" class="conn-line" />
+    <line x1="250" y1="165" x2="250" y2="45" class="conn-line" />
+    <line x1="250" y1="165" x2="400" y2="75" class="conn-line" />
+    <line x1="250" y1="165" x2="400" y2="255" class="conn-line" />
+    <line x1="250" y1="165" x2="250" y2="285" class="conn-line" />
+    <line x1="250" y1="165" x2="100" y2="255" class="conn-line" />
     
     <!-- Animated Light Pulses flowing from Core to Nodes -->
-    <circle r="3" fill="#ffffff" filter="url(#glow)">
-      <animateMotion dur="2.5s" repeatCount="indefinite" path="M 230,165 L 110,80" />
+    <circle r="3.5" fill="#ffffff" filter="url(#glow)">
+      <animateMotion dur="2.5s" repeatCount="indefinite" path="M 250,165 L 100,75" />
     </circle>
-    <circle r="3" fill="#ffffff" filter="url(#glow)">
-      <animateMotion dur="3s" repeatCount="indefinite" path="M 230,165 L 230,50" />
+    <circle r="3.5" fill="#ffffff" filter="url(#glow)">
+      <animateMotion dur="3s" repeatCount="indefinite" path="M 250,165 L 250,45" />
     </circle>
-    <circle r="3" fill="#ffffff" filter="url(#glow)">
-      <animateMotion dur="2.8s" repeatCount="indefinite" path="M 230,165 L 350,80" />
+    <circle r="3.5" fill="#ffffff" filter="url(#glow)">
+      <animateMotion dur="2.8s" repeatCount="indefinite" path="M 250,165 L 400,75" />
     </circle>
-    <circle r="3" fill="#ffffff" filter="url(#glow)">
-      <animateMotion dur="2.4s" repeatCount="indefinite" path="M 230,165 L 350,250" />
+    <circle r="3.5" fill="#ffffff" filter="url(#glow)">
+      <animateMotion dur="2.4s" repeatCount="indefinite" path="M 250,165 L 400,255" />
     </circle>
-    <circle r="3" fill="#ffffff" filter="url(#glow)">
-      <animateMotion dur="3.2s" repeatCount="indefinite" path="M 230,165 L 230,280" />
+    <circle r="3.5" fill="#ffffff" filter="url(#glow)">
+      <animateMotion dur="3.2s" repeatCount="indefinite" path="M 250,165 L 250,285" />
     </circle>
-    <circle r="3" fill="#ffffff" filter="url(#glow)">
-      <animateMotion dur="2.6s" repeatCount="indefinite" path="M 230,165 L 110,250" />
+    <circle r="3.5" fill="#ffffff" filter="url(#glow)">
+      <animateMotion dur="2.6s" repeatCount="indefinite" path="M 250,165 L 100,255" />
     </circle>
     
     <!-- Central Core -->
-    <circle cx="230" cy="165" r="28" class="core-wave" fill="none" stroke="#cb8589" stroke-width="1.5" />
-    <circle cx="230" cy="165" r="42" class="core-wave" fill="none" stroke="#cb8589" stroke-width="1" />
-    <circle cx="230" cy="165" r="14" fill="#cb8589" filter="url(#glow)" />
-    <text x="230" y="168" text-anchor="middle" font-family="'Space Mono', monospace" font-size="8.5" font-weight="bold" fill="#ffffff">AI</text>
+    <circle cx="250" cy="165" r="28" class="core-wave" fill="none" stroke="#cb8589" stroke-width="1.5" />
+    <circle cx="250" cy="165" r="42" class="core-wave" fill="none" stroke="#cb8589" stroke-width="1" />
+    <circle cx="250" cy="165" r="14" fill="#cb8589" filter="url(#glow)" />
+    <text x="250" y="168" text-anchor="middle" font-family="'Space Mono', monospace" font-size="9.5" font-weight="bold" fill="#ffffff">CORE</text>
     
     <!-- Outer Skill Nodes -->
     <!-- Node 1: AI / ML -->
-    <circle cx="110" cy="80" r="6" class="node-glow" filter="url(#glow)" />
-    <text x="110" y="62" text-anchor="middle" class="node-text-title">AI &amp; ML</text>
-    <text x="110" y="96" text-anchor="middle" class="node-text-sub">YOLO · NLP · ML</text>
+    <circle cx="100" cy="75" r="6.5" class="node-glow" filter="url(#glow)" />
+    <text x="100" y="55" text-anchor="middle" class="node-text-title">AI &amp; ML</text>
+    <text x="100" y="93" text-anchor="middle" class="node-text-sub">YOLO · NLP · ML · CV</text>
     
-    <!-- Node 2: Cloud / DevOps -->
-    <circle cx="230" cy="50" r="6" class="node-glow" filter="url(#glow)" />
-    <text x="230" y="32" text-anchor="middle" class="node-text-title">Cloud &amp; DevOps</text>
-    <text x="230" y="66" text-anchor="middle" class="node-text-sub">Kubernetes · AWS · Docker</text>
+    <!-- Node 2: Cloud / Tools -->
+    <circle cx="250" cy="45" r="6.5" class="node-glow" filter="url(#glow)" />
+    <text x="250" y="25" text-anchor="middle" class="node-text-title">Cloud &amp; Tools</text>
+    <text x="250" y="63" text-anchor="middle" class="node-text-sub">Git · GitHub · VS Code</text>
     
     <!-- Node 3: Web Dev -->
-    <circle cx="350" cy="80" r="6" class="node-glow" filter="url(#glow)" />
-    <text x="350" y="62" text-anchor="middle" class="node-text-title">Web Dev</text>
-    <text x="350" y="96" text-anchor="middle" class="node-text-sub">HTML/CSS · JS · Bootstrap</text>
+    <circle cx="400" cy="75" r="6.5" class="node-glow" filter="url(#glow)" />
+    <text x="400" y="55" text-anchor="middle" class="node-text-title">Web Dev</text>
+    <text x="400" y="93" text-anchor="middle" class="node-text-sub">HTML/CSS · JS · Bootstrap</text>
     
     <!-- Node 4: Programming -->
-    <circle cx="350" cy="250" r="6" class="node-glow" filter="url(#glow)" />
-    <text x="350" y="234" text-anchor="middle" class="node-text-title">Programming</text>
-    <text x="350" y="267" text-anchor="middle" class="node-text-sub">Python · Java · SQL</text>
+    <circle cx="400" cy="255" r="6.5" class="node-glow" filter="url(#glow)" />
+    <text x="400" y="238" text-anchor="middle" class="node-text-title">Programming</text>
+    <text x="400" y="273" text-anchor="middle" class="node-text-sub">Python · Java · SQL</text>
     
     <!-- Node 5: Databases -->
-    <circle cx="230" cy="280" r="6" class="node-glow" filter="url(#glow)" />
-    <text x="230" y="264" text-anchor="middle" class="node-text-title">Databases</text>
-    <text x="230" y="297" text-anchor="middle" class="node-text-sub">MySQL · MongoDB · Firebase</text>
+    <circle cx="250" cy="285" r="6.5" class="node-glow" filter="url(#glow)" />
+    <text x="250" y="268" text-anchor="middle" class="node-text-title">Databases</text>
+    <text x="250" y="303" text-anchor="middle" class="node-text-sub">MySQL · MongoDB · Firebase</text>
     
-    <!-- Node 6: Tools & Strengths -->
-    <circle cx="110" cy="250" r="6" class="node-glow" filter="url(#glow)" />
-    <text x="110" y="234" text-anchor="middle" class="node-text-title">Strengths</text>
-    <text x="110" y="267" text-anchor="middle" class="node-text-sub">Git · Postman · Problem Solving</text>
+    <!-- Node 6: Strengths -->
+    <circle cx="100" cy="255" r="6.5" class="node-glow" filter="url(#glow)" />
+    <text x="100" y="238" text-anchor="middle" class="node-text-title">Strengths</text>
+    <text x="100" y="273" text-anchor="middle" class="node-text-sub">Problem Solving · Learning</text>
   </g>
 </svg>

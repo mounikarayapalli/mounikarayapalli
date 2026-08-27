@@ -93,21 +93,17 @@
 
 ## 💼 Work Experience
 
-* **AI Trainee** @ Calibo AI Academy
-  * *Focusing on developing deep knowledge in AI, ML, and LLMs.*
-* **Cloud Infrastructure & DevOps Engineer Intern** @ BlackBucks Group
-  * *Worked on infrastructure provisioning, container orchestration, and cloud architecture.*
-* **Java Full Stack Developer Intern** @ AICTE EduSkills
-  * *Designed and built web applications using Java stacks.*
+<div align="center">
+  <img src="art/experience.svg" width="100%" alt="Work Experience" />
+</div>
 
 <br>
 
 ## 🏆 Certifications
 
-- 🐍 **Python Foundation Certification** – Infosys Springboard
-- 💻 **C Programming** – Spoken Tutorial Project, IIT Bombay
-- 🧠 **Introduction to Responsible AI** – Google Cloud Skills Boost
-- 🚀 **Pragati: Path to Future Program** – Infosys Springboard
+<div align="center">
+  <img src="art/certifications.svg" width="100%" alt="Certifications & Learning" />
+</div>
 
 <br>
 
