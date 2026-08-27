@@ -20,7 +20,7 @@
 
 
 
----
+
 Hi... I’m a **Computer Science Engineering student and AI Trainee** focused on developing practical skills in **Machine Learning, Deep Learning, Generative AI, LLMs, Python, Java, and Web Development**.
 
 I enjoy understanding how intelligent systems work, building projects from the ground up, and continuously improving through hands-on experimentation.
