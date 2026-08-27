@@ -28,18 +28,9 @@
 
 ## ABOUT ME
 
-<img src="art/devcard.svg" align="right" width="320" alt="mounika_rayapalli.json" />
-
-I’m a **Computer Science Engineering student and AI Trainee** focused on developing practical skills in **Machine Learning, Deep Learning, Generative AI, LLMs, Python, Java, and Web Development**.
-
-I enjoy understanding how intelligent systems work, building projects from the ground up, and continuously improving through hands-on experimentation.
-
-* --AI Trainee at **Calibo AI Academy**
-* --Developing interactive **Web Applications**
-* --Interested in solving real-world problems through technology
-* --Currently strengthening my skills through projects and practical learning
-
-<br clear="right" />
+<div align="center">
+  <img src="art/about.svg" width="100%" alt="About Me" />
+</div>
 
 <br>
 
