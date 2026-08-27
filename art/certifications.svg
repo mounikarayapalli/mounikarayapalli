@@ -1,40 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="850" height="350" viewBox="0 0 850 350">
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="440" viewBox="0 0 850 440">
   <defs>
-    <!-- Border Gradient -->
-    <linearGradient id="border-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#cb8589">
-        <animate attributeName="stop-color" values="#cb8589;#b37579;#cb8589" dur="6s" repeatCount="indefinite" />
-      </stop>
-      <stop offset="50%" stop-color="#b37579">
-        <animate attributeName="stop-color" values="#b37579;#ffffff;#b37579" dur="6s" repeatCount="indefinite" />
-      </stop>
-      <stop offset="100%" stop-color="#cb8589">
-        <animate attributeName="stop-color" values="#cb8589;#b37579;#cb8589" dur="6s" repeatCount="indefinite" />
-      </stop>
-    </linearGradient>
     <!-- Glow filter -->
     <filter id="pink-glow" x="-20%" y="-20%" width="140%" height="140%">
       <feDropShadow dx="0" dy="0" stdDeviation="2.5" flood-color="#cb8589" flood-opacity="0.8" />
     </filter>
   </defs>
+  
   <style>
-    .main-bg {
-      fill: #0d1117;
-      stroke: url(#border-grad);
-      stroke-width: 1.5;
-      rx: 12;
-    }
-    .title {
-      font-family: 'Space Mono', 'Segoe UI', monospace;
-      font-size: 15px;
-      font-weight: bold;
-      fill: #ffffff;
-    }
     .timeline-track {
       stroke: #21262d;
-      stroke-width: 3;
+      stroke-width: 2.5;
       stroke-linecap: round;
-      fill: none;
+    }
+    .branch-line {
+      stroke: #21262d;
+      stroke-width: 1.5;
+      stroke-linecap: round;
+      stroke-dasharray: 2, 2;
     }
     .node-dot {
       fill: #cb8589;
@@ -46,123 +28,109 @@
       0%, 100% { transform: scale(1); opacity: 0.6; }
       50% { transform: scale(1.35); opacity: 1; }
     }
-    .popover-bg {
+    .list-card {
       fill: #090d13;
-      stroke: #30363d;
-      stroke-width: 1;
-      rx: 6;
+      stroke: #21262d;
+      stroke-width: 1.2;
+      rx: 8;
+      transition: fill 0.3s;
+    }
+    .list-card:hover {
+      fill: #161b22;
     }
     .cert-title {
       font-family: 'Segoe UI', -apple-system, sans-serif;
-      font-size: 10px;
+      font-size: 13px;
       font-weight: bold;
       fill: #ffffff;
     }
-    .cert-issuer {
-      font-family: 'Segoe UI', -apple-system, sans-serif;
-      font-size: 8.5px;
-      fill: #cb8589;
-      font-weight: 600;
-    }
     .cert-desc {
       font-family: 'Segoe UI', -apple-system, sans-serif;
-      font-size: 8.5px;
+      font-size: 11px;
       fill: #8b949e;
+    }
+    .cert-issuer {
+      font-family: 'Segoe UI', -apple-system, sans-serif;
+      font-size: 11.5px;
+      fill: #cb8589;
+      font-weight: bold;
     }
   </style>
 
-  <!-- Background Card -->
-  <rect width="850" height="350" class="main-bg" />
+  <!-- Transparent Background -->
+  <rect width="850" height="440" fill="none" />
   
-  <!-- Header -->
-  <text x="25" y="35" class="title">🏆 CERTIFICATIONS ROADMAP</text>
-  <line x1="25" y1="45" x2="825" y2="45" stroke="#30363d" stroke-width="1" />
+  <!-- Vertical Track Line -->
+  <line x1="25" y1="20" x2="25" y2="420" class="timeline-track" />
   
-  <!-- Wavy Roadmap Path -->
-  <path d="M 80,180 Q 210,80 340,180 T 600,180 T 780,180" class="timeline-track" />
-  
-  <!-- Animated light pulse dot moving along the wavy track -->
-  <circle r="5" fill="#ffffff" filter="url(#pink-glow)">
-    <animateMotion dur="8s" repeatCount="indefinite" path="M 80,180 Q 210,80 340,180 T 600,180 T 780,180" />
+  <!-- Animated light pulse dot moving along the track -->
+  <circle r="4.5" fill="#ffffff" filter="url(#pink-glow)">
+    <animateMotion dur="7s" repeatCount="indefinite" path="M 25,20 L 25,420" />
   </circle>
   
-  <!-- Milestone Nodes & Popover Cards -->
-  <!-- Milestone 1: Hedera (x=80, y=180) -->
-  <circle cx="80" cy="180" r="6.5" class="node-dot" style="animation-delay: 0s;" filter="url(#pink-glow)" />
-  <g transform="translate(10, 65)">
-    <rect width="160" height="85" class="popover-bg" />
-    <g transform="translate(10, 15)">
-      <text x="0" y="8" class="cert-title">Hedera Certified Suite</text>
-      <text x="0" y="22" class="cert-issuer">Hashgraph Assoc. · 2026</text>
-      <text x="0" y="38" class="cert-desc">Earned Developer Associate,</text>
-      <text x="0" y="50" class="cert-desc">Foundation &amp; Business HBF.</text>
-    </g>
+  <!-- ROW 1: Hedera -->
+  <circle cx="25" cy="48" r="5" class="node-dot" style="animation-delay: 0s;" filter="url(#pink-glow)" />
+  <line x1="25" y1="48" x2="50" y2="48" class="branch-line" />
+  <g transform="translate(50, 20)">
+    <rect width="780" height="56" class="list-card" />
+    <path d="M 0 8 L 0 48" stroke="#cb8589" stroke-width="3" stroke-linecap="round" />
+    <text x="20" y="24" class="cert-title">Hedera Certified Professional Suite</text>
+    <text x="20" y="42" class="cert-desc">Developer Associate (HCDA), Foundation (HCF), and Business Foundation (HBF).</text>
+    <text x="760" y="32" text-anchor="end" class="cert-issuer">The Hashgraph Association · 2026</text>
   </g>
-  <line x1="80" y1="180" x2="80" y2="150" stroke="#30363d" stroke-dasharray="2,2" />
-  
-  <!-- Milestone 2: HCI (x=210, y=135) -->
-  <circle cx="210" cy="135" r="6.5" class="node-dot" style="animation-delay: 1.5s;" filter="url(#pink-glow)" />
-  <g transform="translate(130, 205)">
-    <rect width="160" height="85" class="popover-bg" />
-    <g transform="translate(10, 15)">
-      <text x="0" y="8" class="cert-title">Human Computer Interaction</text>
-      <text x="0" y="22" class="cert-issuer">NPTEL (SWAYAM) · 2026</text>
-      <text x="0" y="38" class="cert-desc">Elite + Silver cert, score</text>
-      <text x="0" y="50" class="cert-desc">83% from IIIT Delhi.</text>
-    </g>
-  </g>
-  <line x1="210" y1="135" x2="210" y2="205" stroke="#30363d" stroke-dasharray="2,2" />
 
-  <!-- Milestone 3: Blockchain (x=340, y=180) -->
-  <circle cx="340" cy="180" r="6.5" class="node-dot" style="animation-delay: 3s;" filter="url(#pink-glow)" />
-  <g transform="translate(270, 65)">
-    <rect width="160" height="85" class="popover-bg" />
-    <g transform="translate(10, 15)">
-      <text x="0" y="8" class="cert-title">Blockchain &amp; Apps</text>
-      <text x="0" y="22" class="cert-issuer">NPTEL (SWAYAM) · 2026</text>
-      <text x="0" y="38" class="cert-desc">12-week course covering</text>
-      <text x="0" y="50" class="cert-desc">models &amp; smart contracts.</text>
-    </g>
+  <!-- ROW 2: HCI -->
+  <circle cx="25" cy="118" r="5" class="node-dot" style="animation-delay: 1.1s;" filter="url(#pink-glow)" />
+  <line x1="25" y1="118" x2="50" y2="118" class="branch-line" />
+  <g transform="translate(50, 90)">
+    <rect width="780" height="56" class="list-card" />
+    <path d="M 0 8 L 0 48" stroke="#cb8589" stroke-width="3" stroke-linecap="round" />
+    <text x="20" y="24" class="cert-title">Human Computer Interaction</text>
+    <text x="20" y="42" class="cert-desc">Earned an Elite + Silver certification with a consolidated score of 83% from IIIT Delhi.</text>
+    <text x="760" y="32" text-anchor="end" class="cert-issuer">NPTEL (SWAYAM) · 2026</text>
   </g>
-  <line x1="340" y1="180" x2="340" y2="150" stroke="#30363d" stroke-dasharray="2,2" />
 
-  <!-- Milestone 4: Oracle (x=470, y=210) -->
-  <circle cx="470" cy="210" r="6.5" class="node-dot" style="animation-delay: 4.5s;" filter="url(#pink-glow)" />
-  <g transform="translate(410, 85)">
-    <rect width="165" height="85" class="popover-bg" />
-    <g transform="translate(10, 15)">
-      <text x="0" y="8" class="cert-title">Oracle Cloud Foundations</text>
-      <text x="0" y="22" class="cert-issuer">ORACLE University · 2025</text>
-      <text x="0" y="38" class="cert-desc">OCI services, cloud concepts,</text>
-      <text x="0" y="50" class="cert-desc">security and pricing models.</text>
-    </g>
+  <!-- ROW 3: Blockchain -->
+  <circle cx="25" cy="188" r="5" class="node-dot" style="animation-delay: 2.2s;" filter="url(#pink-glow)" />
+  <line x1="25" y1="188" x2="50" y2="188" class="branch-line" />
+  <g transform="translate(50, 160)">
+    <rect width="780" height="56" class="list-card" />
+    <path d="M 0 8 L 0 48" stroke="#cb8589" stroke-width="3" stroke-linecap="round" />
+    <text x="20" y="24" class="cert-title">Blockchain and its Applications</text>
+    <text x="20" y="42" class="cert-desc">Completed the 12-week course covering blockchain models, smart contracts, and consensus from IIT Kharagpur.</text>
+    <text x="760" y="32" text-anchor="end" class="cert-issuer">NPTEL (SWAYAM) · 2026</text>
   </g>
-  <line x1="470" y1="210" x2="470" y2="170" stroke="#30363d" stroke-dasharray="2,2" />
 
-  <!-- Milestone 5: AI Foundation (x=600, y=180) -->
-  <circle cx="600" cy="180" r="6.5" class="node-dot" style="animation-delay: 6s;" filter="url(#pink-glow)" />
-  <g transform="translate(530, 220)">
-    <rect width="160" height="85" class="popover-bg" />
-    <g transform="translate(10, 15)">
-      <text x="0" y="8" class="cert-title">AI Foundation Cert</text>
-      <text x="0" y="22" class="cert-issuer">Infosys Springboard · 2025</text>
-      <text x="0" y="38" class="cert-desc">Acquired core AI concepts</text>
-      <text x="0" y="50" class="cert-desc">and learning models.</text>
-    </g>
+  <!-- ROW 4: Oracle -->
+  <circle cx="25" cy="258" r="5" class="node-dot" style="animation-delay: 3.3s;" filter="url(#pink-glow)" />
+  <line x1="25" y1="258" x2="50" y2="258" class="branch-line" />
+  <g transform="translate(50, 230)">
+    <rect width="780" height="56" class="list-card" />
+    <path d="M 0 8 L 0 48" stroke="#cb8589" stroke-width="3" stroke-linecap="round" />
+    <text x="20" y="24" class="cert-title">Oracle Cloud Foundations Associate</text>
+    <text x="20" y="42" class="cert-desc">Gained knowledge of cloud concepts, OCI services, security, and pricing models.</text>
+    <text x="760" y="32" text-anchor="end" class="cert-issuer">ORACLE University · 2025</text>
   </g>
-  <line x1="600" y1="180" x2="600" y2="220" stroke="#30363d" stroke-dasharray="2,2" />
 
-  <!-- Milestone 6: Python Foundation (x=730, y=168) -->
-  <circle cx="730" cy="168" r="6.5" class="node-dot" style="animation-delay: 7.5s;" filter="url(#pink-glow)" />
-  <g transform="translate(670, 55)">
-    <rect width="160" height="85" class="popover-bg" />
-    <g transform="translate(10, 15)">
-      <text x="0" y="8" class="cert-title">Python Foundation</text>
-      <text x="0" y="22" class="cert-issuer">Infosys Springboard · 2024</text>
-      <text x="0" y="38" class="cert-desc">Python programming, data</text>
-      <text x="0" y="50" class="cert-desc">handling and OOP concepts.</text>
-    </g>
+  <!-- ROW 5: AI Foundation -->
+  <circle cx="25" cy="328" r="5" class="node-dot" style="animation-delay: 4.4s;" filter="url(#pink-glow)" />
+  <line x1="25" y1="328" x2="50" y2="328" class="branch-line" />
+  <g transform="translate(50, 300)">
+    <rect width="780" height="56" class="list-card" />
+    <path d="M 0 8 L 0 48" stroke="#cb8589" stroke-width="3" stroke-linecap="round" />
+    <text x="20" y="24" class="cert-title">AI Foundation Certification</text>
+    <text x="20" y="42" class="cert-desc">Acquired core AI concepts, learning models, and foundational artificial intelligence principles.</text>
+    <text x="760" y="32" text-anchor="end" class="cert-issuer">Infosys Springboard · 2025</text>
   </g>
-  <line x1="730" y1="168" x2="730" y2="140" stroke="#30363d" stroke-dasharray="2,2" />
 
+  <!-- ROW 6: Python Foundation -->
+  <circle cx="25" cy="398" r="5" class="node-dot" style="animation-delay: 5.5s;" filter="url(#pink-glow)" />
+  <line x1="25" y1="398" x2="50" y2="398" class="branch-line" />
+  <g transform="translate(50, 370)">
+    <rect width="780" height="56" class="list-card" />
+    <path d="M 0 8 L 0 48" stroke="#cb8589" stroke-width="3" stroke-linecap="round" />
+    <text x="20" y="24" class="cert-title">Python Foundation</text>
+    <text x="20" y="42" class="cert-desc">Learned core Python programming, data handling, and object-oriented concepts.</text>
+    <text x="760" y="32" text-anchor="end" class="cert-issuer">Infosys Springboard · 2024</text>
+  </g>
 </svg>
