@@ -145,10 +145,20 @@ Hands-on exposure to Java-based application development and full-stack developme
 
 ## CERTIFICATIONS & LEARNING
 
-* **Python Foundation Certification** — Infosys Springboard
-* **C Programming** — Spoken Tutorial Project, IIT Bombay
-* **Introduction to Responsible AI** — Google Cloud Skills Boost
-* **Pragati: Path to Future Program** — Infosys Springboard
+Hedera Certified Professional Suite — The Hashgraph Association · 2026
+Developer Associate (HCDA)
+Foundation (HCF)
+Business Foundation (HBF)
+Human Computer Interaction — NPTEL (SWAYAM) · 2026
+Elite + Silver
+Consolidated Score: 83%
+IIT Delhi
+Blockchain and its Applications — NPTEL (SWAYAM) · 2026
+12-week course
+IIT Kharagpur
+Oracle Cloud Foundations Associate — Oracle University · 2025
+Artificial Intelligence Foundation Certification — Infosys Springboard · 2025
+Python Foundation — Infosys Springboard · 2024
 
 ---
 
