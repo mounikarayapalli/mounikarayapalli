@@ -1,9 +1,6 @@
 <div align="center">
 
-<!-- Custom Animated Banner -->
-<img src="art/banner.svg" width="100%" alt="Mounika Rayapalli Banner" />
-
-<br><br>
+<br>
 
 <!-- 1. The name centered -->
 # Hey there , I'm Mounika Rayapalli
