@@ -22,8 +22,8 @@
     }
     .title {
       font-family: 'Space Mono', 'Segoe UI', monospace;
-      font-size: 16px;
-      font-weight: bold;
+      font-size: 22px;
+      font-weight: 800;
       fill: #ffffff;
     }
     .subtitle {
@@ -47,7 +47,7 @@
   <rect width="850" height="600" class="card-bg" />
   
   <!-- Header -->
-  <text x="25" y="35" class="title">ABOUT ME</text>
+  <text x="25" y="38" class="title">ABOUT ME</text>
   <line x1="25" y1="45" x2="825" y2="45" stroke="#30363d" stroke-width="1" />
   
   <!-- SECTION 1: Currently -->
