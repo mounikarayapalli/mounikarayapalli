@@ -28,6 +28,10 @@
 
 ## ABOUT ME
 
+<table>
+  <tr>
+    <td width="60%" valign="top">
+
 I’m a **Computer Science Engineering student and AI Trainee** focused on developing practical skills in **Machine Learning, Deep Learning, Generative AI, LLMs, Python, Java, and Web Development**.
 
 I enjoy understanding how intelligent systems work, building projects from the ground up, and continuously improving through hands-on experimentation.
@@ -36,6 +40,13 @@ I enjoy understanding how intelligent systems work, building projects from the g
 * --Developing interactive **Web Applications**
 * --Interested in solving real-world problems through technology
 * --Currently strengthening my skills through projects and practical learning
+
+    </td>
+    <td width="40%" align="center" valign="middle">
+      <img src="art/devcard.svg" alt="mounika_rayapalli.json" width="100%" />
+    </td>
+  </tr>
+</table>
 
 <br>
 
