@@ -145,20 +145,29 @@ Hands-on exposure to Java-based application development and full-stack developme
 
 ## CERTIFICATIONS & LEARNING
 
-Hedera Certified Professional Suite — The Hashgraph Association · 2026
-Developer Associate (HCDA)
-Foundation (HCF)
-Business Foundation (HBF)
-Human Computer Interaction — NPTEL (SWAYAM) · 2026
-Elite + Silver
-Consolidated Score: 83%
-IIT Delhi
-Blockchain and its Applications — NPTEL (SWAYAM) · 2026
-12-week course
-IIT Kharagpur
-Oracle Cloud Foundations Associate — Oracle University · 2025
-Artificial Intelligence Foundation Certification — Infosys Springboard · 2025
-Python Foundation — Infosys Springboard · 2024
+###  Hedera Certified Professional Suite — 2026
+**The Hashgraph Association**
+- Developer Associate (**HCDA**)
+- Foundation (**HCF**)
+- Business Foundation (**HBF**)
+
+###  Human Computer Interaction — 2026
+**NPTEL (SWAYAM) · IIT Delhi**
+- **Elite + Silver**
+- Consolidated Score: **83%**
+
+###  Blockchain and its Applications — 2026
+**NPTEL (SWAYAM) · IIT Kharagpur**
+- **12-week course**
+
+###  Oracle Cloud Foundations Associate — 2025
+**Oracle University**
+
+###  Artificial Intelligence Foundation Certification — 2025
+**Infosys Springboard**
+
+###  Python Foundation — 2024
+**Infosys Springboard**
 
 ---
 
