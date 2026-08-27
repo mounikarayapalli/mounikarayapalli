@@ -63,6 +63,11 @@
   <!-- Vertical Track Line -->
   <line x1="25" y1="20" x2="25" y2="420" class="timeline-track" />
   
+  <!-- Animated light pulse dot moving along the track -->
+  <circle r="4.5" fill="#ffffff" filter="url(#pink-glow)">
+    <animateMotion dur="7s" repeatCount="indefinite" path="M 25,20 L 25,420" />
+  </circle>
+  
   <!-- ROW 1: Hedera -->
   <circle cx="25" cy="48" r="5" class="node-dot" style="animation-delay: 0s;" filter="url(#pink-glow)" />
   <line x1="25" y1="48" x2="50" y2="48" class="branch-line" />

@@ -4,7 +4,7 @@
 <h1 align="center">Hey there , I'm Mounika Rayapalli</h1>
 
 <!-- Centered Subtitle with shirt theme color #cb8589 -->
-<img src="art/subtitle.svg?v=5" alt="AI Trainee @ Calibo AI Academy · Machine Learning · Deep Learning · Generative AI" width="700" />
+<img src="art/subtitle.svg" alt="AI Trainee @ Calibo AI Academy · Machine Learning · Deep Learning · Generative AI" width="700" />
 
 <br>
 
@@ -14,20 +14,20 @@
 <br>
 
 <!-- Stable Fancy Buttons (underline-free & shadow-free) -->
-[![My Portfolio](art/btn-portfolio.svg?v=5)](https://mounika-rayapalli-portfolio.vercel.app/)&nbsp;&nbsp;&nbsp;&nbsp;[![LinkedIn](art/btn-linkedin.svg?v=5)](https://www.linkedin.com/in/rayapalli-mounika/)&nbsp;&nbsp;&nbsp;&nbsp;[![Email Me](art/btn-email.svg?v=5)](mailto:rayapallymounika@gmail.com)
+<a href="https://mounika-rayapalli-portfolio.vercel.app/" target="_blank"><img src="art/btn-portfolio.svg" height="35" alt="My Portfolio" /></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/rayapalli-mounika/" target="_blank"><img src="art/btn-linkedin.svg" height="35" alt="LinkedIn" /></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:rayapallymounika@gmail.com"><img src="art/btn-email.svg" height="35" alt="Email Me" /></a>
 
 </div>
 
 <br>
 
 <div align="center">
-  <img src="art/about.svg?v=5" width="100%" alt="About Me" />
+  <img src="art/about.svg" width="95%" alt="About Me" />
 </div>
 
 <br>
 
 <div align="center">
-  <img src="art/separator.svg?v=5" width="100%" />
+  <img src="art/separator.svg" width="100%" />
 </div>
 
 <br>
@@ -35,13 +35,13 @@
 ## 🛠️ Tech Stack & Skills
 
 <div align="center">
-  <img src="art/skills-catalog.svg?v=5" width="100%" alt="Skills Catalog" />
+  <img src="art/skills-catalog.svg" width="100%" alt="Skills Catalog" />
 </div>
 
 <br>
 
 <div align="center">
-  <img src="art/separator.svg?v=5" width="100%" />
+  <img src="art/separator.svg" width="100%" />
 </div>
 
 <br>
@@ -49,13 +49,13 @@
 ## 📂 Featured Projects
 
 <div align="center">
-  <img src="art/projects.svg?v=5" width="100%" alt="Featured Projects" />
+  <img src="art/projects.svg" width="100%" alt="Featured Projects" />
 </div>
 
 <br>
 
 <div align="center">
-  <img src="art/separator.svg?v=5" width="100%" />
+  <img src="art/separator.svg" width="100%" />
 </div>
 
 <br>
@@ -63,7 +63,7 @@
 ### Work Experience
 
 <div align="center">
-  <img src="art/experience.svg?v=5" width="100%" alt="Work Experience" />
+  <img src="art/experience.svg" width="100%" alt="Work Experience" />
 </div>
 
 <br>
@@ -71,7 +71,7 @@
 ## 🏆 Certifications
 
 <div align="center">
-  <img src="art/certifications.svg?v=5" width="100%" alt="Certifications & Learning" />
+  <img src="art/certifications.svg" width="100%" alt="Certifications & Learning" />
 </div>
 
 <br>
