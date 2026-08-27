@@ -50,27 +50,27 @@
 
 ### Featured Projects
 
-**$\color{#cb8589}{\text{AI Medical Assistant}}$**  
+#### <font color="#cb8589">AI Medical Assistant</font>
 An intelligent healthcare assistant designed to assist with medical inquiries and preliminary symptom analysis using advanced NLP and ML models.  
-*$\color{#b37579}{\text{AI}}$ · $\color{#b37579}{\text{Machine Learning}}$ · $\color{#b37579}{\text{Medical NLP}}$ · $\color{#b37579}{\text{Diagnosis}}$*
+*<font color="#b37579">AI</font> · <font color="#b37579">Machine Learning</font> · <font color="#b37579">Medical NLP</font> · <font color="#b37579">Diagnosis</font>*
 
 <br>
 
-**$\color{#cb8589}{\text{Developer Portfolio}}$**  
+#### <font color="#cb8589">Developer Portfolio</font>
 Personal developer portfolio website designed to showcase projects, technical skills, and internship history with a fully responsive layout.  
-*$\color{#b37579}{\text{React}}$ · $\color{#b37579}{\text{HTML}}$ · $\color{#b37579}{\text{CSS}}$ · $\color{#b37579}{\text{JavaScript}}$*
+*<font color="#b37579">React</font> · <font color="#b37579">HTML</font> · <font color="#b37579">CSS</font> · <font color="#b37579">JavaScript</font>*
 
 <br>
 
-**$\color{#cb8589}{\text{TECH-DESIRE}}$**  
+#### <font color="#cb8589">TECH-DESIRE</font>
 Interactive educational platform for software engineering trainees, offering dynamic study paths and automated quiz validations.  
-*$\color{#b37579}{\text{HTML}}$ · $\color{#b37579}{\text{CSS}}$ · $\color{#b37579}{\text{JavaScript}}$ · $\color{#b37579}{\text{Bootstrap}}$*
+*<font color="#b37579">HTML</font> · <font color="#b37579">CSS</font> · <font color="#b37579">JavaScript</font> · <font color="#b37579">Bootstrap</font>*
 
 <br>
 
-**$\color{#cb8589}{\text{Restaurant Landing Page}}$**  
+#### <font color="#cb8589">Restaurant Landing Page</font>
 A premium responsive restaurant landing page featuring interactive menus, booking showcases, and staff profiles.  
-*$\color{#b37579}{\text{HTML}}$ · $\color{#b37579}{\text{CSS}}$ · $\color{#b37579}{\text{JavaScript}}$ · $\color{#b37579}{\text{Responsive Design}}$*
+*<font color="#b37579">HTML</font> · <font color="#b37579">CSS</font> · <font color="#b37579">JavaScript</font> · <font color="#b37579">Responsive Design</font>*
 
 <br>
 
