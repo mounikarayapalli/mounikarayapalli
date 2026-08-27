@@ -17,16 +17,16 @@
 <a href="https://mounika-rayapalli-portfolio.vercel.app/" target="_blank"><img src="art/btn-portfolio.svg" height="35" alt="My Portfolio" /></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/rayapalli-mounika/" target="_blank"><img src="art/btn-linkedin.svg" height="35" alt="LinkedIn" /></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:rayapallymounika@gmail.com"><img src="art/btn-email.svg" height="35" alt="Email Me" /></a>
 
 </div>
+---
 
+## ABOUT ME
 
-
-I’m a **Computer Science Engineering student and AI Trainee** focused on developing practical skills in **Machine Learning, Deep Learning, Generative AI, LLMs, Python, Java, and Web Development**.
+       Hi,, I’m a **Computer Science Engineering student and AI Trainee** focused on developing practical skills in **Machine Learning, Deep Learning, Generative AI, LLMs, Python, Java, and Web Development**.
 
 I enjoy understanding how intelligent systems work, building projects from the ground up, and continuously improving through hands-on experimentation.
 
 ---
 
-## ABOUT ME
 
 * --Computer Science & Engineering student
 * --AI Trainee at **Calibo AI Academy**
