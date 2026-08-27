@@ -50,27 +50,27 @@
 
 ### Featured Projects
 
-**AI Medical Assistant**  
+**$\color{#cb8589}{\text{AI Medical Assistant}}$**  
 An intelligent healthcare assistant designed to assist with medical inquiries and preliminary symptom analysis using advanced NLP and ML models.  
-*AI · Machine Learning · Medical NLP · Diagnosis*
+*$\color{#b37579}{\text{AI}}$ · $\color{#b37579}{\text{Machine Learning}}$ · $\color{#b37579}{\text{Medical NLP}}$ · $\color{#b37579}{\text{Diagnosis}}$*
 
 <br>
 
-**Developer Portfolio**  
+**$\color{#cb8589}{\text{Developer Portfolio}}$**  
 Personal developer portfolio website designed to showcase projects, technical skills, and internship history with a fully responsive layout.  
-*React · HTML · CSS · JavaScript*
+*$\color{#b37579}{\text{React}}$ · $\color{#b37579}{\text{HTML}}$ · $\color{#b37579}{\text{CSS}}$ · $\color{#b37579}{\text{JavaScript}}$*
 
 <br>
 
-**TECH-DESIRE**  
+**$\color{#cb8589}{\text{TECH-DESIRE}}$**  
 Interactive educational platform for software engineering trainees, offering dynamic study paths and automated quiz validations.  
-*HTML · CSS · JavaScript · Bootstrap*
+*$\color{#b37579}{\text{HTML}}$ · $\color{#b37579}{\text{CSS}}$ · $\color{#b37579}{\text{JavaScript}}$ · $\color{#b37579}{\text{Bootstrap}}$*
 
 <br>
 
-**Restaurant Landing Page**  
+**$\color{#cb8589}{\text{Restaurant Landing Page}}$**  
 A premium responsive restaurant landing page featuring interactive menus, booking showcases, and staff profiles.  
-*HTML · CSS · JavaScript · Responsive Design*
+*$\color{#b37579}{\text{HTML}}$ · $\color{#b37579}{\text{CSS}}$ · $\color{#b37579}{\text{JavaScript}}$ · $\color{#b37579}{\text{Responsive Design}}$*
 
 <br>
 
