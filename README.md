@@ -6,7 +6,7 @@
 <!-- Centered Subtitle with shirt theme color #cb8589 -->
 <img src="art/subtitle.svg" alt="AI Trainee @ Calibo AI Academy · Machine Learning · Deep Learning · Generative AI" width="700" />
 
-<br><br>
+<br>
 
 <!-- Animated typing tag line (centered with reduced spacing to buttons) -->
 <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=16&pause=1000&color=cb8589&center=true&vCenter=true&width=900&lines=Building+intelligent+solutions+that+turn+ideas+into+practical+applications." alt="Typing SVG" />
@@ -26,16 +26,16 @@
 
 <br>
 
-## 🚀 About Me
+## ABOUT ME
 
 I’m a **Computer Science Engineering student and AI Trainee** focused on developing practical skills in **Machine Learning, Deep Learning, Generative AI, LLMs, Python, Java, and Web Development**.
 
 I enjoy understanding how intelligent systems work, building projects from the ground up, and continuously improving through hands-on experimentation.
 
-* 💡 **What I do**: Build intelligent systems, deploy DevOps pipelines, and continuous learning.
-* 🎓 **Education**: Computer Science Engineering Student.
-* 🤖 **Current Training**: Calibo AI Academy.
-* 💼 **Philosophy**: Hands-on, project-based learning — solve real problems and refine solutions dynamically.
+* --AI Trainee at **Calibo AI Academy**
+* --Developing interactive **Web Applications**
+* --Interested in solving real-world problems through technology
+* --Currently strengthening my skills through projects and practical learning
 
 <br>
 
