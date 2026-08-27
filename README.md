@@ -28,9 +28,7 @@
 
 ## ABOUT ME
 
-<table>
-  <tr>
-    <td width="60%" valign="top">
+<img src="art/devcard.svg" align="right" width="320" alt="mounika_rayapalli.json" />
 
 I’m a **Computer Science Engineering student and AI Trainee** focused on developing practical skills in **Machine Learning, Deep Learning, Generative AI, LLMs, Python, Java, and Web Development**.
 
@@ -41,12 +39,7 @@ I enjoy understanding how intelligent systems work, building projects from the g
 * --Interested in solving real-world problems through technology
 * --Currently strengthening my skills through projects and practical learning
 
-    </td>
-    <td width="40%" align="center" valign="middle">
-      <img src="art/devcard.svg" alt="mounika_rayapalli.json" width="100%" />
-    </td>
-  </tr>
-</table>
+<br clear="right" />
 
 <br>
 
@@ -59,16 +52,7 @@ I enjoy understanding how intelligent systems work, building projects from the g
 ## 🛠️ Tech Stack & Skills
 
 <div align="center">
-
-| Category | Technologies |
-| :--- | :--- |
-| **AI / Machine Learning** | <img src="https://skillicons.dev/icons?i=python,tensorflow,opencv&theme=dark" /><br><img src="https://img.shields.io/badge/Keras-cb8589?style=flat-square&logo=keras&logoColor=white" /> <img src="https://img.shields.io/badge/YOLO-b37579?style=flat-square&logoColor=white" /> <img src="https://img.shields.io/badge/Hugging%20Face-cb8589?style=flat-square&logo=huggingface&logoColor=white" /> |
-| **Programming** | <img src="https://skillicons.dev/icons?i=python,java&theme=dark" /> |
-| **Web Development** | <img src="https://skillicons.dev/icons?i=html,css,js,bootstrap&theme=dark" /> |
-| **Databases** | <img src="https://skillicons.dev/icons?i=mysql,mongodb&theme=dark" /> |
-| **Cloud & DevOps** | <img src="https://skillicons.dev/icons?i=aws,docker,kubernetes,terraform&theme=dark" /> |
-| **Tools & Platforms** | <img src="https://skillicons.dev/icons?i=git,github,vscode,pycharm&theme=dark" /><br><img src="https://img.shields.io/badge/Streamlit-b37579?style=flat-square&logo=streamlit&logoColor=white" /> |
-
+  <img src="art/skills-catalog.svg" width="100%" alt="Skills Catalog" />
 </div>
 
 <br>

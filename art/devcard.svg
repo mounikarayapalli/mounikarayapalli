@@ -15,8 +15,15 @@
     .card-bg {
       fill: #0d1117;
       stroke: url(#border-grad);
-      stroke-width: 1.5;
+      stroke-width: 2;
       rx: 10;
+      stroke-dasharray: 120, 40;
+      animation: border-chase 8s linear infinite;
+    }
+    @keyframes border-chase {
+      to {
+        stroke-dashoffset: -640;
+      }
     }
     .card-title {
       font-family: 'Space Mono', 'Segoe UI', monospace;
@@ -53,22 +60,29 @@
         opacity: 0.6;
       }
     }
+    .twinkle {
+      animation: star-twinkle 3s infinite ease-in-out;
+    }
+    @keyframes star-twinkle {
+      0%, 100% { opacity: 0.3; }
+      50% { opacity: 1; }
+    }
   </style>
   
-  <!-- Card Background -->
+  <!-- Card Background with Animated border chasing -->
   <rect width="320" height="180" class="card-bg" />
   
-  <!-- Card Grid Accent -->
-  <g fill="#30363d" opacity="0.4">
-    <circle cx="280" cy="30" r="1" />
-    <circle cx="290" cy="30" r="1" />
-    <circle cx="300" cy="30" r="1" />
-    <circle cx="280" cy="40" r="1" />
-    <circle cx="290" cy="40" r="1" />
-    <circle cx="300" cy="40" r="1" />
-    <circle cx="280" cy="50" r="1" />
-    <circle cx="290" cy="50" r="1" />
-    <circle cx="300" cy="50" r="1" />
+  <!-- Card Grid Accent with Twinkling animation -->
+  <g fill="#cb8589">
+    <circle cx="280" cy="30" r="1.2" class="twinkle" style="animation-delay: 0s;" />
+    <circle cx="290" cy="30" r="1.2" class="twinkle" style="animation-delay: 0.5s;" opacity="0.4" />
+    <circle cx="300" cy="30" r="1.2" class="twinkle" style="animation-delay: 1s;" />
+    <circle cx="280" cy="40" r="1.2" class="twinkle" style="animation-delay: 0.8s;" opacity="0.4" />
+    <circle cx="290" cy="40" r="1.2" class="twinkle" style="animation-delay: 1.2s;" />
+    <circle cx="300" cy="40" r="1.2" class="twinkle" style="animation-delay: 0.3s;" opacity="0.4" />
+    <circle cx="280" cy="50" r="1.2" class="twinkle" style="animation-delay: 1.5s;" />
+    <circle cx="290" cy="50" r="1.2" class="twinkle" style="animation-delay: 0.2s;" opacity="0.4" />
+    <circle cx="300" cy="50" r="1.2" class="twinkle" style="animation-delay: 0.7s;" />
   </g>
   
   <!-- Content -->
