@@ -4,13 +4,13 @@
 <h1 align="center">Hey there , I'm Mounika Rayapalli</h1>
 
 <!-- Centered Subtitle with shirt theme color #cb8589 -->
-<h3 align="center"><font color="#cb8589"><b>AI Trainee @ Calibo AI Academy · Machine Learning · Deep Learning · Generative AI</b></font></h3>
+<p align="center"><b><font color="#cb8589" size="4">AI Trainee @ Calibo AI Academy · Machine Learning · Deep Learning · Generative AI</font></b></p>
 
 <br>
 
 <!-- Blockquoted animated typing tag line -->
 <blockquote>
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=18&pause=1000&color=cb8589&center=true&vCenter=true&width=750&lines=Building+intelligent+solutions+that+turn+ideas+into+practical+applications." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=16&pause=1000&color=cb8589&center=true&vCenter=true&width=900&lines=Building+intelligent+solutions+that+turn+ideas+into+practical+applications." alt="Typing SVG" />
 </blockquote>
 
 <br><br>
