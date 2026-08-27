@@ -49,10 +49,7 @@
   <!-- Timeline Track Line -->
   <line x1="45" y1="35" x2="45" y2="320" class="timeline-track" />
   
-  <!-- Animated light pulse dot moving along the timeline track -->
-  <circle r="4.5" fill="#ffffff" filter="url(#pink-glow)">
-    <animateMotion dur="6s" repeatCount="indefinite" path="M 45,35 L 45,320" />
-  </circle>
+
   
   <!-- Node 1: AI Trainee -->
   <circle cx="45" cy="35" r="6" class="node-dot" style="animation-delay: 0s;" filter="url(#pink-glow)" />

@@ -63,10 +63,7 @@
   <!-- Center Vertical Pipeline Line -->
   <line x1="475" y1="20" x2="475" y2="470" class="pipeline-line" />
   
-  <!-- Glowing signal pulse running down the center pipeline -->
-  <circle r="5" fill="#ffffff" filter="url(#pink-glow)">
-    <animateMotion dur="5s" repeatCount="indefinite" path="M 475,20 L 475,470" />
-  </circle>
+
 
   <!-- ROW 1 -->
   <!-- Left Side: Languages (y=60) -->

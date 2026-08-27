@@ -20,6 +20,8 @@
 
 <br>
 
+### About Me
+
 <div align="center">
   <img src="art/about.svg" width="95%" alt="About Me" />
 </div>
@@ -32,7 +34,7 @@
 
 <br>
 
-## 🛠️ Tech Stack & Skills
+### Tech Stack & Skills
 
 <div align="center">
   <img src="art/skills-catalog.svg" width="100%" alt="Skills Catalog" />
@@ -46,11 +48,29 @@
 
 <br>
 
-## 📂 Featured Projects
+### Featured Projects
 
-<div align="center">
-  <img src="art/projects.svg" width="100%" alt="Featured Projects" />
-</div>
+**AI Medical Assistant**  
+An intelligent healthcare assistant designed to assist with medical inquiries and preliminary symptom analysis using advanced NLP and ML models.  
+*AI · Machine Learning · Medical NLP · Diagnosis*
+
+<br>
+
+**Developer Portfolio**  
+Personal developer portfolio website designed to showcase projects, technical skills, and internship history with a fully responsive layout.  
+*React · HTML · CSS · JavaScript*
+
+<br>
+
+**TECH-DESIRE**  
+Interactive educational platform for software engineering trainees, offering dynamic study paths and automated quiz validations.  
+*HTML · CSS · JavaScript · Bootstrap*
+
+<br>
+
+**Restaurant Landing Page**  
+A premium responsive restaurant landing page featuring interactive menus, booking showcases, and staff profiles.  
+*HTML · CSS · JavaScript · Responsive Design*
 
 <br>
 
@@ -68,7 +88,7 @@
 
 <br>
 
-## 🏆 Certifications
+### Certifications
 
 <div align="center">
   <img src="art/certifications.svg" width="100%" alt="Certifications & Learning" />
@@ -82,7 +102,7 @@
 
 <br>
 
-## 📊 GitHub Analytics & Insights
+### GitHub Analytics & Insights
 
 <div align="center">
 
@@ -104,16 +124,6 @@
 
 <div align="center">
   <img src="art/separator.svg" width="100%" />
-</div>
-
-<br>
-
-## 🐍 Git Contribution Snake
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/mounikarayapalli/mounikarayapalli/output/github-contribution-grid-snake.svg" width="90%" alt="Contribution Snake" />
-
 </div>
 
 <br>

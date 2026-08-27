@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="850" height="600" viewBox="0 0 850 600">
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="550" viewBox="0 0 850 550">
   <defs>
     <!-- Border Gradient with shifting color stop animation -->
     <linearGradient id="border-grad" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -20,12 +20,6 @@
       stroke-width: 1.5;
       rx: 12;
     }
-    .title {
-      font-family: 'Space Mono', 'Segoe UI', monospace;
-      font-size: 16px;
-      font-weight: bold;
-      fill: #ffffff;
-    }
     .subtitle {
       font-family: 'Space Mono', 'Segoe UI', monospace;
       font-size: 17px;
@@ -44,72 +38,68 @@
   </style>
   
   <!-- Outer card with solid gradient border -->
-  <rect width="850" height="600" class="card-bg" />
-  
-  <!-- Header -->
-  <text x="25" y="35" class="title">ABOUT ME</text>
-  <line x1="25" y1="45" x2="825" y2="45" stroke="#30363d" stroke-width="1" />
+  <rect width="850" height="550" class="card-bg" />
   
   <!-- SECTION 1: Currently -->
-  <text x="25" y="75" class="subtitle">Currently</text>
-  <text x="25" y="98" class="text-body">
+  <text x="25" y="30" class="subtitle">Currently</text>
+  <text x="25" y="53" class="text-body">
     I am currently an <tspan class="text-bold">AI Trainee at Calibo AI Academy</tspan>, where I am strengthening my practical understanding of
   </text>
-  <text x="25" y="120" class="text-body">
+  <text x="25" y="75" class="text-body">
     <tspan class="text-bold">Artificial Intelligence and Machine Learning</tspan> through hands-on learning, projects, problem-solving,
   </text>
-  <text x="25" y="142" class="text-body">
+  <text x="25" y="97" class="text-body">
     communication, and teamwork.
   </text>
-  <text x="25" y="170" class="text-body">
+  <text x="25" y="125" class="text-body">
     Alongside AI, I am improving my foundations in <tspan class="text-bold">DSA, SQL, Python, Java, Cloud Computing, and DevOps</tspan>,
   </text>
-  <text x="25" y="192" class="text-body">
+  <text x="25" y="147" class="text-body">
     while continuously experimenting with new technologies and building practical solutions.
   </text>
   
   <!-- SECTION 2: My Journey -->
-  <text x="25" y="230" class="subtitle">My Journey</text>
-  <text x="25" y="253" class="text-body">
+  <text x="25" y="185" class="subtitle">My Journey</text>
+  <text x="25" y="208" class="text-body">
     My journey in technology began with a strong academic foundation through a <tspan class="text-bold">Diploma in Computer Science</tspan>
   </text>
-  <text x="25" y="275" class="text-body">
+  <text x="25" y="230" class="text-body">
     <tspan class="text-bold">Engineering</tspan>, where I developed practical programming and problem-solving skills. I am currently pursuing
   </text>
-  <text x="25" y="297" class="text-body">
+  <text x="25" y="252" class="text-body">
     my <tspan class="text-bold">B.Tech in Computer Science &amp; Engineering</tspan>, expanding my knowledge in <tspan class="text-bold">Artificial Intelligence,</tspan>
   </text>
-  <text x="25" y="319" class="text-body">
+  <text x="25" y="274" class="text-body">
     <tspan class="text-bold">Computer Vision, and modern software development</tspan> while continuously working on real-world projects.
   </text>
   
   <!-- SECTION 3: What I Build -->
-  <text x="25" y="357" class="subtitle">What I Build</text>
-  <text x="25" y="380" class="text-body">
+  <text x="25" y="312" class="subtitle">What I Build</text>
+  <text x="25" y="335" class="text-body">
     I enjoy creating <tspan class="text-bold">intelligent and practical technology solutions</tspan> that turn ideas into working applications.
   </text>
-  <text x="25" y="402" class="text-body">
+  <text x="25" y="357" class="text-body">
     My interests include <tspan class="text-bold">Machine Learning, Deep Learning, Generative AI, LLMs, Computer Vision, Python,</tspan>
   </text>
-  <text x="25" y="420" class="text-body">
+  <text x="25" y="375" class="text-body">
     <tspan class="text-bold">Java, and Web Development</tspan>.
   </text>
-  <text x="25" y="448" class="text-body">
+  <text x="25" y="403" class="text-body">
     I enjoy understanding how intelligent systems work, building projects from the ground up, experimenting with
   </text>
-  <text x="25" y="470" class="text-body">
+  <text x="25" y="425" class="text-body">
     new technologies, and continuously improving through hands-on development.
   </text>
   
   <!-- SECTION 4: My Goal -->
-  <text x="25" y="508" class="subtitle">My Goal</text>
-  <text x="25" y="531" class="text-body">
+  <text x="25" y="463" class="subtitle">My Goal</text>
+  <text x="25" y="486" class="text-body">
     My goal is to gain valuable <tspan class="text-bold">industry experience</tspan>, contribute to innovative projects, and grow into an
   </text>
-  <text x="25" y="553" class="text-body">
+  <text x="25" y="508" class="text-body">
     <tspan class="text-bold">AI Engineer or Full-Stack Developer</tspan>. In the long term, I aspire to build technology products that
   </text>
-  <text x="25" y="575" class="text-body">
+  <text x="25" y="530" class="text-body">
     combine <tspan class="text-bold">intelligence, creativity, and usability</tspan> to solve real-world problems and create a meaningful impact.
   </text>
 </svg>
