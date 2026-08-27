@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="850" height="420" viewBox="0 0 850 420">
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="380" viewBox="0 0 850 380">
   <defs>
     <!-- Border Gradient -->
     <linearGradient id="border-grad" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -24,15 +24,9 @@
       stroke-width: 1.5;
       rx: 12;
     }
-    .title {
-      font-family: 'Space Mono', 'Segoe UI', monospace;
-      font-size: 15px;
-      font-weight: bold;
-      fill: #ffffff;
-    }
     .timeline-track {
       stroke: #21262d;
-      stroke-width: 2;
+      stroke-width: 2.5;
       stroke-linecap: round;
     }
     .node-dot {
@@ -43,53 +37,49 @@
     }
     @keyframes pulse-dot {
       0%, 100% { transform: scale(1); opacity: 0.6; }
-      50% { transform: scale(1.3); opacity: 1; }
+      50% { transform: scale(1.35); opacity: 1; }
     }
     .job-title {
       font-family: 'Segoe UI', -apple-system, sans-serif;
-      font-size: 13.5px;
+      font-size: 15px;
       font-weight: bold;
       fill: #ffffff;
     }
     .job-meta {
       font-family: 'Segoe UI', -apple-system, sans-serif;
-      font-size: 11.5px;
+      font-size: 13px;
       fill: #cb8589;
       font-weight: 500;
     }
     .job-desc {
       font-family: 'Segoe UI', -apple-system, sans-serif;
-      font-size: 11.5px;
+      font-size: 12.5px;
       fill: #8b949e;
     }
   </style>
   
   <!-- Background Card -->
-  <rect width="850" height="420" class="card-bg" />
-  
-  <!-- Header -->
-  <text x="25" y="35" class="title">💼 WORK EXPERIENCE</text>
-  <line x1="25" y1="45" x2="825" y2="45" stroke="#30363d" stroke-width="1" />
+  <rect width="850" height="380" class="card-bg" />
   
   <!-- Timeline Track Line -->
-  <line x1="45" y1="65" x2="45" y2="355" class="timeline-track" />
+  <line x1="45" y1="35" x2="45" y2="320" class="timeline-track" />
   
   <!-- Animated light pulse dot moving along the timeline track -->
   <circle r="4.5" fill="#ffffff" filter="url(#pink-glow)">
-    <animateMotion dur="6s" repeatCount="indefinite" path="M 45,65 L 45,355" />
+    <animateMotion dur="6s" repeatCount="indefinite" path="M 45,35 L 45,320" />
   </circle>
   
   <!-- Node 1: AI Trainee -->
-  <circle cx="45" cy="65" r="6" class="node-dot" style="animation-delay: 0s;" filter="url(#pink-glow)" />
-  <g transform="translate(68, 55)">
-    <text x="0" y="10" class="job-title">AI Trainee <tspan fill="#8b949e" font-weight="normal">@ Calibo</tspan></text>
+  <circle cx="45" cy="35" r="6" class="node-dot" style="animation-delay: 0s;" filter="url(#pink-glow)" />
+  <g transform="translate(68, 25)">
+    <text x="0" y="10" class="job-title">AI Trainee <tspan fill="#8b949e" font-weight="normal">@ Calibo AI Academy</tspan></text>
     <text x="0" y="27" class="job-meta">Aug 2026 - Present · Apprenticeship</text>
     <text x="0" y="44" class="job-desc">Focusing on developing deep knowledge in AI, Machine Learning, and Large Language Models.</text>
   </g>
   
   <!-- Node 2: DevOps Intern -->
-  <circle cx="45" cy="160" r="6" class="node-dot" style="animation-delay: 1.5s;" filter="url(#pink-glow)" />
-  <g transform="translate(68, 150)">
+  <circle cx="45" cy="130" r="6" class="node-dot" style="animation-delay: 1.5s;" filter="url(#pink-glow)" />
+  <g transform="translate(68, 120)">
     <text x="0" y="10" class="job-title">Cloud Infrastructure &amp; DevOps Engineer <tspan fill="#8b949e" font-weight="normal">@ Blackbucks Group</tspan></text>
     <text x="0" y="27" class="job-meta">May 2026 - Aug 2026 · Remote Internship</text>
     <text x="0" y="44" class="job-desc">Gained practical experience in cloud infrastructure, Docker, CI/CD pipelines, deployment automation,</text>
@@ -97,8 +87,8 @@
   </g>
   
   <!-- Node 3: Java Developer -->
-  <circle cx="45" cy="255" r="6" class="node-dot" style="animation-delay: 3s;" filter="url(#pink-glow)" />
-  <g transform="translate(68, 245)">
+  <circle cx="45" cy="225" r="6" class="node-dot" style="animation-delay: 3s;" filter="url(#pink-glow)" />
+  <g transform="translate(68, 215)">
     <text x="0" y="10" class="job-title">Java Full Stack Developer <tspan fill="#8b949e" font-weight="normal">@ EduSkills Foundation</tspan></text>
     <text x="0" y="27" class="job-meta">Jun 2026 - Jul 2026 · Remote Internship</text>
     <text x="0" y="44" class="job-desc">Gained practical experience in full-stack development using Java, Spring Boot, Hibernate, MySQL,</text>
@@ -106,8 +96,8 @@
   </g>
   
   <!-- Node 4: Web Trainee -->
-  <circle cx="45" cy="350" r="6" class="node-dot" style="animation-delay: 4.5s;" filter="url(#pink-glow)" />
-  <g transform="translate(68, 340)">
+  <circle cx="45" cy="320" r="6" class="node-dot" style="animation-delay: 4.5s;" filter="url(#pink-glow)" />
+  <g transform="translate(68, 310)">
     <text x="0" y="10" class="job-title">Web Development Trainee <tspan fill="#8b949e" font-weight="normal">@ Nice Software &amp; Hardware Institute</tspan></text>
     <text x="0" y="27" class="job-meta">Nov 2023 - Apr 2024 · On-site Internship</text>
     <text x="0" y="44" class="job-desc">Worked on responsive web applications using HTML, CSS, JavaScript, and Bootstrap while building</text>
