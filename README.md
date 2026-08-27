@@ -106,9 +106,10 @@ A premium responsive restaurant landing page featuring interactive menus, bookin
 
 <div align="center">
 
-<!-- Custom styled Stats and Languages to match shirt theme color #cb8589 -->
+<!-- Custom styled Stats and Languages to match shirt theme color #cb8589 (we'll work on these later)
 <img src="https://github-readme-stats.vercel.app/api?username=mounikarayapalli&show_icons=true&hide_border=true&hide_title=true&text_color=cb8589&icon_color=b37579&bg_color=00000000&title_color=b37579" width="48%" alt="GitHub Stats" />
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mounikarayapalli&layout=compact&hide_border=true&hide_title=true&text_color=cb8589&bg_color=00000000&title_color=b37579" width="35%" alt="Top Languages" />
+-->
 
 <br><br>
 
@@ -116,7 +117,9 @@ A premium responsive restaurant landing page featuring interactive menus, bookin
 
 <br><br>
 
+<!-- Contribution Activity Graph (we'll work on these later)
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=mounikarayapalli&theme=react-dark&hide_border=true&bg_color=00000000&color=b37579&line=cb8589&point=b37579&area=true&area_color=cb8589" width="90%" alt="Contribution Activity Graph" />
+-->
 
 </div>
 
