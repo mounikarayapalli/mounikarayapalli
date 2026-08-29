@@ -18,160 +18,126 @@
 
 </div>
 
+<br>
 
+### About Me
 
+<div align="center">
+  <img src="art/about.svg" width="95%" alt="About Me" />
+</div>
 
-Hi... I’m a **Computer Science Engineering student and AI Trainee** focused on developing practical skills in **Machine Learning, Deep Learning, Generative AI, LLMs, Python, Java, and Web Development**.
+<br>
 
-I enjoy understanding how intelligent systems work, building projects from the ground up, and continuously improving through hands-on experimentation.
+<div align="center">
+  <img src="art/separator.svg" width="100%" />
+</div>
 
----
+<br>
 
-## ABOUT ME
+### Tech Stack & Skills
 
-* --Computer Science & Engineering student
-* --AI Trainee at **Calibo AI Academy**
-* --Exploring **Machine Learning, Deep Learning, Generative AI & LLMs**
-* --Building with **Python & Java**
-* --Developing interactive **Web Applications**
-* --Interested in solving real-world problems through technology
-* --Currently strengthening my skills through projects and practical learning
+<div align="center">
+  <img src="art/skills-catalog.svg" width="100%" alt="Skills Catalog" />
+</div>
 
----
+<br>
 
-## TECHNICAL STACK
+<div align="center">
+  <img src="art/separator.svg" width="100%" />
+</div>
 
-### Artificial Intelligence & Machine Learning
+<br>
 
-`Python`  `TensorFlow`  `Keras`  `OpenCV`  `YOLO`  `Hugging Face`  `Machine Learning`  `Deep Learning`  `Generative AI`  `LLMs`
+### Featured Projects
 
-### Programming
+#### <font color="#cb8589">Fashion Recommendation System</font>
+An AI-powered recommendation application designed to understand user preferences and generate relevant fashion recommendations.  
+*<font color="#b37579">Recommendation Systems</font> · <font color="#b37579">NLP</font> · <font color="#b37579">TF-IDF</font> · <font color="#b37579">Generative AI</font> · <font color="#b37579">Streamlit</font>*
 
-`Python`  `Java` 
+<br>
 
-### Web Development
+#### <font color="#cb8589">Disease Detection System</font>
+A computer-vision-based system designed to assist with disease detection from medical X-ray images.  
+*<font color="#b37579">Deep Learning</font> · <font color="#b37579">TensorFlow</font> · <font color="#b37579">Computer Vision</font> · <font color="#b37579">Image Classification</font>*
 
-`HTML`  `CSS`  `JavaScript`  `DOM`  `jQuery`  `Bootstrap`
+<br>
 
-### Databases
+#### <font color="#cb8589">TEKKEN-MOTION</font>
+A gesture-controlled interaction system that uses hand movements to create real-time controls.  
+*<font color="#b37579">MediaPipe</font> · <font color="#b37579">OpenCV</font> · <font color="#b37579">Computer Vision</font> · <font color="#b37579">Gesture Recognition</font>*
 
-`MySQL`  `MongoDB`
+<br>
 
-### Tools & Platforms
+#### <font color="#cb8589">Kubernetes Cluster Deployment on AWS EKS</font>
+A cloud-native deployment project demonstrating how containerized applications can be deployed and managed using Kubernetes on Amazon EKS.  
+*<font color="#b37579">AWS</font> · <font color="#b37579">EKS</font> · <font color="#b37579">Kubernetes</font> · <font color="#b37579">EC2</font> · <font color="#b37579">ECR</font> · <font color="#b37579">IAM</font> · <font color="#b37579">Load Balancing</font>*
 
-`Git`  `GitHub`  `AntiGravity`  `PyCharm`  `VS Code`  `Streamlit`  `Vercel`  `AWS`  `Docker`  `Kubernetes`
+<br>
 
----
+#### <font color="#cb8589">Infrastructure Deployment with Terraform</font>
+Infrastructure-as-Code project focused on automating cloud infrastructure provisioning.  
+*<font color="#b37579">Terraform</font> · <font color="#b37579">AWS</font> · <font color="#b37579">Infrastructure as Code</font> · <font color="#b37579">Automation</font>*
 
-## FEATURED PROJECTS
+<br>
 
-### 1. Fashion Recommendation System
+<div align="center">
+  <img src="art/separator.svg" width="100%" />
+</div>
 
-An AI-powered recommendation application designed to understand user preferences and generate relevant fashion recommendations.
+<br>
 
-**Focus:** Recommendation Systems · NLP · TF-IDF · Generative AI · Streamlit
+### Work Experience
 
+<div align="center">
+  <img src="art/experience.svg" width="100%" alt="Work Experience" />
+</div>
 
+<br>
 
-### 2. Disease Detection System
+### Certifications
 
-A computer-vision-based system designed to assist with disease detection from medical X-ray images.
+<div align="center">
+  <img src="art/certifications.svg" width="100%" alt="Certifications & Learning" />
+</div>
 
-**Focus:** Deep Learning · TensorFlow · Computer Vision · Image Classification
+<br>
 
+<div align="center">
+  <img src="art/separator.svg" width="100%" />
+</div>
 
+<br>
 
-### 3. TEKKEN-MOTION
+### GitHub Analytics & Insights
 
-A gesture-controlled interaction system that uses hand movements to create real-time controls.
+<div align="center">
 
-**Focus:** MediaPipe · OpenCV · Computer Vision · Gesture Recognition
+<!-- Custom styled Stats and Languages to match shirt theme color #cb8589 (we'll work on these later)
+<img src="https://github-readme-stats.vercel.app/api?username=mounikarayapalli&show_icons=true&hide_border=true&hide_title=true&text_color=cb8589&icon_color=b37579&bg_color=00000000&title_color=b37579" width="48%" alt="GitHub Stats" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mounikarayapalli&layout=compact&hide_border=true&hide_title=true&text_color=cb8589&bg_color=00000000&title_color=b37579" width="35%" alt="Top Languages" />
+-->
 
+<br><br>
 
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=mounikarayapalli&hide_border=true&background=00000000&ring=cb8589&fire=b37579&currStreakLabel=cb8589&sideLabels=cb8589&currStreakNum=b37579&sideNums=b37579&dates=444444" width="65%" alt="GitHub Streak" />
 
-### 4. Kubernetes Cluster Deployment on AWS EKS
+<br><br>
 
-A cloud-native deployment project demonstrating how containerized applications can be deployed and managed using Kubernetes on Amazon EKS.
+<!-- Contribution Activity Graph (we'll work on these later)
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=mounikarayapalli&theme=react-dark&hide_border=true&bg_color=00000000&color=b37579&line=cb8589&point=b37579&area=true&area_color=cb8589" width="90%" alt="Contribution Activity Graph" />
+-->
 
-**Focus:** AWS · EKS · Kubernetes · EC2 · ECR · IAM · Load Balancing
+</div>
 
+<br>
 
+<div align="center">
+  <img src="art/separator.svg" width="100%" />
+</div>
 
-### 5. Infrastructure Deployment with Terraform
+<br>
 
-Infrastructure-as-Code project focused on automating cloud infrastructure provisioning.
-
-**Focus:** Terraform · AWS · Infrastructure as Code · Automation
-
----
-
-## CURRENTLY LEARNING
-
-```text
-Machine Learning
-       ↓
-Deep Learning
-       ↓
-Generative AI
-       ↓
-Large Language Models
-       ↓
-AI Application Development
-```
-
-Alongside AI, I'm improving my foundations in:
-
-**DSA · SQL · Java · Python · Cloud Computing · DevOps**
-
----
-
-## EXPERIENCE & TRAINING
-
-### AI Trainee — Calibo AI Academy
-
-Developing practical understanding of AI concepts through hands-on learning, projects, problem solving, communication, and teamwork.
-
-
-### Cloud Infrastructure & DevOps Engineer Intern — BlackBucks Group
-
-Working with cloud infrastructure, computing resources, networking, containerization, and CI/CD concepts.
-
-
-### Java Full Stack Developer Intern — AICTE EduSkills
-
-Hands-on exposure to Java-based application development and full-stack development concepts.
-
----
-
-## CERTIFICATIONS & LEARNING
-
-###  Hedera Certified Professional Suite — 2026
-**The Hashgraph Association**
-- Developer Associate (**HCDA**)
-- Foundation (**HCF**)
-- Business Foundation (**HBF**)
-
-###  Human Computer Interaction — 2026
-**NPTEL (SWAYAM) · IIT Delhi**
-- **Elite + Silver**
-- Consolidated Score: **83%**
-
-###  Blockchain and its Applications — 2026
-**NPTEL (SWAYAM) · IIT Kharagpur**
-- **12-week course**
-
-###  Oracle Cloud Foundations Associate — 2025
-**Oracle University**
-
-###  Artificial Intelligence Foundation Certification — 2025
-**Infosys Springboard**
-
-###  Python Foundation — 2024
-**Infosys Springboard**
-
----
-
-## WHAT I VALUE
+### What I Value
 
 ```text
 Curiosity        → Keep learning
@@ -181,20 +147,15 @@ Collaboration    → Build better together
 Practicality     → Turn knowledge into working solutions
 ```
 
----
+<br>
 
-## LET'S CONNECT
+<div align="center">
+  <img src="art/separator.svg" width="100%" />
+</div>
 
-**Portfolio:** [mounika-rayapalli-portfolio.vercel.app](https://mounika-rayapalli-portfolio.vercel.app/)
+<br>
 
-**LinkedIn:** [linkedin.com/in/rayapalli-mounika](https://www.linkedin.com/in/rayapalli-mounika/)
-
-**GitHub:** [github.com/mounikarayapalli](https://github.com/mounikarayapalli)
-
-**Email:** [rayapallymounika@gmail.com](mailto:rayapallymounika@gmail.com)
-
----
-
-### ✦ BUILD · LEARN · EXPERIMENT · IMPROVE ✦
-
-*Always learning. Always building. Always moving forward.*
+<div align="center">
+<!-- Capsule Render waving footer with pink/plum colors -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:cb8589,50:b37579,100:cb8589&height=110&section=footer" width="100%" />
+</div>

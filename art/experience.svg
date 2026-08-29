@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="290" viewBox="0 0 850 290">
+  <defs>
+    <!-- Glow filter -->
+    <filter id="pink-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="0" stdDeviation="2.5" flood-color="#cb8589" flood-opacity="0.8" />
+    </filter>
+  </defs>
+  <style>
+    .card-bg {
+      fill: none;
+    }
+    .timeline-track {
+      stroke: #21262d;
+      stroke-width: 2.5;
+      stroke-linecap: round;
+    }
+    .node-dot {
+      fill: #cb8589;
+      animation: pulse-dot 2s infinite ease-in-out;
+      transform-box: fill-box;
+      transform-origin: center;
+    }
+    @keyframes pulse-dot {
+      0%, 100% { transform: scale(1); opacity: 0.6; }
+      50% { transform: scale(1.35); opacity: 1; }
+    }
+    .job-title {
+      font-family: 'Segoe UI', -apple-system, sans-serif;
+      font-size: 15px;
+      font-weight: bold;
+      fill: #ffffff;
+    }
+    .job-meta {
+      font-family: 'Segoe UI', -apple-system, sans-serif;
+      font-size: 13px;
+      fill: #cb8589;
+      font-weight: 500;
+    }
+    .job-desc {
+      font-family: 'Segoe UI', -apple-system, sans-serif;
+      font-size: 12.5px;
+      fill: #8b949e;
+    }
+  </style>
+  
+  <!-- Transparent Background Card -->
+  <rect width="850" height="290" class="card-bg" />
+  
+  <!-- Timeline Track Line -->
+  <line x1="45" y1="35" x2="45" y2="225" class="timeline-track" />
+  
+  <!-- Node 1: AI Trainee -->
+  <circle cx="45" cy="35" r="6" class="node-dot" style="animation-delay: 0s;" filter="url(#pink-glow)" />
+  <g transform="translate(68, 25)">
+    <text x="0" y="10" class="job-title">AI Trainee <tspan fill="#8b949e" font-weight="normal">@ Calibo AI Academy</tspan></text>
+    <text x="0" y="27" class="job-meta">Aug 2026 - Present · Apprenticeship</text>
+    <text x="0" y="44" class="job-desc">Focusing on developing deep knowledge in AI, Machine Learning, and Large Language Models.</text>
+  </g>
+  
+  <!-- Node 2: DevOps Intern -->
+  <circle cx="45" cy="130" r="6" class="node-dot" style="animation-delay: 1.5s;" filter="url(#pink-glow)" />
+  <g transform="translate(68, 120)">
+    <text x="0" y="10" class="job-title">Cloud Infrastructure &amp; DevOps Engineer <tspan fill="#8b949e" font-weight="normal">@ Blackbucks Group</tspan></text>
+    <text x="0" y="27" class="job-meta">May 2026 - Aug 2026 · Remote Internship</text>
+    <text x="0" y="44" class="job-desc">Gained practical experience in cloud infrastructure, Docker, CI/CD pipelines, deployment automation,</text>
+    <text x="0" y="58" class="job-desc">and cloud resource management using OCI.</text>
+  </g>
+  
+  <!-- Node 3: Java Developer -->
+  <circle cx="45" cy="225" r="6" class="node-dot" style="animation-delay: 3s;" filter="url(#pink-glow)" />
+  <g transform="translate(68, 215)">
+    <text x="0" y="10" class="job-title">Java Full Stack Developer <tspan fill="#8b949e" font-weight="normal">@ AICTE EduSkills</tspan></text>
+    <text x="0" y="27" class="job-meta">Jun 2026 - Jul 2026 · Remote Internship</text>
+    <text x="0" y="44" class="job-desc">Gained practical experience in full-stack development using Java, Spring Boot, Hibernate, MySQL,</text>
+    <text x="0" y="58" class="job-desc">HTML, CSS, JavaScript, and Git.</text>
+  </g>
+  
+</svg>
