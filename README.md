@@ -61,33 +61,21 @@
 
 ### Featured Projects
 
-#### <font color="#cb8589">Fashion Recommendation System</font>
-An AI-powered recommendation application designed to understand user preferences and generate relevant fashion recommendations.  
-*<font color="#b37579">Recommendation Systems</font> · <font color="#b37579">NLP</font> · <font color="#b37579">TF-IDF</font> · <font color="#b37579">Generative AI</font> · <font color="#b37579">Streamlit</font>*
+#### <font color="#cb8589">AI Medical Assistant</font>
+An intelligent healthcare assistant designed to assist with medical inquiries and preliminary symptom analysis using advanced NLP and ML models.  
+*<font color="#b37579">AI</font> · <font color="#b37579">Machine Learning</font> · <font color="#b37579">Medical NLP</font> · <font color="#b37579">Diagnosis</font>*
 
 <br>
 
-#### <font color="#cb8589">Disease Detection System</font>
-A computer-vision-based system designed to assist with disease detection from medical X-ray images.  
-*<font color="#b37579">Deep Learning</font> · <font color="#b37579">TensorFlow</font> · <font color="#b37579">Computer Vision</font> · <font color="#b37579">Image Classification</font>*
+#### <font color="#cb8589">Restaurant Landing Page</font>
+A premium responsive restaurant landing page featuring interactive menus, booking showcases, and staff profiles.  
+*<font color="#b37579">HTML</font> · <font color="#b37579">CSS</font> · <font color="#b37579">JavaScript</font> · <font color="#b37579">Responsive Design</font>*
 
 <br>
 
-#### <font color="#cb8589">TEKKEN-MOTION</font>
-A gesture-controlled interaction system that uses hand movements to create real-time controls.  
-*<font color="#b37579">MediaPipe</font> · <font color="#b37579">OpenCV</font> · <font color="#b37579">Computer Vision</font> · <font color="#b37579">Gesture Recognition</font>*
-
-<br>
-
-#### <font color="#cb8589">Kubernetes Cluster Deployment on AWS EKS</font>
-A cloud-native deployment project demonstrating how containerized applications can be deployed and managed using Kubernetes on Amazon EKS.  
-*<font color="#b37579">AWS</font> · <font color="#b37579">EKS</font> · <font color="#b37579">Kubernetes</font> · <font color="#b37579">EC2</font> · <font color="#b37579">ECR</font> · <font color="#b37579">IAM</font> · <font color="#b37579">Load Balancing</font>*
-
-<br>
-
-#### <font color="#cb8589">Infrastructure Deployment with Terraform</font>
-Infrastructure-as-Code project focused on automating cloud infrastructure provisioning.  
-*<font color="#b37579">Terraform</font> · <font color="#b37579">AWS</font> · <font color="#b37579">Infrastructure as Code</font> · <font color="#b37579">Automation</font>*
+#### <font color="#cb8589">TECH-DESIRE</font>
+Interactive educational platform for software engineering trainees, offering dynamic study paths and automated quiz validations.  
+*<font color="#b37579">HTML</font> · <font color="#b37579">CSS</font> · <font color="#b37579">JavaScript</font> · <font color="#b37579">Bootstrap</font>*
 
 <br>
 
