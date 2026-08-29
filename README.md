@@ -152,12 +152,6 @@ Learned core Python programming, data handling, and object-oriented concepts.
 
 <br>
 
-<div align="center">
-  <img src="art/separator.svg" width="100%" />
-</div>
-
-<br>
-
 ### What I Value
 
 ```text
