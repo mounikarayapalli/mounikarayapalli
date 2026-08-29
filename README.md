@@ -20,7 +20,7 @@
 
 <br>
 
-### About Me
+### 🔸About Me
 
 <div align="center">
   <img src="art/about.svg" width="95%" alt="About Me" />
@@ -34,7 +34,7 @@
 
 <br>
 
-### Tech Stack & Skills
+### 🔸Tech Stack & Skills
 
 #### <font color="#cb8589">Artificial Intelligence & Machine Learning</font>
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white) ![YOLO](https://img.shields.io/badge/YOLO-00FFFF?style=flat-square&logo=yolo&logoColor=black) ![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-FFD21E?style=flat-square) ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-3F51B5?style=flat-square) ![Deep Learning](https://img.shields.io/badge/Deep%20Learning-2196F3?style=flat-square) ![Generative AI](https://img.shields.io/badge/Generative%20AI-009688?style=flat-square) ![LLMs](https://img.shields.io/badge/LLMs-4CAF50?style=flat-square)
@@ -59,7 +59,7 @@
 
 <br>
 
-### Featured Projects
+### 🔸Featured Projects
 
 #### 📌<font color="#cb8589">AI Medical Assistant</font>
 An intelligent healthcare assistant designed to assist with medical inquiries and preliminary symptom analysis using advanced NLP and ML models.  
@@ -82,7 +82,7 @@ Interactive educational platform for software engineering trainees, offering dyn
 
 <br>
 
-### Work Experience
+### 🔸Work Experience
 
 <div align="center">
   <img src="art/experience.svg" width="100%" alt="Work Experience" />
@@ -90,7 +90,7 @@ Interactive educational platform for software engineering trainees, offering dyn
 
 <br>
 
-### Certifications
+### 🔸Certifications
 
 #### 🔹<font color="#cb8589">Hedera Certified Professional Suite</font>
 *<font color="#b37579">The Hashgraph Association · 2026</font>*  
@@ -129,7 +129,7 @@ Learned core Python programming, data handling, and object-oriented concepts.
 
 <br>
 
-### GitHub Analytics & Insights
+### 🔸GitHub Analytics & Insights
 
 <div align="center">
 
@@ -152,7 +152,7 @@ Learned core Python programming, data handling, and object-oriented concepts.
 
 <br>
 
-### What I Value
+### 🔸What I Value
 
 ```text
 Curiosity        → Keep learning
