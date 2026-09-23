@@ -102,33 +102,33 @@ Interactive educational platform for software engineering trainees, offering dyn
 ### 🔸Certifications
 
 #### 🔹<font color="#cb8589">Hedera Certified Professional Suite</font>
-*<font color="#b37579">The Hashgraph Association · 2026</font>*  
-Developer Associate (HCDA), Foundation (HCF), and Business Foundation (HBF).
+  *<font color="#b37579">The Hashgraph Association · 2026</font>*  
+  Developer Associate (HCDA), Foundation (HCF), and Business Foundation (HBF).
 <br>
 
 #### 🔹<font color="#cb8589">Human Computer Interaction</font>
-*<font color="#b37579">NPTEL (SWAYAM) · IIT Delhi · 2026</font>*  
-Earned an Elite + Silver certification with a consolidated score of 83% from IIIT Delhi.
+  *<font color="#b37579">NPTEL (SWAYAM) · IIT Delhi · 2026</font>*  
+  Earned an Elite + Silver certification with a consolidated score of 83% from IIIT Delhi.
 <br>
 
 #### 🔹<font color="#cb8589">Blockchain and its Applications</font>
-*<font color="#b37579">NPTEL (SWAYAM) · IIT Kharagpur · 2026</font>*  
-Completed the 12-week course covering blockchain models, smart contracts, and consensus.
+  *<font color="#b37579">NPTEL (SWAYAM) · IIT Kharagpur · 2026</font>*  
+  Completed the 12-week course covering blockchain models, smart contracts, and consensus.
 <br>
 
 #### 🔹<font color="#cb8589">Oracle Cloud Foundations Associate</font>
-*<font color="#b37579">Oracle University · 2025</font>*  
-Gained knowledge of cloud concepts, OCI services, security, and pricing models.
+  *<font color="#b37579">Oracle University · 2025</font>*  
+  Gained knowledge of cloud concepts, OCI services, security, and pricing models.
 <br>
 
 #### 🔹<font color="#cb8589">Artificial Intelligence Foundation Certification</font>
-*<font color="#b37579">Infosys Springboard · 2025</font>*  
-Acquired core AI concepts, learning models, and foundational artificial intelligence principles.
+  *<font color="#b37579">Infosys Springboard · 2025</font>*  
+  Acquired core AI concepts, learning models, and foundational artificial intelligence principles.
 <br>
 
 #### 🔹<font color="#cb8589">Python Foundation</font>
-*<font color="#b37579">Infosys Springboard · 2024</font>*  
-Learned core Python programming, data handling, and object-oriented concepts.
+  *<font color="#b37579">Infosys Springboard · 2024</font>*  
+  Learned core Python programming, data handling, and object-oriented concepts.
 
 <br>
 
