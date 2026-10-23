@@ -1,12 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="850" height="492" viewBox="0 0 850 492">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="850" height="492" viewBox="0 0 850 492">
   <defs>
-    <!-- Pink Glow Filter for pulsing category dots -->
+    <!-- Pink Glow Filter -->
     <filter id="pink-glow" x="-30%" y="-30%" width="160%" height="160%">
-      <feDropShadow dx="0" dy="0" stdDeviation="2.5" flood-color="#cb8589" flood-opacity="0.85" />
+      <feDropShadow dx="0" dy="0" stdDeviation="1.5" flood-color="#cb8589" flood-opacity="0.6" />
     </filter>
   </defs>
 
   <style>
+    a {
+      text-decoration: none;
+      cursor: pointer;
+    }
     .cat-box {
       fill: #11161d;
       stroke: #21262d;
@@ -22,25 +26,30 @@
     }
     .cat-dot {
       fill: #cb8589;
-      animation: pulse-dot 2.5s infinite ease-in-out;
-      transform-box: fill-box;
-      transform-origin: center;
     }
-    @keyframes pulse-dot {
-      0%, 100% { transform: scale(0.9); opacity: 0.55; }
-      50% { transform: scale(1.35); opacity: 1; }
+    .pill {
+      cursor: pointer;
     }
     .pill-bg {
       fill: #161b22;
       stroke: #30363d;
       stroke-width: 1;
       rx: 6;
+      transition: all 0.25s ease;
+    }
+    .pill:hover .pill-bg {
+      fill: #1c222b;
+      stroke: #cb8589;
     }
     .pill-text {
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
       font-size: 13.5px;
       font-weight: 550;
       fill: #f0f6fc;
+      transition: fill 0.25s ease;
+    }
+    .pill:hover .pill-text {
+      fill: #ffffff;
     }
   </style>
 
@@ -48,166 +57,509 @@
 
   <!-- 1. LANGUAGES -->
   <rect x="8" y="4" width="412" height="84" class="cat-box" />
-  <circle cx="26" cy="24" r="3.5" class="cat-dot" style="animation-delay: 0s;" filter="url(#pink-glow)" />
+  <circle cx="26" cy="24" r="3.5" class="cat-dot" filter="url(#pink-glow)" />
   <text x="36" y="28" class="cat-title">LANGUAGES</text>
-  <g transform="translate(22, 42)">
-    <rect width="86" height="28" class="pill-bg" /><circle cx="12" cy="14" r="4" fill="#3776ab" /><text x="23" y="18.5" class="pill-text">Python</text>
-  </g>
-  <g transform="translate(116, 42)">
-    <rect width="72" height="28" class="pill-bg" /><circle cx="12" cy="14" r="4" fill="#ed8b00" /><text x="23" y="18.5" class="pill-text">Java</text>
-  </g>
-  <g transform="translate(196, 42)">
-    <rect width="68" height="28" class="pill-bg" /><circle cx="12" cy="14" r="4" fill="#4479a1" /><text x="23" y="18.5" class="pill-text">SQL</text>
-  </g>
+
+  <!-- Python -->
+  <a href="https://www.python.org/" target="_blank" rel="noopener noreferrer">
+    <g class="pill" transform="translate(22, 42)">
+      <rect width="92" height="28" class="pill-bg" />
+      <g transform="translate(8, 7)">
+        <path fill="#3776ab" d="M7 0C4.2 0 4.3 1.2 4.3 1.2l.01 1.3h2.7v.4H3.2S1.4 2.7 1.4 5.5c0 2.8 1.6 2.7 1.6 2.7h.9V6.9s0-1.6 1.6-1.6h2.6c1.3 0 1.6-1 1.6-1.6V1.6S9.8 0 7 0zm-1.5.8c.3 0 .5.2.5.5s-.2.5-.5.5-.5-.2-.5-.5.2-.5.5-.5z"/>
+        <path fill="#ffd43b" d="M7 14c2.8 0 2.7-1.2 2.7-1.2l-.01-1.3H7v-.4h3.8s1.8.2 1.8-2.6c0-2.8-1.6-2.7-1.6-2.7h-.9v1.3s0 1.6-1.6 1.6H5.9c-1.3 0-1.6 1-1.6 1.6v2.2S4.2 14 7 14zm1.5-.8c-.3 0-.5-.2-.5-.5s.2-.5.5-.5.5.2.5.5-.2.5-.5.5z"/>
+      </g>
+      <text x="28" y="18.5" class="pill-text">Python</text>
+    </g>
+  </a>
+
+  <!-- Java -->
+  <a href="https://www.java.com/" target="_blank" rel="noopener noreferrer">
+    <g class="pill" transform="translate(122, 42)">
+      <rect width="76" height="28" class="pill-bg" />
+      <g transform="translate(8, 7)">
+        <path fill="#e76f00" d="M3.5 10s-.4.9 3.1.9 3.1-.9 3.1-.9H3.5zm6.6-5.8c-.9 0-1.3.4-1.3.4s.4-.7 0-1.3c-.6-.8-2.2-.4-2.2-.4s.7-.4.3-1.1C6.4.9 5.3 1.6 5.3 1.6s.4-.4 0-.7c-.6-.4-1.8.4-1.8.4s.7-.2.3.7C3.3 2.6 1.8 3.5 1.8 3.5s1-.4 1.6 0c.7.6 0 1.8 0 1.8H8.8s1.8-.2 1.8-1.6c0-1-1.3-1.5-2.2-1.5zm-.4 2c0 .4-.4.6-.7.6H8V5.5h1.1c.4 0 .6.3.6.7z"/>
+        <path fill="#5382a1" d="M2.2 11.8s.9.9 4.4.9 4.4-.9 4.4-.9H2.2z"/>
+      </g>
+      <text x="28" y="18.5" class="pill-text">Java</text>
+    </g>
+  </a>
+
+  <!-- SQL -->
+  <a href="https://en.wikipedia.org/wiki/SQL" target="_blank" rel="noopener noreferrer">
+    <g class="pill" transform="translate(206, 42)">
+      <rect width="72" height="28" class="pill-bg" />
+      <g transform="translate(8, 7)">
+        <ellipse cx="6" cy="2.5" rx="5" ry="1.8" fill="#00758f"/>
+        <path fill="#00758f" d="M1 2.5v3.5c0 1 2.2 1.8 5 1.8s5-.8 5-1.8V2.5c0 1-2.2 1.8-5 1.8S1 3.5 1 2.5z"/>
+        <path fill="#00758f" d="M1 6v3.5c0 1 2.2 1.8 5 1.8s5-.8 5-1.8V6c0 1-2.2 1.8-5 1.8S1 7 1 6z"/>
+      </g>
+      <text x="28" y="18.5" class="pill-text">SQL</text>
+    </g>
+  </a>
 
   <!-- 2. AI & ML -->
   <rect x="8" y="102" width="412" height="154" class="cat-box" />
-  <circle cx="26" cy="122" r="3.5" class="cat-dot" style="animation-delay: 0.6s;" filter="url(#pink-glow)" />
+  <circle cx="26" cy="122" r="3.5" class="cat-dot" filter="url(#pink-glow)" />
   <text x="36" y="126" class="cat-title">AI &amp; ML</text>
-  <!-- Row 1 -->
-  <g transform="translate(22, 140)">
-    <rect width="154" height="28" class="pill-bg" /><circle cx="12" cy="14" r="4" fill="#3f51b5" /><text x="23" y="18.5" class="pill-text">Machine Learning</text>
-  </g>
-  <g transform="translate(184, 140)">
-    <rect width="66" height="28" class="pill-bg" /><circle cx="12" cy="14" r="4" fill="#2196f3" /><text x="23" y="18.5" class="pill-text">NLP</text>
-  </g>
-  <g transform="translate(258, 140)">
-    <rect width="130" height="28" class="pill-bg" /><circle cx="12" cy="14" r="4" fill="#009688" /><text x="23" y="18.5" class="pill-text">Generative AI</text>
-  </g>
-  <!-- Row 2 -->
-  <g transform="translate(22, 175)">
-    <rect width="146" height="28" class="pill-bg" /><circle cx="12" cy="14" r="4" fill="#5c3ee8" /><text x="23" y="18.5" class="pill-text">Computer Vision</text>
-  </g>
-  <g transform="translate(176, 175)">
-    <rect width="74" height="28" class="pill-bg" /><circle cx="12" cy="14" r="4" fill="#4caf50" /><text x="23" y="18.5" class="pill-text">LLMs</text>
-  </g>
-  <g transform="translate(258, 175)">
-    <rect width="76" height="28" class="pill-bg" /><circle cx="12" cy="14" r="4" fill="#00ffff" /><text x="23" y="18.5" class="pill-text">YOLO</text>
-  </g>
-  <!-- Row 3 -->
-  <g transform="translate(22, 210)">
-    <rect width="168" height="28" class="pill-bg" /><circle cx="12" cy="14" r="4" fill="#ff9800" /><text x="23" y="18.5" class="pill-text">Prompt Engineering</text>
-  </g>
-  <g transform="translate(198, 210)">
-    <rect width="126" height="28" class="pill-bg" /><circle cx="12" cy="14" r="4" fill="#ffd21e" /><text x="23" y="18.5" class="pill-text">Hugging Face</text>
-  </g>
+
+  <!-- Machine Learning -->
+  <a href="https://en.wikipedia.org/wiki/Machine_learning" target="_blank" rel="noopener noreferrer">
+    <g class="pill" transform="translate(22, 140)">
+      <rect width="162" height="28" class="pill-bg" />
+      <g transform="translate(8, 7)">
+        <circle cx="6" cy="6" r="5.5" fill="#3f51b5" opacity="0.25"/>
+        <circle cx="3" cy="3.5" r="1.3" fill="#7986cb"/>
+        <circle cx="9" cy="3.5" r="1.3" fill="#7986cb"/>
+        <circle cx="6" cy="7" r="1.3" fill="#7986cb"/>
+        <circle cx="3" cy="9.5" r="1.3" fill="#7986cb"/>
+        <circle cx="9" cy="9.5" r="1.3" fill="#7986cb"/>
+        <path stroke="#7986cb" stroke-width="0.8" d="M3 3.5l3 3.5m0 0l3-3.5m-3 3.5l-3 2.5m3-2.5l3 2.5"/>
+      </g>
+      <text x="28" y="18.5" class="pill-text">Machine Learning</text>
+    </g>
+  </a>
+
+  <!-- NLP -->
+  <a href="https://en.wikipedia.org/wiki/Natural_language_processing" target="_blank" rel="noopener noreferrer">
+    <g class="pill" transform="translate(192, 140)">
+      <rect width="70" height="28" class="pill-bg" />
+      <g transform="translate(8, 7)">
+        <path fill="#2196f3" d="M1.5 1.5h9a1 1 0 011 1v6a1 1 0 01-1 1H4.5l-3 2.5v-9.5a1 1 0 011-1z"/>
+        <path fill="#ffffff" d="M3.5 4.2h5v1h-5zm0 2h3.5v1H3.5z"/>
+      </g>
+      <text x="28" y="18.5" class="pill-text">NLP</text>
+    </g>
+  </a>
+
+  <!-- Generative AI -->
+  <a href="https://en.wikipedia.org/wiki/Generative_artificial_intelligence" target="_blank" rel="noopener noreferrer">
+    <g class="pill" transform="translate(270, 140)">
+      <rect width="138" height="28" class="pill-bg" />
+      <g transform="translate(8, 7)">
+        <path fill="#00bfa5" d="M6 1l1.3 3.5L11 5.8 7.3 7 6 10.5 4.7 7 1 5.8l3.7-1.3z"/>
+        <path fill="#64ffda" d="M10.5 8l.7 1.8 1.8.7-1.8.7-.7 1.8-.7-1.8-1.8-.7 1.8-.7z"/>
+      </g>
+      <text x="28" y="18.5" class="pill-text">Generative AI</text>
+    </g>
+  </a>
+
+  <!-- Computer Vision -->
+  <a href="https://en.wikipedia.org/wiki/Computer_vision" target="_blank" rel="noopener noreferrer">
+    <g class="pill" transform="translate(22, 175)">
+      <rect width="152" height="28" class="pill-bg" />
+      <g transform="translate(8, 7)">
+        <path fill="#5c3ee8" d="M6 1.8C3 1.8.9 6 .9 6s2.1 4.2 5.1 4.2 5.1-4.2 5.1-4.2-2.1-4.2-5.1-4.2zm0 6.7a2.5 2.5 0 110-5 2.5 2.5 0 010 5z"/>
+        <circle cx="6" cy="6" r="1.2" fill="#ffffff"/>
+      </g>
+      <text x="28" y="18.5" class="pill-text">Computer Vision</text>
+    </g>
+  </a>
+
+  <!-- LLMs -->
+  <a href="https://en.wikipedia.org/wiki/Large_language_model" target="_blank" rel="noopener noreferrer">
+    <g class="pill" transform="translate(182, 175)">
+      <rect width="78" height="28" class="pill-bg" />
+      <g transform="translate(8, 7)">
+        <rect x="1.5" y="1.5" width="9" height="2.2" rx="1" fill="#4caf50"/>
+        <rect x="1.5" y="4.8" width="9" height="2.2" rx="1" fill="#81c784"/>
+        <rect x="1.5" y="8" width="9" height="2.2" rx="1" fill="#a5d6a7"/>
+      </g>
+      <text x="28" y="18.5" class="pill-text">LLMs</text>
+    </g>
+  </a>
+
+  <!-- YOLO -->
+  <a href="https://pjreddie.com/darknet/yolo/" target="_blank" rel="noopener noreferrer">
+    <g class="pill" transform="translate(268, 175)">
+      <rect width="80" height="28" class="pill-bg" />
+      <g transform="translate(8, 7)">
+        <path stroke="#00ffff" stroke-width="1.2" fill="none" d="M1.5 4V1.5H4m4 0h2.5V4m0 4v2.5H8m-4 0H1.5V8"/>
+        <circle cx="6" cy="6" r="1.3" fill="#00ffff"/>
+      </g>
+      <text x="28" y="18.5" class="pill-text">YOLO</text>
+    </g>
+  </a>
+
+  <!-- Prompt Engineering -->
+  <a href="https://en.wikipedia.org/wiki/Prompt_engineering" target="_blank" rel="noopener noreferrer">
+    <g class="pill" transform="translate(22, 210)">
+      <rect width="174" height="28" class="pill-bg" />
+      <g transform="translate(8, 7)">
+        <rect x="1" y="1.5" width="11" height="9" rx="1.5" fill="#2d3748" stroke="#ff9800" stroke-width="0.9"/>
+        <path fill="none" stroke="#ff9800" stroke-width="1.1" stroke-linecap="round" d="M3 4.5l1.8 1.5L3 7.5m3.5 1h2.5"/>
+      </g>
+      <text x="28" y="18.5" class="pill-text">Prompt Engineering</text>
+    </g>
+  </a>
+
+  <!-- Hugging Face -->
+  <a href="https://huggingface.co/" target="_blank" rel="noopener noreferrer">
+    <g class="pill" transform="translate(204, 210)">
+      <rect width="134" height="28" class="pill-bg" />
+      <g transform="translate(8, 7)">
+        <circle cx="6" cy="6" r="5.5" fill="#ffd21e"/>
+        <circle cx="4.2" cy="4.8" r="0.9" fill="#2d3748"/>
+        <circle cx="7.8" cy="4.8" r="0.9" fill="#2d3748"/>
+        <path d="M3.8 7a2.5 2.5 0 004.4 0" fill="none" stroke="#2d3748" stroke-width="1" stroke-linecap="round"/>
+      </g>
+      <text x="28" y="18.5" class="pill-text">Hugging Face</text>
+    </g>
+  </a>
 
   <!-- 3. FRAMEWORKS -->
   <rect x="8" y="270" width="412" height="119" class="cat-box" />
-  <circle cx="26" cy="290" r="3.5" class="cat-dot" style="animation-delay: 1.2s;" filter="url(#pink-glow)" />
+  <circle cx="26" cy="290" r="3.5" class="cat-dot" filter="url(#pink-glow)" />
   <text x="36" y="294" class="cat-title">FRAMEWORKS</text>
-  <!-- Row 1 -->
-  <g transform="translate(22, 308)">
-    <rect width="114" height="28" class="pill-bg" /><circle cx="12" cy="14" r="4" fill="#ff6f00" /><text x="23" y="18.5" class="pill-text">TensorFlow</text>
-  </g>
-  <g transform="translate(144, 308)">
-    <rect width="118" height="28" class="pill-bg" /><circle cx="12" cy="14" r="4" fill="#f7931e" /><text x="23" y="18.5" class="pill-text">Scikit-learn</text>
-  </g>
-  <g transform="translate(270, 308)">
-    <rect width="90" height="28" class="pill-bg" /><circle cx="12" cy="14" r="4" fill="#5c3ee8" /><text x="23" y="18.5" class="pill-text">OpenCV</text>
-  </g>
-  <!-- Row 2 -->
-  <g transform="translate(22, 343)">
-    <rect width="94" height="28" class="pill-bg" /><circle cx="12" cy="14" r="4" fill="#61dafb" /><text x="23" y="18.5" class="pill-text">React.js</text>
-  </g>
-  <g transform="translate(124, 343)">
-    <rect width="100" height="28" class="pill-bg" /><circle cx="12" cy="14" r="4" fill="#ff4b4b" /><text x="23" y="18.5" class="pill-text">Streamlit</text>
-  </g>
-  <g transform="translate(232, 343)">
-    <rect width="90" height="28" class="pill-bg" /><circle cx="12" cy="14" r="4" fill="#009688" /><text x="23" y="18.5" class="pill-text">FastAPI</text>
-  </g>
+
+  <!-- TensorFlow -->
+  <a href="https://www.tensorflow.org/" target="_blank" rel="noopener noreferrer">
+    <g class="pill" transform="translate(22, 308)">
+      <rect width="120" height="28" class="pill-bg" />
+      <g transform="translate(8, 7)">
+        <path fill="#ff6f00" d="M1 2.5l5-3 5 3v3.5l-2.5-1.5v5L6 11.5l-2.5-2v-5L1 6V2.5z"/>
+      </g>
+      <text x="28" y="18.5" class="pill-text">TensorFlow</text>
+    </g>
+  </a>
+
+  <!-- Scikit-learn -->
+  <a href="https://scikit-learn.org/" target="_blank" rel="noopener noreferrer">
+    <g class="pill" transform="translate(150, 308)">
+      <rect width="124" height="28" class="pill-bg" />
+      <g transform="translate(8, 7)">
+        <circle cx="4.5" cy="4.5" r="2.8" fill="#f7931e"/>
+        <circle cx="8" cy="8" r="3.2" fill="#3499cd"/>
+        <circle cx="8" cy="3.5" r="1.3" fill="#f7931e"/>
+      </g>
+      <text x="28" y="18.5" class="pill-text">Scikit-learn</text>
+    </g>
+  </a>
+
+  <!-- OpenCV -->
+  <a href="https://opencv.org/" target="_blank" rel="noopener noreferrer">
+    <g class="pill" transform="translate(282, 308)">
+      <rect width="94" height="28" class="pill-bg" />
+      <g transform="translate(8, 7)">
+        <circle cx="6" cy="3.5" r="2.2" fill="#ea4335"/>
+        <circle cx="3.5" cy="8.5" r="2.2" fill="#34a853"/>
+        <circle cx="8.5" cy="8.5" r="2.2" fill="#4285f4"/>
+      </g>
+      <text x="28" y="18.5" class="pill-text">OpenCV</text>
+    </g>
+  </a>
+
+  <!-- React.js -->
+  <a href="https://react.dev/" target="_blank" rel="noopener noreferrer">
+    <g class="pill" transform="translate(22, 343)">
+      <rect width="98" height="28" class="pill-bg" />
+      <g transform="translate(8, 7)">
+        <ellipse cx="6" cy="6" rx="5" ry="1.9" fill="none" stroke="#61dafb" stroke-width="0.9" transform="rotate(30 6 6)"/>
+        <ellipse cx="6" cy="6" rx="5" ry="1.9" fill="none" stroke="#61dafb" stroke-width="0.9" transform="rotate(90 6 6)"/>
+        <ellipse cx="6" cy="6" rx="5" ry="1.9" fill="none" stroke="#61dafb" stroke-width="0.9" transform="rotate(150 6 6)"/>
+        <circle cx="6" cy="6" r="1.1" fill="#61dafb"/>
+      </g>
+      <text x="28" y="18.5" class="pill-text">React.js</text>
+    </g>
+  </a>
+
+  <!-- Streamlit -->
+  <a href="https://streamlit.io/" target="_blank" rel="noopener noreferrer">
+    <g class="pill" transform="translate(128, 343)">
+      <rect width="106" height="28" class="pill-bg" />
+      <g transform="translate(8, 7)">
+        <path fill="#ff4b4b" d="M6 1l4 4H8v3.5H4V5H2L6 1z"/>
+      </g>
+      <text x="28" y="18.5" class="pill-text">Streamlit</text>
+    </g>
+  </a>
+
+  <!-- FastAPI -->
+  <a href="https://fastapi.tiangolo.com/" target="_blank" rel="noopener noreferrer">
+    <g class="pill" transform="translate(242, 343)">
+      <rect width="94" height="28" class="pill-bg" />
+      <g transform="translate(8, 7)">
+        <circle cx="6" cy="6" r="5.5" fill="#009688"/>
+        <path fill="#ffffff" d="M6.5 1.8L3.5 7h2.5l-.5 3.5 3.5-5H6.5z"/>
+      </g>
+      <text x="28" y="18.5" class="pill-text">FastAPI</text>
+    </g>
+  </a>
 
   <!-- 4. CORE AREAS -->
   <rect x="8" y="403" width="412" height="84" class="cat-box" />
-  <circle cx="26" cy="423" r="3.5" class="cat-dot" style="animation-delay: 1.8s;" filter="url(#pink-glow)" />
+  <circle cx="26" cy="423" r="3.5" class="cat-dot" filter="url(#pink-glow)" />
   <text x="36" y="427" class="cat-title">CORE AREAS</text>
-  <g transform="translate(22, 441)">
-    <rect width="192" height="28" class="pill-bg" /><circle cx="12" cy="14" r="4" fill="#cb8589" /><text x="23" y="18.5" class="pill-text">Full Stack Development</text>
-  </g>
-  <g transform="translate(222, 441)">
-    <rect width="134" height="28" class="pill-bg" /><circle cx="12" cy="14" r="4" fill="#e09b9f" /><text x="23" y="18.5" class="pill-text">Data Analytics</text>
-  </g>
+
+  <!-- Full Stack Development -->
+  <a href="https://en.wikipedia.org/wiki/Solution_stack" target="_blank" rel="noopener noreferrer">
+    <g class="pill" transform="translate(22, 441)">
+      <rect width="198" height="28" class="pill-bg" />
+      <g transform="translate(8, 7)">
+        <rect x="1" y="1.5" width="10" height="2.2" rx="1" fill="#cb8589"/>
+        <rect x="1" y="4.8" width="10" height="2.2" rx="1" fill="#b37579"/>
+        <rect x="1" y="8" width="10" height="2.2" rx="1" fill="#ffffff" opacity="0.85"/>
+      </g>
+      <text x="28" y="18.5" class="pill-text">Full Stack Development</text>
+    </g>
+  </a>
+
+  <!-- Data Analytics -->
+  <a href="https://en.wikipedia.org/wiki/Data_analysis" target="_blank" rel="noopener noreferrer">
+    <g class="pill" transform="translate(228, 441)">
+      <rect width="140" height="28" class="pill-bg" />
+      <g transform="translate(8, 7)">
+        <rect x="1" y="7" width="2.2" height="4" fill="#e09b9f"/>
+        <rect x="4.5" y="4" width="2.2" height="7" fill="#cb8589"/>
+        <rect x="8" y="1.5" width="2.2" height="9.5" fill="#ffffff"/>
+      </g>
+      <text x="28" y="18.5" class="pill-text">Data Analytics</text>
+    </g>
+  </a>
 
   <!-- ==================== COLUMN 2 (RIGHT) ==================== -->
 
   <!-- 5. DATABASES -->
   <rect x="430" y="4" width="412" height="84" class="cat-box" />
-  <circle cx="448" cy="24" r="3.5" class="cat-dot" style="animation-delay: 0.3s;" filter="url(#pink-glow)" />
+  <circle cx="448" cy="24" r="3.5" class="cat-dot" filter="url(#pink-glow)" />
   <text x="458" y="28" class="cat-title">DATABASES</text>
-  <g transform="translate(444, 42)">
-    <rect width="82" height="28" class="pill-bg" /><circle cx="12" cy="14" r="4" fill="#4479a1" /><text x="23" y="18.5" class="pill-text">MySQL</text>
-  </g>
-  <g transform="translate(534, 42)">
-    <rect width="98" height="28" class="pill-bg" /><circle cx="12" cy="14" r="4" fill="#47a248" /><text x="23" y="18.5" class="pill-text">MongoDB</text>
-  </g>
-  <g transform="translate(640, 42)">
-    <rect width="96" height="28" class="pill-bg" /><circle cx="12" cy="14" r="4" fill="#ffca28" /><text x="23" y="18.5" class="pill-text">Firebase</text>
-  </g>
+
+  <!-- MySQL -->
+  <a href="https://www.mysql.com/" target="_blank" rel="noopener noreferrer">
+    <g class="pill" transform="translate(444, 42)">
+      <rect width="86" height="28" class="pill-bg" />
+      <g transform="translate(8, 7)">
+        <ellipse cx="6" cy="2.5" rx="4.5" ry="1.6" fill="#00758f"/>
+        <path fill="#f29111" d="M1.5 2.5v4c0 .9 2 1.6 4.5 1.6s4.5-.7 4.5-1.6v-4c0 .9-2 1.6-4.5 1.6s-4.5-.7-4.5-1.6z"/>
+        <path fill="#00758f" d="M1.5 5v4c0 .9 2 1.6 4.5 1.6s4.5-.7 4.5-1.6V5c0 .9-2 1.6-4.5 1.6s-4.5-.7-4.5-1.6z"/>
+      </g>
+      <text x="28" y="18.5" class="pill-text">MySQL</text>
+    </g>
+  </a>
+
+  <!-- MongoDB -->
+  <a href="https://www.mongodb.com/" target="_blank" rel="noopener noreferrer">
+    <g class="pill" transform="translate(538, 42)">
+      <rect width="104" height="28" class="pill-bg" />
+      <g transform="translate(8, 7)">
+        <path fill="#47a248" d="M6 1C3.5 4.5 2.5 7 6 11.5c3.5-4.5 2.5-7 0-10.5z"/>
+        <path fill="#ffffff" d="M6 2.5v7c1.2-1.8.8-3.5 0-7z" opacity="0.35"/>
+      </g>
+      <text x="28" y="18.5" class="pill-text">MongoDB</text>
+    </g>
+  </a>
+
+  <!-- Firebase -->
+  <a href="https://firebase.google.com/" target="_blank" rel="noopener noreferrer">
+    <g class="pill" transform="translate(650, 42)">
+      <rect width="100" height="28" class="pill-bg" />
+      <g transform="translate(8, 7)">
+        <path fill="#ffa000" d="M1.5 9.5L2.8 1l1.8 3.5-3.1 5z"/>
+        <path fill="#f57c00" d="M6 5.8l1.3-2.5 1.6 6.5L6 5.8z"/>
+        <path fill="#ffca28" d="M10.5 10L9 3.2 1.5 10.8l4.5 2.2 4.5-3z"/>
+      </g>
+      <text x="28" y="18.5" class="pill-text">Firebase</text>
+    </g>
+  </a>
 
   <!-- 6. WEB DEVELOPMENT -->
   <rect x="430" y="102" width="412" height="119" class="cat-box" />
-  <circle cx="448" cy="122" r="3.5" class="cat-dot" style="animation-delay: 0.9s;" filter="url(#pink-glow)" />
+  <circle cx="448" cy="122" r="3.5" class="cat-dot" filter="url(#pink-glow)" />
   <text x="458" y="126" class="cat-title">WEB DEVELOPMENT</text>
-  <!-- Row 1 -->
-  <g transform="translate(444, 140)">
-    <rect width="74" height="28" class="pill-bg" /><circle cx="12" cy="14" r="4" fill="#e34f26" /><text x="23" y="18.5" class="pill-text">HTML</text>
-  </g>
-  <g transform="translate(526, 140)">
-    <rect width="66" height="28" class="pill-bg" /><circle cx="12" cy="14" r="4" fill="#1572b6" /><text x="23" y="18.5" class="pill-text">CSS</text>
-  </g>
-  <g transform="translate(600, 140)">
-    <rect width="108" height="28" class="pill-bg" /><circle cx="12" cy="14" r="4" fill="#f7df1e" /><text x="23" y="18.5" class="pill-text">JavaScript</text>
-  </g>
-  <g transform="translate(716, 140)">
-    <rect width="68" height="28" class="pill-bg" /><circle cx="12" cy="14" r="4" fill="#cb8589" /><text x="23" y="18.5" class="pill-text">DOM</text>
-  </g>
-  <!-- Row 2 -->
-  <g transform="translate(444, 175)">
-    <rect width="84" height="28" class="pill-bg" /><circle cx="12" cy="14" r="4" fill="#0769ad" /><text x="23" y="18.5" class="pill-text">jQuery</text>
-  </g>
-  <g transform="translate(536, 175)">
-    <rect width="102" height="28" class="pill-bg" /><circle cx="12" cy="14" r="4" fill="#7952b3" /><text x="23" y="18.5" class="pill-text">Bootstrap</text>
-  </g>
+
+  <!-- HTML -->
+  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noopener noreferrer">
+    <g class="pill" transform="translate(444, 140)">
+      <rect width="78" height="28" class="pill-bg" />
+      <g transform="translate(8, 7)">
+        <path fill="#e34f26" d="M1 1l1 10 4 1.2 4-1.2 1-10H1z"/>
+        <path fill="#ef652a" d="M6 2v9.2l3-1 .7-8.2H6z"/>
+        <path fill="#ffffff" d="M3.2 3.8h5.6l-.2 2H5.2l.2 1.8h3.2l-.3 2.8L6 11l-2.2-.6-.2-1.8h1.4l.1.9 1 .2 1-.2.1-1.1H3.1l.1-2.5z"/>
+      </g>
+      <text x="28" y="18.5" class="pill-text">HTML</text>
+    </g>
+  </a>
+
+  <!-- CSS -->
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noopener noreferrer">
+    <g class="pill" transform="translate(530, 140)">
+      <rect width="70" height="28" class="pill-bg" />
+      <g transform="translate(8, 7)">
+        <path fill="#1572b6" d="M1 1l1 10 4 1.2 4-1.2 1-10H1z"/>
+        <path fill="#33a9dc" d="M6 2v9.2l3-1 .7-8.2H6z"/>
+        <path fill="#ffffff" d="M3.2 3.8h5.6l-.2 2H5.2l.2 1.8h3.2l-.3 2.8L6 11l-2.2-.6-.2-1.8h1.4l.1.9 1 .2 1-.2.1-1.1H3.1l.1-2.5z"/>
+      </g>
+      <text x="28" y="18.5" class="pill-text">CSS</text>
+    </g>
+  </a>
+
+  <!-- JavaScript -->
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer">
+    <g class="pill" transform="translate(608, 140)">
+      <rect width="114" height="28" class="pill-bg" />
+      <g transform="translate(8, 7)">
+        <rect x="1" y="1" width="10" height="10" rx="1.5" fill="#f7df1e"/>
+        <path fill="#000000" d="M4 6.5v2.8c0 .8-.4 1.1-1.1 1.1-.3 0-.7-.1-.9-.2l.2-.9c.2.1.4.1.5.1.3 0 .4-.2.4-.4V6.5H4zm4.2.3c-.4-.2-.9-.3-1.4-.3-.5 0-.8.2-.8.4s.3.3.8.5c1 .3 1.5.8 1.5 1.5 0 1-.8 1.5-1.9 1.5-.6 0-1.2-.2-1.6-.4l.3-1c.4.2.8.4 1.2.4.5 0 .8-.2.8-.5 0-.2-.2-.4-.9-.6-.9-.3-1.4-.7-1.4-1.4 0-.9.7-1.4 1.8-1.4.5 0 1 .1 1.4.3l-.2.9z"/>
+      </g>
+      <text x="28" y="18.5" class="pill-text">JavaScript</text>
+    </g>
+  </a>
+
+  <!-- DOM -->
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model" target="_blank" rel="noopener noreferrer">
+    <g class="pill" transform="translate(730, 140)">
+      <rect width="72" height="28" class="pill-bg" />
+      <g transform="translate(8, 7)">
+        <circle cx="6" cy="2.5" r="1.8" fill="#cb8589"/>
+        <circle cx="3" cy="8.5" r="1.5" fill="#cb8589"/>
+        <circle cx="9" cy="8.5" r="1.5" fill="#cb8589"/>
+        <path stroke="#cb8589" stroke-width="0.9" d="M6 4.3L3 7.2M6 4.3l3 2.9"/>
+      </g>
+      <text x="28" y="18.5" class="pill-text">DOM</text>
+    </g>
+  </a>
+
+  <!-- jQuery -->
+  <a href="https://jquery.com/" target="_blank" rel="noopener noreferrer">
+    <g class="pill" transform="translate(444, 175)">
+      <rect width="90" height="28" class="pill-bg" />
+      <g transform="translate(8, 7)">
+        <circle cx="6" cy="6" r="5.5" fill="#0769ad"/>
+        <path fill="#ffffff" d="M5 3v6l3-3H5z"/>
+      </g>
+      <text x="28" y="18.5" class="pill-text">jQuery</text>
+    </g>
+  </a>
+
+  <!-- Bootstrap -->
+  <a href="https://getbootstrap.com/" target="_blank" rel="noopener noreferrer">
+    <g class="pill" transform="translate(542, 175)">
+      <rect width="108" height="28" class="pill-bg" />
+      <g transform="translate(8, 7)">
+        <rect x="1" y="1" width="10" height="10" rx="2" fill="#7952b3"/>
+        <path fill="#ffffff" d="M4 3h2.3c.9 0 1.5.4 1.5 1.1 0 .5-.3.9-.8 1 .6.2 1 .7 1 1.3 0 .9-.7 1.6-1.7 1.6H4V3zm1.2 2.1h1c.4 0 .6-.2.6-.5s-.2-.5-.6-.5h-1v1zm0 2h1.2c.4 0 .7-.2.7-.6s-.3-.6-.7-.6H5.2v1.2z"/>
+      </g>
+      <text x="28" y="18.5" class="pill-text">Bootstrap</text>
+    </g>
+  </a>
 
   <!-- 7. CLOUD & TOOLS -->
   <rect x="430" y="235" width="412" height="119" class="cat-box" />
-  <circle cx="448" cy="255" r="3.5" class="cat-dot" style="animation-delay: 1.5s;" filter="url(#pink-glow)" />
+  <circle cx="448" cy="255" r="3.5" class="cat-dot" filter="url(#pink-glow)" />
   <text x="458" y="259" class="cat-title">CLOUD &amp; TOOLS</text>
-  <!-- Row 1 -->
-  <g transform="translate(444, 273)">
-    <rect width="64" height="28" class="pill-bg" /><circle cx="12" cy="14" r="4" fill="#f05032" /><text x="23" y="18.5" class="pill-text">Git</text>
-  </g>
-  <g transform="translate(516, 273)">
-    <rect width="88" height="28" class="pill-bg" /><circle cx="12" cy="14" r="4" fill="#ffffff" /><text x="23" y="18.5" class="pill-text">GitHub</text>
-  </g>
-  <g transform="translate(612, 273)">
-    <rect width="96" height="28" class="pill-bg" /><circle cx="12" cy="14" r="4" fill="#ffca28" /><text x="23" y="18.5" class="pill-text">Firebase</text>
-  </g>
-  <g transform="translate(716, 273)">
-    <rect width="96" height="28" class="pill-bg" /><circle cx="12" cy="14" r="4" fill="#ff6c37" /><text x="23" y="18.5" class="pill-text">Postman</text>
-  </g>
-  <!-- Row 2 -->
-  <g transform="translate(444, 308)">
-    <rect width="96" height="28" class="pill-bg" /><circle cx="12" cy="14" r="4" fill="#21d789" /><text x="23" y="18.5" class="pill-text">PyCharm</text>
-  </g>
-  <g transform="translate(548, 308)">
-    <rect width="94" height="28" class="pill-bg" /><circle cx="12" cy="14" r="4" fill="#007acc" /><text x="23" y="18.5" class="pill-text">VS Code</text>
-  </g>
+
+  <!-- Git -->
+  <a href="https://git-scm.com/" target="_blank" rel="noopener noreferrer">
+    <g class="pill" transform="translate(444, 273)">
+      <rect width="68" height="28" class="pill-bg" />
+      <g transform="translate(8, 7)">
+        <circle cx="6" cy="6" r="5.5" fill="#f05032"/>
+        <path fill="#ffffff" d="M7.2 3.8a1 1 0 10-1.5 1v2.4a1 1 0 10.9 0V5.8l1.1 1.1a1 1 0 10.7-.7L7.2 5V3.8z"/>
+      </g>
+      <text x="28" y="18.5" class="pill-text">Git</text>
+    </g>
+  </a>
+
+  <!-- GitHub -->
+  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+    <g class="pill" transform="translate(520, 273)">
+      <rect width="92" height="28" class="pill-bg" />
+      <g transform="translate(8, 7)">
+        <circle cx="6" cy="6" r="5.5" fill="#24292e"/>
+        <path fill="#ffffff" d="M6 1.5C3.5 1.5 1.5 3.5 1.5 6c0 2 1.3 3.7 3.1 4.3.2 0 .3-.1.3-.2v-.9c-1.3.3-1.6-.6-1.6-.6-.2-.5-.5-.7-.5-.7-.4-.3 0-.3 0-.3.4 0 .7.4.7.4.4.7 1.1.5 1.4.3 0-.3.2-.5.3-.7-1-.1-2.1-.5-2.1-2.2 0-.5.2-.9.4-1.2 0-.1-.2-.6.1-1.2 0 0 .4-.1 1.3.5.4-.1.8-.2 1.1-.2s.8.1 1.1.2c.9-.6 1.3-.5 1.3-.5.3.6.1 1.1.1 1.2.3.3.4.7.4 1.2 0 1.7-1.1 2.1-2.1 2.2.2.2.3.4.3.9v1.3c0 .1.1.2.3.2 1.8-.6 3.1-2.3 3.1-4.3 0-2.5-2-4.5-4.5-4.5z"/>
+      </g>
+      <text x="28" y="18.5" class="pill-text">GitHub</text>
+    </g>
+  </a>
+
+  <!-- Firebase -->
+  <a href="https://firebase.google.com/" target="_blank" rel="noopener noreferrer">
+    <g class="pill" transform="translate(620, 273)">
+      <rect width="100" height="28" class="pill-bg" />
+      <g transform="translate(8, 7)">
+        <path fill="#ffa000" d="M1.5 9.5L2.8 1l1.8 3.5-3.1 5z"/>
+        <path fill="#f57c00" d="M6 5.8l1.3-2.5 1.6 6.5L6 5.8z"/>
+        <path fill="#ffca28" d="M10.5 10L9 3.2 1.5 10.8l4.5 2.2 4.5-3z"/>
+      </g>
+      <text x="28" y="18.5" class="pill-text">Firebase</text>
+    </g>
+  </a>
+
+  <!-- Postman -->
+  <a href="https://www.postman.com/" target="_blank" rel="noopener noreferrer">
+    <g class="pill" transform="translate(728, 273)">
+      <rect width="100" height="28" class="pill-bg" />
+      <g transform="translate(8, 7)">
+        <circle cx="6" cy="6" r="5.5" fill="#ff6c37"/>
+        <circle cx="6" cy="4.8" r="1.8" fill="#ffffff"/>
+        <path fill="#ffffff" d="M3.5 9.2c0-1.3 1.3-2.2 2.5-2.2s2.5.9 2.5 2.2H3.5z"/>
+      </g>
+      <text x="28" y="18.5" class="pill-text">Postman</text>
+    </g>
+  </a>
+
+  <!-- PyCharm -->
+  <a href="https://www.jetbrains.com/pycharm/" target="_blank" rel="noopener noreferrer">
+    <g class="pill" transform="translate(444, 308)">
+      <rect width="102" height="28" class="pill-bg" />
+      <g transform="translate(8, 7)">
+        <rect x="1" y="1" width="10" height="10" rx="1.5" fill="#21d789"/>
+        <rect x="2" y="2" width="8" height="8" rx="0.8" fill="#000000"/>
+        <path fill="#21d789" d="M3.2 3.5h1.7c.6 0 1 .3 1 .8s-.4.8-1 .8h-.8v1.7h-.9V3.5zm.9 1h.8c.2 0 .3-.1.3-.2s-.1-.2-.3-.2h-.8v.4z"/>
+        <path fill="#ffffff" d="M6.5 6.5a1.4 1.4 0 002.2 0l.6.5a2.2 2.2 0 01-3.4 0 2.2 2.2 0 010-2.8 2.2 2.2 0 013.4 0l-.6.5a1.4 1.4 0 00-2.2 0 1.4 1.4 0 000 1.8z"/>
+      </g>
+      <text x="28" y="18.5" class="pill-text">PyCharm</text>
+    </g>
+  </a>
+
+  <!-- VS Code -->
+  <a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer">
+    <g class="pill" transform="translate(554, 308)">
+      <rect width="98" height="28" class="pill-bg" />
+      <g transform="translate(8, 7)">
+        <path fill="#007acc" d="M8.5 1.2L3.5 5.5 1.5 4 1 4.5v3l.5.5L3.5 6.5l5 4.3 2-1V2.2L8.5 1.2zm0 2.8L4.8 6 8.5 8V4z"/>
+      </g>
+      <text x="28" y="18.5" class="pill-text">VS Code</text>
+    </g>
+  </a>
 
   <!-- 8. PROFESSIONAL STRENGTHS -->
   <rect x="430" y="368" width="412" height="119" class="cat-box" />
-  <circle cx="448" cy="388" r="3.5" class="cat-dot" style="animation-delay: 2.1s;" filter="url(#pink-glow)" />
+  <circle cx="448" cy="388" r="3.5" class="cat-dot" filter="url(#pink-glow)" />
   <text x="458" y="392" class="cat-title">PROFESSIONAL STRENGTHS</text>
-  <!-- Row 1 -->
-  <g transform="translate(444, 406)">
-    <rect width="144" height="28" class="pill-bg" /><circle cx="12" cy="14" r="4" fill="#cb8589" /><text x="23" y="18.5" class="pill-text">Problem Solving</text>
-  </g>
-  <g transform="translate(596, 406)">
-    <rect width="164" height="28" class="pill-bg" /><circle cx="12" cy="14" r="4" fill="#e09b9f" /><text x="23" y="18.5" class="pill-text">Analytical Thinking</text>
-  </g>
-  <!-- Row 2 -->
-  <g transform="translate(444, 441)">
-    <rect width="172" height="28" class="pill-bg" /><circle cx="12" cy="14" r="4" fill="#b37579" /><text x="23" y="18.5" class="pill-text">Continuous Learning</text>
-  </g>
+
+  <!-- Problem Solving -->
+  <a href="https://en.wikipedia.org/wiki/Problem_solving" target="_blank" rel="noopener noreferrer">
+    <g class="pill" transform="translate(444, 406)">
+      <rect width="150" height="28" class="pill-bg" />
+      <g transform="translate(8, 7)">
+        <path fill="#cb8589" d="M6 1a3.5 3.5 0 00-2.2 6.2v1.6h4.4V7.2A3.5 3.5 0 006 1zm-1.3 9h2.6v.9H4.7z"/>
+      </g>
+      <text x="28" y="18.5" class="pill-text">Problem Solving</text>
+    </g>
+  </a>
+
+  <!-- Analytical Thinking -->
+  <a href="https://en.wikipedia.org/wiki/Analytical_skill" target="_blank" rel="noopener noreferrer">
+    <g class="pill" transform="translate(602, 406)">
+      <rect width="170" height="28" class="pill-bg" />
+      <g transform="translate(8, 7)">
+        <circle cx="5" cy="5" r="3.5" fill="none" stroke="#e09b9f" stroke-width="1.2"/>
+        <path stroke="#e09b9f" stroke-width="1.3" stroke-linecap="round" d="M7.8 7.8L11 11"/>
+      </g>
+      <text x="28" y="18.5" class="pill-text">Analytical Thinking</text>
+    </g>
+  </a>
+
+  <!-- Continuous Learning -->
+  <a href="https://en.wikipedia.org/wiki/Lifelong_learning" target="_blank" rel="noopener noreferrer">
+    <g class="pill" transform="translate(444, 441)">
+      <rect width="178" height="28" class="pill-bg" />
+      <g transform="translate(8, 7)">
+        <path fill="none" stroke="#b37579" stroke-width="1.2" d="M3 6a3 3 0 016 0c0 1.7-3 3.5-3 3.5S3 7.7 3 6z"/>
+        <circle cx="6" cy="6" r="1" fill="#b37579"/>
+      </g>
+      <text x="28" y="18.5" class="pill-text">Continuous Learning</text>
+    </g>
+  </a>
 
 </svg>
