@@ -28,12 +28,6 @@
 
 <br>
 
-<div align="center">
-  <img src="art/separator.svg" width="100%" />
-</div>
-
-<br>
-
 ### 🔸Tech Stack & Skills
 
 <div align="center">
